@@ -1,3 +1,9 @@
+# Data library, which is meant to be populated by script:
+sample_data/original/*
+sample_data/simplified/*
+sample_data/encoded/*
+full_data/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
