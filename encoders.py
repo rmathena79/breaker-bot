@@ -78,14 +78,21 @@ def encode_caesar(plaintext: str, key: int):
     if key < 1 or key >= len(CHARSET):
         raise Exception(f"Bad Caesar offset key: {key}")
     
-    #!!!
-    result = "".join([CHARSET[CHARSET.find(c)] for c in plaintext])
-    return result    
+    return _do_caesar(plaintext, key)
 
 # Returns result as a string
 def decode_caesar(plaintext: str, key: int):
-    raise Exception("Not implemented")
+    if key < 1 or key >= len(CHARSET):
+        raise Exception(f"Bad Caesar offset key: {key}")
+    
+    return _do_caesar(plaintext, -key)
 
+# Reversing the Caesar Cipher is just a matter of changing the sign of the key, so it's
+# really the same algorithm either way. Encode vs. decode functions above just enforce
+# the key sign logic.
+def _do_caesar(plaintext: str, key: int):
+    result = "".join([CHARSET[(CHARSET.find(c) + key) % len(CHARSET)] for c in plaintext])
+    return result
 
 # Returns result as a string
 def encode_substitution(plaintext: str, key: dict):

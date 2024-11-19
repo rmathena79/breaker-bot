@@ -214,10 +214,18 @@ def encrypt_simple_files():
                 with open(plainfile.path, 'r', encoding='utf-8', newline='\n') as readable:
                     plaintext = readable.read()
 
-                # Encrypt it
+                # Encrypt it, and make sure decryption works
                 print(f"Encrypting with {cipher_name}")
-                key = 1 #!!! Oh yeah I need to get keys
-                cipher_text = encoders.encode_caesar(plaintext, key)
+
+                if cipher_name == encoders.ENCODER_CAESAR:
+                    key = 1 #!!! Oh yeah I need to get keys
+                    cipher_text = encoders.encode_caesar(plaintext, key)
+                    deciphered_text = encoders.decode_caesar(cipher_text, key)
+                else:
+                    raise Exception(f"Unknown cipher {cipher_name}")
+
+                if deciphered_text != plaintext:
+                    raise Exception(f'Decrypted text did not match plaintext for cipher "{cipher_name}", key "{key}"')
 
                 # Pick a filename based on database IDs for file, encoder, and key
                 filename = os.path.basename(plainfile.path) #!!!                                
