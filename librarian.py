@@ -17,12 +17,6 @@ DATA_ENCODED_DIR = os.path.join(DATA_DIR, "encoded")
 
 db = db_connect.DB(SAMPLE_DB)
 
-# Key strings for making sense of Project Gutenberg texts:
-#!!! I have not confirmed that these are universal
-PG_FIRST_LINE_START = "The Project Gutenberg eBook of "
-PG_START_CONTENT = "*** START OF THE PROJECT GUTENBERG EBOOK "
-PG_END_CONTENT = "*** END OF THE PROJECT GUTENBERG EBOOK "
-PG_SENTINEL_LINE_END = " ***"
 
 # Database IDs, name: ID
 encoder_ids= {}
@@ -96,19 +90,19 @@ def process_intake():
             content = readable.read()
 
         # Check that the contents look right. If not, print a message and move on to the next file.
-        if not PG_FIRST_LINE_START in content:
+        if not encoders.PG_FIRST_LINE_START in content:
             # It would be nice to use content.startswith(), but there can be extra unprintable bytes
             print("WARNING: Does not contain the expected first line")
             continue
-        if not PG_START_CONTENT in content:
+        if not encoders.PG_START_CONTENT in content:
             print("WARNING: Does not contain the introductory boilerplate marker")
             continue
-        if not PG_END_CONTENT in content:
+        if not encoders.PG_END_CONTENT in content:
             print("WARNING: Does not contain the closing boilerplate marker")
             continue
 
         # Find the title
-        title_matches = re.search(f'{PG_FIRST_LINE_START}(.*)', content) # Note .* ends on newline
+        title_matches = re.search(f'{encoders.PG_FIRST_LINE_START}(.*)', content) # Note .* ends on newline
         if title_matches:
             title = title_matches.group(1)
             print(f"Title: {title}")
