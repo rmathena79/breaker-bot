@@ -8,7 +8,11 @@ from credentials import SAMPLE_DB, FULL_DB
 
 # During development, it's very helpful to be able to run the full librarian even
 # if the database already has an entry.
-ABORT_ON_DB_POPULATED = False
+ABORT_ON_DB_POPULATED = True
+
+# How many times to encrypt each file
+# It might be helpful to vary this by cipher type, since the more complex ones have far more possible keys
+ENCRYPTIONS_PER_SOURCE = 3
 
 # These need to be shared with the model maker and easier to customize
 SAMPLE_DATA_DIR = "sample_data"
@@ -206,50 +210,66 @@ def encrypt_simple_files():
                 # Check whether we've already encrypted this file with this cipher
                 encoder_id = encoder_ids[cipher_name]
                 encrypted_files = db.get_file_by_source_and_encoder(session, plainfile.source_id, encoder_id)
-                if len(encrypted_files) > 0:
-                    print(f"File already encrypted with {cipher_name}")
+                if len(encrypted_files) >= ENCRYPTIONS_PER_SOURCE:
+                    print(f'File already encrypted with "{cipher_name}" {len(encrypted_files)} times (max {ENCRYPTIONS_PER_SOURCE})')
                     if ABORT_ON_DB_POPULATED:
                         continue
+                times_to_encrypt = ENCRYPTIONS_PER_SOURCE - len(encrypted_files)
 
                 # Read the whole file as a string
                 with open(plainfile.path, 'r', encoding='utf-8', newline='\n') as readable:
                     plaintext = readable.read()
 
-                # Encrypt it, and make sure decryption works
-                print(f"Encrypting with {cipher_name}")
+                # We're going to encrypt multiple times, and each time we should use a different key,
+                # so we need to track which ones we've used.
+                keys_used = []
+                for i in range(times_to_encrypt):
+                    # Find a key we haven't used yet for this file
+                    good_key = False
+                    while not good_key:
+                        if cipher_name == encoders.ENCODER_CAESAR:                    
+                            key_type_id = key_type_ids[encoders.KEY_NAME_CAESAR]
+                            key = encoders.get_key_caesar()
+                        else:
+                            raise Exception(f"Unknown cipher {cipher_name}")
+                        
+                        good_key = not key in keys_used
+                        if not good_key:
+                            print(f"Key {key} already used -- try again")
+                    keys_used.append(key)
 
-                if cipher_name == encoders.ENCODER_CAESAR:                    
-                    key_type_id = key_type_ids[encoders.KEY_NAME_CAESAR]
-                    key = encoders.get_key_caesar()
-                    cipher_text = encoders.encode_caesar(plaintext, key)
-                    deciphered_text = encoders.decode_caesar(cipher_text, key)
-                else:
-                    raise Exception(f"Unknown cipher {cipher_name}")
+                    # Encrypt it, and make sure decryption works
+                    print(f"Encrypting with {cipher_name}")
+                    if cipher_name == encoders.ENCODER_CAESAR:                    
+                        cipher_text = encoders.encode_caesar(plaintext, key)
+                        deciphered_text = encoders.decode_caesar(cipher_text, key)
+                    else:
+                        raise Exception(f"Unknown cipher {cipher_name}")
 
-                if deciphered_text != plaintext:
-                    raise Exception(f'Decrypted text did not match plaintext for cipher "{cipher_name}", key "{key}"')                
+                    if deciphered_text != plaintext:
+                        raise Exception(f'Decrypted text did not match plaintext for cipher "{cipher_name}", key "{key}"')                
 
-                # Add the key to the database, or just get its ID if it's already there
-                # (there's only so many possible keys, espescially for simpler ciphers)
-                key_id = db.get_key_id_by_type_and_value(session, key_type_id, str(key))
-                if key_id == -1:
-                    print("Adding key to database")
-                    db.add_key(session, key_type_id, str(key))
+                    # Add the key to the database, or just get its ID if it's already there
+                    # (there's only so many possible keys, espescially for simpler ciphers)
                     key_id = db.get_key_id_by_type_and_value(session, key_type_id, str(key))
-                print(f"Key ID {key_id}")
+                    if key_id == -1:
+                        print("Adding key to database")
+                        db.add_key(session, key_type_id, str(key))
+                        key_id = db.get_key_id_by_type_and_value(session, key_type_id, str(key))
+                    print(f"Key ID {key_id}")
 
-                # Pick a filename based on database IDs for source, encoder, and key
-                filename = f"{plainfile.source_id:08}_{encoder_id:08}_{key_id:08}.txt"
-                encrypted_path = os.path.join(DATA_ENCODED_DIR, filename)
+                    # Pick a filename based on database IDs for source, encoder, and key
+                    filename = f"{plainfile.source_id:08}_{encoder_id:08}_{key_id:08}.txt"
+                    encrypted_path = os.path.join(DATA_ENCODED_DIR, filename)
 
-                # Add the simplified file to the database
-                print("Adding encrypted file to database")
-                db.add_file(session, plainfile.source_id, encoder_id, key_id, encrypted_path)
+                    # Add the simplified file to the database
+                    print("Adding encrypted file to database")
+                    db.add_file(session, plainfile.source_id, encoder_id, key_id, encrypted_path)
 
-                # Save to the encrypted data directory 
-                print(f"Saving to {encrypted_path}")
-                with open(encrypted_path, "w", encoding='utf-8', newline='\n') as text_file:
-                    text_file.write(cipher_text)
+                    # Save to the encrypted data directory 
+                    print(f"Saving to {encrypted_path}")
+                    with open(encrypted_path, "w", encoding='utf-8', newline='\n') as text_file:
+                        text_file.write(cipher_text)
 
 def main():
     prep_dirs()
