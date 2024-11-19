@@ -57,12 +57,15 @@ Key Types
 Keys
     ID
     Key Type ID
+    Key Value
 Files
     ID
     Source ID
     Encoder ID
     Key ID (nullable)
     Relative Path
+    
+To be fully normalized -- I should probably have tables for titles and urls too
     
 This makes sense if I'm going to encode whole files. Which would be nice.
 Might want to compress the parent folder.
@@ -72,3 +75,13 @@ I need scripts to populate the files (and track them in DB)
 Script for encoding/decoding
 Script to generate and test the model
 Tests?
+
+Should I store the character set in the DB too?
+
+sample and full probably need separate dbs
+
+Tools need options for
+samples vs full dataset
+db credentials for each
+
+

@@ -1,3 +1,6 @@
+# This file should be created locally:
+credentials.py
+
 # Data library, which is meant to be populated by script:
 sample_data/original/*
 sample_data/simplified/*
