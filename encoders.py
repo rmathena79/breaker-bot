@@ -68,8 +68,8 @@ def encode_simple(raw_text: str) -> str:
     # Remove excessive whitespace by consolidating consequetive spaces and newlines
     # We do this at the end because some of the previous adjustments might result in
     # whitespace characters getting joined up.
-    result = re.sub(r' \t+', ' ', result)
     result = re.sub(r'\n\n+', '\n\n', result)
+    result = re.sub(r'  +', ' ', result)
 
     return result
 

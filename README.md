@@ -36,5 +36,3 @@ Should I store the character set in the DB too?
 Tools need options for
 samples vs full dataset
 db credentials for each
-
-Might be nice to encrypt each file multiple times
