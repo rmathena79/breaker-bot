@@ -14,7 +14,7 @@ class DB(object):
         base.prepare(autoload_with=self.engine)
 
         # SQL Alchemy table references, auto-mapped
-        self.db_ciphers_tbl = base.classes.cipher_names
+        self.db_encoder_tbl = base.classes.encoder_names
         self.db_key_types_tbl = base.classes.key_types
         self.db_keys_tbl = base.classes.keys
         self.db_sources_tbl = base.classes.sources
@@ -26,20 +26,20 @@ class DB(object):
         return sqlalchemy.orm.Session(self.engine)
 
 
-    # Returns the database ID for specified cipher name, or -1 if not found
-    def get_cipher_id(self, session, name):
+    # Returns the database ID for specified encoder name, or -1 if not found
+    def get_encoder_id(self, session, name):
         results = session.query(
-            self.db_ciphers_tbl.id, self.db_ciphers_tbl.name
-        ).filter(self.db_ciphers_tbl.name == name).all()
+            self.db_encoder_tbl.id, self.db_encoder_tbl.name
+        ).filter(self.db_encoder_tbl.name == name).all()
 
         if len(results) == 0:
             return -1
         else:
             return results[0].id
         
-    # Add a new cipher name to the database
-    def add_cipher(self, session, name):
-        session.add(self.db_ciphers_tbl(name = name))
+    # Add a new encoder name to the database
+    def add_encoder(self, session, name):
+        session.add(self.db_encoder_tbl(name = name))
         session.commit()
         
 

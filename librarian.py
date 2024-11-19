@@ -52,11 +52,11 @@ def prep_db():
     # Get database IDs for encoders and key types, adding them to the db if needed
     with db.get_session() as session:
         for encoder in encoders.ENCODER_NAMES:
-            id = db.get_cipher_id(session, encoder)
+            id = db.get_encoder_id(session, encoder)
             if (id == -1):
                 print(f'Adding encoder "{encoder}" to database')
-                db.add_cipher(session, encoder)
-                id = db.get_cipher_id(session, encoder)
+                db.add_encoder(session, encoder)
+                id = db.get_encoder_id(session, encoder)
 
             encoder_ids[encoder] = id
 
