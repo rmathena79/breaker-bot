@@ -204,7 +204,8 @@ def encrypt_simple_files():
 
             for cipher_name in encoders.CIPHER_NAMES:
                 # Check whether we've already encrypted this file with this cipher
-                encrypted_files = db.get_file_by_source_and_encoder(session, plainfile.source_id, encoder_ids[cipher_name])
+                encoder_id = encoder_ids[cipher_name]
+                encrypted_files = db.get_file_by_source_and_encoder(session, plainfile.source_id, encoder_id)
                 if len(encrypted_files) > 0:
                     print(f"File already encrypted with {cipher_name}")
                     if ABORT_ON_DB_POPULATED:
@@ -217,23 +218,33 @@ def encrypt_simple_files():
                 # Encrypt it, and make sure decryption works
                 print(f"Encrypting with {cipher_name}")
 
-                if cipher_name == encoders.ENCODER_CAESAR:
-                    key = 1 #!!! Oh yeah I need to get keys
+                if cipher_name == encoders.ENCODER_CAESAR:                    
+                    key_type_id = key_type_ids[encoders.KEY_NAME_CAESAR]
+                    key = encoders.get_key_caesar()
                     cipher_text = encoders.encode_caesar(plaintext, key)
                     deciphered_text = encoders.decode_caesar(cipher_text, key)
                 else:
                     raise Exception(f"Unknown cipher {cipher_name}")
 
                 if deciphered_text != plaintext:
-                    raise Exception(f'Decrypted text did not match plaintext for cipher "{cipher_name}", key "{key}"')
+                    raise Exception(f'Decrypted text did not match plaintext for cipher "{cipher_name}", key "{key}"')                
 
-                # Pick a filename based on database IDs for file, encoder, and key
-                filename = os.path.basename(plainfile.path) #!!!                                
+                # Add the key to the database, or just get its ID if it's already there
+                # (there's only so many possible keys, espescially for simpler ciphers)
+                key_id = db.get_key_id_by_type_and_value(session, key_type_id, str(key))
+                if key_id == -1:
+                    print("Adding key to database")
+                    db.add_key(session, key_type_id, str(key))
+                    key_id = db.get_key_id_by_type_and_value(session, key_type_id, str(key))
+                print(f"Key ID {key_id}")
+
+                # Pick a filename based on database IDs for source, encoder, and key
+                filename = f"{plainfile.source_id:08}_{encoder_id:08}_{key_id:08}.txt"
+                encrypted_path = os.path.join(DATA_ENCODED_DIR, filename)
 
                 # Add the simplified file to the database
                 print("Adding encrypted file to database")
-                encrypted_path = os.path.join(DATA_ENCODED_DIR, filename)
-                db.add_file(session, plainfile.source_id, encoder_ids[cipher_name], None, encrypted_path)
+                db.add_file(session, plainfile.source_id, encoder_id, key_id, encrypted_path)
 
                 # Save to the encrypted data directory 
                 print(f"Saving to {encrypted_path}")

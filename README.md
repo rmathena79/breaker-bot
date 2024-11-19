@@ -25,63 +25,16 @@ The presentation maintains audience interest. (5 points)
 
 # Notes
 
-DB would be really nice to keep track of keys.
-
-The text files seem to start and end with some boilerplate, marked like this:
-    boilerplate
-    *** START OF THE PROJECT GUTENBERG EBOOK THE BOY MECHANIC, VOLUME 1: 700 THINGS FOR BOYS TO DO ***
-    ...
-    *** END OF THE PROJECT GUTENBERG EBOOK THE BOY MECHANIC, VOLUME 1: 700 THINGS FOR BOYS TO DO ***
-    boilerplate
-
 Transcribers' notes would also be good to remove but I'm not sure they are standardized well.
 
-
-Save ORIGINAL
-Strip boilerplate, remove all non-desired characters, convert to uppercase.
-Save SIMPLIFIED
-Encode with various keys
-Save ENCODED\CAESAR\pg123123_KEY.txt or similar
-
-Tables
-Sources -- where I got stuff from
-    ID
-    Title
-    URL
-Encoding Types
-    ID
-    Encoder Name (None, Caesar, Substitution, Enigma)
-Key Types
-    ID
-    Name (Caesar Offset, Substitution Table, Enigma Dials(?))
-Keys
-    ID
-    Key Type ID
-    Key Value
-Files
-    ID
-    Source ID
-    Encoder ID
-    Key ID (nullable)
-    Relative Path
-    
 To be fully normalized -- I should probably have tables for titles and urls too
     
-This makes sense if I'm going to encode whole files. Which would be nice.
-Might want to compress the parent folder.
-I need scripts to populate the files (and track them in DB)
-    Boilerplate has book ID# which might let me deduce the URL
-    https://www.gutenberg.org/ebooks/{ID}
-Script for encoding/decoding
-Script to generate and test the model
 Tests?
 
 Should I store the character set in the DB too?
-
-sample and full probably need separate dbs
 
 Tools need options for
 samples vs full dataset
 db credentials for each
 
-
+Might be nice to encrypt each file multiple times

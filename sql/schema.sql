@@ -1,7 +1,7 @@
 -- This file contains the SQL commands to create all tables
 DROP TABLE IF EXISTS files;
 DROP TABLE IF EXISTS sources;
-DROP TABLE IF EXISTS keys;
+DROP TABLE IF EXISTS cipher_keys;
 DROP TABLE IF EXISTS key_types;
 DROP TABLE IF EXISTS encoder_names;
 
@@ -15,7 +15,9 @@ CREATE TABLE key_types (
     name VARCHAR(128) NOT NULL
 );
 
-CREATE TABLE keys (
+-- Naming this table "keys" apparently conflicted with some reserved word,
+-- leading to VERY unhelpful error messages.
+CREATE TABLE cipher_keys (
     id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     key_type_id INT NOT NULL,
     FOREIGN KEY (key_type_id) REFERENCES key_types(id),
@@ -35,6 +37,6 @@ CREATE TABLE files (
     encoder_ID INT NOT NULL,
     FOREIGN KEY (encoder_ID) REFERENCES encoder_names(id),
     key_ID INT,
-    FOREIGN KEY (key_ID) REFERENCES keys(id),
+    FOREIGN KEY (key_ID) REFERENCES cipher_keys(id),
     path VARCHAR(128) NOT NULL
 );

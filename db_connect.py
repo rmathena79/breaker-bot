@@ -16,7 +16,7 @@ class DB(object):
         # SQL Alchemy table references, auto-mapped
         self.db_encoder_tbl = base.classes.encoder_names
         self.db_key_types_tbl = base.classes.key_types
-        self.db_keys_tbl = base.classes.keys
+        self.db_keys_tbl = base.classes.cipher_keys
         self.db_sources_tbl = base.classes.sources
         self.db_files_tbl = base.classes.files
 
@@ -105,4 +105,23 @@ class DB(object):
             key_id = key_id,
             path = path)
         session.add(new_row)
+        session.commit()
+
+
+    # Returns the database ID for specified key, or -1 if not found
+    def get_key_id_by_type_and_value(self, session, key_type_id, value: str):
+        results = session.query(
+            self.db_keys_tbl.id
+        ).filter(
+            self.db_keys_tbl.key_type_id == key_type_id,
+            self.db_keys_tbl.value == value
+        ).all()
+
+        if len(results) == 0:
+            return -1
+        else:
+            return results[0].id
+        
+    def add_key(self, session, key_type_id, value:str):
+        session.add(self.db_keys_tbl(key_type_id = key_type_id, value = value))
         session.commit()

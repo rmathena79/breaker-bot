@@ -1,4 +1,5 @@
 import re
+import random
 
 ENCODER_NONE = "None"
 ENCODER_SIMPLIFIER = "Simplifier"
@@ -45,7 +46,7 @@ CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
 #   Removing excessive whitespace
 #
 # Result is returned as a string
-def encode_simple(raw_text: str):
+def encode_simple(raw_text: str) -> str:
     # The good part starts on the first line after the "Start" marker
     good_part_start = raw_text.find("\n", raw_text.find(PG_START_CONTENT))
 
@@ -73,15 +74,16 @@ def encode_simple(raw_text: str):
     return result
 
 
-# Returns result as a string
-def encode_caesar(plaintext: str, key: int):
+def get_key_caesar() -> int:
+    return random.randint(1, len(CHARSET)-1)
+
+def encode_caesar(plaintext: str, key: int) -> str:
     if key < 1 or key >= len(CHARSET):
         raise Exception(f"Bad Caesar offset key: {key}")
     
     return _do_caesar(plaintext, key)
 
-# Returns result as a string
-def decode_caesar(plaintext: str, key: int):
+def decode_caesar(plaintext: str, key: int) -> str:
     if key < 1 or key >= len(CHARSET):
         raise Exception(f"Bad Caesar offset key: {key}")
     
@@ -90,16 +92,14 @@ def decode_caesar(plaintext: str, key: int):
 # Reversing the Caesar Cipher is just a matter of changing the sign of the key, so it's
 # really the same algorithm either way. Encode vs. decode functions above just enforce
 # the key sign logic.
-def _do_caesar(plaintext: str, key: int):
+def _do_caesar(plaintext: str, key: int) -> str:
     result = "".join([CHARSET[(CHARSET.find(c) + key) % len(CHARSET)] for c in plaintext])
     return result
 
-# Returns result as a string
-def encode_substitution(plaintext: str, key: dict):
+def encode_substitution(plaintext: str, key: dict) -> str:
     raise Exception("Not implemented")
 
-# Returns result as a string
-def decode_substitution(plaintext: str, key: dict):
+def decode_substitution(plaintext: str, key: dict) -> str:
     raise Exception("Not implemented")
 
 
