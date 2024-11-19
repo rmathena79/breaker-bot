@@ -36,5 +36,5 @@ CREATE TABLE files (
     FOREIGN KEY (encoder_ID) REFERENCES encoder_names(id),
     key_ID INT,
     FOREIGN KEY (key_ID) REFERENCES keys(id),
-    path VARCHAR(128)
+    path VARCHAR(128) NOT NULL
 );

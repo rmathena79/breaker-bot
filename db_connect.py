@@ -61,7 +61,7 @@ class DB(object):
 
 
     # Returns the database ID for specified source, or -1 if not found
-    def get_source_by_title(self, session, title):
+    def get_source_id_by_title(self, session, title):
         results = session.query(
             self.db_sources_tbl.id
         ).filter(self.db_sources_tbl.title == title).all()
@@ -74,4 +74,32 @@ class DB(object):
     # Add a new key type to the database
     def add_source(self, session, title, url):
         session.add(self.db_sources_tbl(title=title, url=url))
+        session.commit()
+
+
+    # Get a file by source ID and encoder ID, or None if it is not in the database
+    def get_file_by_source_and_encoder(self, session, source_id, encoder_id):
+        results = session.query(
+            self.db_files_tbl.id
+        ).filter(
+            self.db_files_tbl.source_id == source_id,
+            self.db_files_tbl.encoder_id == encoder_id
+        ).all()
+
+        if len(results) == 0:
+            return None
+        elif len(results) == 1:
+            return results[0]
+        else:
+            raise Exception(f"Error in database; file by source {source_id} and encoder {encoder_id} should be unique")
+        
+    # Add a file to the database.
+    # Note key_id can be None, for raw files, but all other parameters must be filled
+    def add_file(self, session, source_id, encoder_id, key_id, path):
+        new_row = self.db_files_tbl(
+            source_id = source_id,
+            encoder_id = encoder_id,
+            key_id = key_id,
+            path = path)
+        session.add(new_row)
         session.commit()

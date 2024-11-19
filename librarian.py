@@ -51,7 +51,7 @@ def prep_dirs():
 def prep_db():
     # Get database IDs for encoders and key types, adding them to the db if needed
     with db.get_session() as session:
-        for encoder in encoders.ENCODER_NAMES:
+        for encoder in encoders.ALL_ENCODER_NAMES:
             id = db.get_encoder_id(session, encoder)
             if (id == -1):
                 print(f'Adding encoder "{encoder}" to database')
@@ -78,8 +78,10 @@ def prep_db():
 #
 # 1) Read the file to ensure it is usable, which for now means it is a text file from Project Gutenberg
 # 2) Determine the title and URL, based on file content
-# 3) Update the database
-# 4) Move the file to the "raw" directory
+# 3) Add the source text to the database
+# 4) Copy the file to the "raw" directory 
+#    (note copy, not move, to avoid confusion with the checked-in sample data)
+# 5) Add the raw file location to the database
 def process_intake():
     files = [f for f in os.listdir(DATA_INTAKE_DIR) if os.path.isfile(os.path.join(DATA_INTAKE_DIR, f))]
     print(f"Processing intake directory {DATA_INTAKE_DIR}: {len(files)} files")
@@ -129,13 +131,13 @@ def process_intake():
 
         # Check whether this book is already in the database
         with db.get_session() as session:
-            source_id = db.get_source_by_title(session, title)
+            source_id = db.get_source_id_by_title(session, title)
             
             if source_id == -1:
                 # Add this book to the database
                 print(f'Adding source "{title}" to database')
                 db.add_source(session, title, url)
-                source_id = db.get_source_by_title(session, title)
+                source_id = db.get_source_id_by_title(session, title)
             else:
                 print("Title is already in the database")
                 continue                
@@ -145,11 +147,24 @@ def process_intake():
             print(f"Copying file {intake_path} -> {raw_path}")
             shutil.copyfile(intake_path, raw_path)
 
-        print()
+            # Add the raw file to the database
+            raw_id = encoder_ids[encoders.ENCODER_NONE]
+            if db.get_file_by_source_and_encoder(session, source_id, raw_id) == None:
+                db.add_file(session, source_id, raw_id, key_id=None, path=raw_path)
+            else:
+                print("WARNING: Raw file is already in the database")
+                continue
+
+
+# Simplify any raw files that need it
+def simplify_raw_files():
+    pass
+
 
 def main():
     prep_dirs()
     prep_db()
     process_intake()
+    simplify_raw_files()
 
 main()
