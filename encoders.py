@@ -8,11 +8,12 @@ CIPHER_NAMES = [ENCODER_CAESAR, ENCODER_SUBST, ENCODER_ENIGMA]
 
 KEY_NAME_CAESAR = "Character Offset"
 KEY_NAME_SUBST = "Character Map"
-KEY_NAME_ENIGMA = "Dials maybe?"
+KEY_NAME_ENIGMA = "Rotor Settings"
 KEY_NAMES = [KEY_NAME_CAESAR, KEY_NAME_SUBST, KEY_NAME_ENIGMA]
 
-def encode_simple(original):
-    raise Exception("Not implemented")
+def encode_simple(raw_text):
+    return raw_text
+
 
 def encode_caesar(plaintext, key: int):
     raise Exception("Not implemented")

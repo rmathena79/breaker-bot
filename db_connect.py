@@ -77,21 +77,24 @@ class DB(object):
         session.commit()
 
 
-    # Get a file by source ID and encoder ID, or None if it is not in the database
+    # Get all files by source ID and/or encoder ID. Returns a list of database rows.
+    # Specify -1 for either ID to exclude it from filtering.
     def get_file_by_source_and_encoder(self, session, source_id, encoder_id):
-        results = session.query(
-            self.db_files_tbl.id
-        ).filter(
-            self.db_files_tbl.source_id == source_id,
-            self.db_files_tbl.encoder_id == encoder_id
-        ).all()
+        q = session.query(
+            self.db_files_tbl.id,
+            self.db_files_tbl.source_id,
+            self.db_files_tbl.encoder_id,
+            self.db_files_tbl.key_id,
+            self.db_files_tbl.path
+        )
 
-        if len(results) == 0:
-            return None
-        elif len(results) == 1:
-            return results[0]
-        else:
-            raise Exception(f"Error in database; file by source {source_id} and encoder {encoder_id} should be unique")
+        if source_id != -1:
+            q = q.filter(self.db_files_tbl.source_id == source_id)
+        if encoder_id != -1:
+            q = q.filter(self.db_files_tbl.encoder_id == encoder_id)
+
+        results = q.all()
+        return results
         
     # Add a file to the database.
     # Note key_id can be None, for raw files, but all other parameters must be filled

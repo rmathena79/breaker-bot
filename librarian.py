@@ -149,7 +149,7 @@ def process_intake():
 
             # Add the raw file to the database
             raw_id = encoder_ids[encoders.ENCODER_NONE]
-            if db.get_file_by_source_and_encoder(session, source_id, raw_id) == None:
+            if len(db.get_file_by_source_and_encoder(session, source_id, raw_id)) == 0:
                 db.add_file(session, source_id, raw_id, key_id=None, path=raw_path)
             else:
                 print("WARNING: Raw file is already in the database")
@@ -158,7 +158,37 @@ def process_intake():
 
 # Simplify any raw files that need it
 def simplify_raw_files():
-    pass
+    with db.get_session() as session:
+        # Get all raw files
+        files = db.get_file_by_source_and_encoder(session, -1, encoder_ids[encoders.ENCODER_NONE])
+
+        for rawfile in files:
+            print(f"Raw file ID {rawfile.id}")
+
+            # Check whether we've already simplified this file
+            simple_files = db.get_file_by_source_and_encoder(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER])
+            if len(simple_files) > 0:
+                print("File already simplified")
+                continue
+
+            # Read the whole file as a string
+            with open(rawfile.path, 'r', encoding='utf-8') as readable:
+                raw = readable.read()
+
+            # Simplify it
+            print("Simplifying")
+            simplified = encoders.encode_simple(raw)
+
+            # Save to the simplified data directory, retaining the original filename for easier reference
+            filename = os.path.basename(rawfile.path)
+            simplified_path = os.path.join(DATA_SIMPLIFIED_DIR, filename)
+            print(f"Saving to {simplified_path}")
+            with open(simplified_path, "w", encoding='utf-8') as text_file:
+                text_file.write(simplified)
+
+            # Add the simplified file to the database
+            print("Adding simplified file to database")
+            db.add_file(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER], None, simplified_path)
 
 
 def main():
