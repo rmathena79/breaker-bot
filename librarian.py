@@ -6,6 +6,10 @@ import db_connect
 
 from credentials import SAMPLE_DB, FULL_DB
 
+# During development, it's very helpful to be able to run the full librarian even
+# if the database already has an entry.
+ABORT_ON_DB_POPULATED = False
+
 # These need to be shared with the model maker and easier to customize
 SAMPLE_DATA_DIR = "sample_data"
 FULL_DATA_DIR = "full_data"
@@ -86,7 +90,7 @@ def process_intake():
         intake_path = os.path.join(DATA_INTAKE_DIR, file)
 
         # Read the whole file as a string
-        with open(intake_path, 'r', encoding='utf-8') as readable:
+        with open(intake_path, 'r', encoding='utf-8', newline='\n') as readable:
             content = readable.read()
 
         # Check that the contents look right. If not, print a message and move on to the next file.
@@ -134,7 +138,8 @@ def process_intake():
                 source_id = db.get_source_id_by_title(session, title)
             else:
                 print("Title is already in the database")
-                continue                
+                if ABORT_ON_DB_POPULATED:
+                    continue                
 
             # Copy the file to the raw directory
             raw_path = os.path.join(DATA_RAW_DIR, file)
@@ -146,8 +151,10 @@ def process_intake():
             if len(db.get_file_by_source_and_encoder(session, source_id, raw_id)) == 0:
                 db.add_file(session, source_id, raw_id, key_id=None, path=raw_path)
             else:
+                # This really shouldn't happen
                 print("WARNING: Raw file is already in the database")
-                continue
+                if ABORT_ON_DB_POPULATED:
+                    continue
 
 
 # Simplify any raw files that need it
@@ -163,32 +170,73 @@ def simplify_raw_files():
             simple_files = db.get_file_by_source_and_encoder(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER])
             if len(simple_files) > 0:
                 print("File already simplified")
-                continue
+                if ABORT_ON_DB_POPULATED:
+                    continue
 
             # Read the whole file as a string
-            with open(rawfile.path, 'r', encoding='utf-8') as readable:
+            with open(rawfile.path, 'r', encoding='utf-8', newline='\n') as readable:
                 raw = readable.read()
 
             # Simplify it
             print("Simplifying")
             simplified = encoders.encode_simple(raw)
 
-            # Save to the simplified data directory, retaining the original filename for easier reference
+            # Retain the original filename for easier reference
             filename = os.path.basename(rawfile.path)
-            simplified_path = os.path.join(DATA_SIMPLIFIED_DIR, filename)
-            print(f"Saving to {simplified_path}")
-            with open(simplified_path, "w", encoding='utf-8') as text_file:
-                text_file.write(simplified)
 
             # Add the simplified file to the database
             print("Adding simplified file to database")
+            simplified_path = os.path.join(DATA_SIMPLIFIED_DIR, filename)
             db.add_file(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER], None, simplified_path)
 
+            # Save to the simplified data directory
+            print(f"Saving to {simplified_path}")
+            with open(simplified_path, "w", encoding='utf-8', newline='\n') as text_file:
+                text_file.write(simplified)
+
+def encrypt_simple_files():      
+    with db.get_session() as session:
+        # Get all simplified (plaintext) files
+        files = db.get_file_by_source_and_encoder(session, -1, encoder_ids[encoders.ENCODER_SIMPLIFIER])
+
+        for plainfile in files:
+            print(f"Plaintext file ID {plainfile.id}")
+
+            for cipher_name in encoders.CIPHER_NAMES:
+                # Check whether we've already encrypted this file with this cipher
+                encrypted_files = db.get_file_by_source_and_encoder(session, plainfile.source_id, encoder_ids[cipher_name])
+                if len(encrypted_files) > 0:
+                    print(f"File already encrypted with {cipher_name}")
+                    if ABORT_ON_DB_POPULATED:
+                        continue
+
+                # Read the whole file as a string
+                with open(plainfile.path, 'r', encoding='utf-8', newline='\n') as readable:
+                    plaintext = readable.read()
+
+                # Encrypt it
+                print(f"Encrypting with {cipher_name}")
+                key = 1 #!!! Oh yeah I need to get keys
+                cipher_text = encoders.encode_caesar(plaintext, key)
+
+                # Pick a filename based on database IDs for file, encoder, and key
+                filename = os.path.basename(plainfile.path) #!!!                                
+
+                # Add the simplified file to the database
+                print("Adding encrypted file to database")
+                encrypted_path = os.path.join(DATA_ENCODED_DIR, filename)
+                db.add_file(session, plainfile.source_id, encoder_ids[cipher_name], None, encrypted_path)
+
+                # Save to the encrypted data directory 
+                print(f"Saving to {encrypted_path}")
+                with open(encrypted_path, "w", encoding='utf-8', newline='\n') as text_file:
+                    text_file.write(cipher_text)
 
 def main():
     prep_dirs()
     prep_db()
     process_intake()
     simplify_raw_files()
+    encrypt_simple_files()
 
 main()
