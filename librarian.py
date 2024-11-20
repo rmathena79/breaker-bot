@@ -1,8 +1,10 @@
 import os
 import shutil
 import re # for regex
+
 import encoders
 import db_connect
+import helpers
 
 from credentials import SAMPLE_DB, FULL_DB
 
@@ -94,8 +96,7 @@ def process_intake():
         intake_path = os.path.join(DATA_INTAKE_DIR, file)
 
         # Read the whole file as a string
-        with open(intake_path, 'r', encoding='utf-8', newline='\n') as readable:
-            content = readable.read()
+        content = helpers.read_text_file(intake_path)
 
         # Check that the contents look right. If not, print a message and move on to the next file.
         if not encoders.PG_FIRST_LINE_START in content:
@@ -152,7 +153,7 @@ def process_intake():
 
             # Add the raw file to the database
             raw_id = encoder_ids[encoders.ENCODER_NONE]
-            if len(db.get_file_by_source_and_encoder(session, source_id, raw_id)) == 0:
+            if len(db.get_files_by_source_and_encoder(session, source_id, raw_id)) == 0:
                 db.add_file(session, source_id, raw_id, key_id=None, path=raw_path)
             else:
                 # This really shouldn't happen
@@ -165,21 +166,20 @@ def process_intake():
 def simplify_raw_files():
     with db.get_session() as session:
         # Get all raw files
-        files = db.get_file_by_source_and_encoder(session, -1, encoder_ids[encoders.ENCODER_NONE])
+        files = db.get_files_by_source_and_encoder(session, -1, encoder_ids[encoders.ENCODER_NONE])
 
         for rawfile in files:
             print(f"Raw file ID {rawfile.id}")
 
             # Check whether we've already simplified this file
-            simple_files = db.get_file_by_source_and_encoder(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER])
+            simple_files = db.get_files_by_source_and_encoder(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER])
             if len(simple_files) > 0:
                 print("File already simplified")
                 if ABORT_ON_DB_POPULATED:
                     continue
 
             # Read the whole file as a string
-            with open(rawfile.path, 'r', encoding='utf-8', newline='\n') as readable:
-                raw = readable.read()
+            raw = helpers.read_text_file(rawfile.path)
 
             # Simplify it
             print("Simplifying")
@@ -195,13 +195,12 @@ def simplify_raw_files():
 
             # Save to the simplified data directory
             print(f"Saving to {simplified_path}")
-            with open(simplified_path, "w", encoding='utf-8', newline='\n') as text_file:
-                text_file.write(simplified)
+            helpers.write_text_file(simplified, simplified_path)
 
 def encrypt_simple_files():      
     with db.get_session() as session:
         # Get all simplified (plaintext) files
-        files = db.get_file_by_source_and_encoder(session, -1, encoder_ids[encoders.ENCODER_SIMPLIFIER])
+        files = db.get_files_by_source_and_encoder(session, -1, encoder_ids[encoders.ENCODER_SIMPLIFIER])
 
         for plainfile in files:
             print(f"Plaintext file ID {plainfile.id}")
@@ -209,7 +208,7 @@ def encrypt_simple_files():
             for cipher_name in encoders.CIPHER_NAMES:
                 # Check whether we've already encrypted this file with this cipher
                 encoder_id = encoder_ids[cipher_name]
-                encrypted_files = db.get_file_by_source_and_encoder(session, plainfile.source_id, encoder_id)
+                encrypted_files = db.get_files_by_source_and_encoder(session, plainfile.source_id, encoder_id)
                 if len(encrypted_files) >= ENCRYPTIONS_PER_SOURCE:
                     print(f'File already encrypted with "{cipher_name}" {len(encrypted_files)} times (max {ENCRYPTIONS_PER_SOURCE})')
                     if ABORT_ON_DB_POPULATED:
@@ -217,8 +216,7 @@ def encrypt_simple_files():
                 times_to_encrypt = ENCRYPTIONS_PER_SOURCE - len(encrypted_files)
 
                 # Read the whole file as a string
-                with open(plainfile.path, 'r', encoding='utf-8', newline='\n') as readable:
-                    plaintext = readable.read()
+                plaintext = helpers.read_text_file(plainfile.path)
 
                 # We're going to encrypt multiple times, and each time we should use a different key,
                 # so we need to track which ones we've used.
@@ -268,8 +266,7 @@ def encrypt_simple_files():
 
                     # Save to the encrypted data directory 
                     print(f"Saving to {encrypted_path}")
-                    with open(encrypted_path, "w", encoding='utf-8', newline='\n') as text_file:
-                        text_file.write(cipher_text)
+                    helpers.write_text_file(cipher_text, encrypted_path)
 
 def main():
     prep_dirs()
@@ -278,4 +275,5 @@ def main():
     simplify_raw_files()
     encrypt_simple_files()
 
-main()
+if __name__ == '__main__':
+    main()

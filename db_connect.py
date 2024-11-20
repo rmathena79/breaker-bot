@@ -79,7 +79,7 @@ class DB(object):
 
     # Get all files by source ID and/or encoder ID. Returns a list of database rows.
     # Specify -1 for either ID to exclude it from filtering.
-    def get_file_by_source_and_encoder(self, session, source_id, encoder_id):
+    def get_files_by_source_and_encoder(self, session, source_id, encoder_id):
         q = session.query(
             self.db_files_tbl.id,
             self.db_files_tbl.source_id,
