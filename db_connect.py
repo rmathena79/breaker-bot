@@ -1,6 +1,8 @@
 import sqlalchemy
 import sqlalchemy.orm
 import sqlalchemy.ext.automap
+import pathlib
+
 import credentials
 
 class DB(object):
@@ -103,7 +105,7 @@ class DB(object):
             source_id = source_id,
             encoder_id = encoder_id,
             key_id = key_id,
-            path = path)
+            path = pathlib.Path(path).as_posix())
         session.add(new_row)
         session.commit()
 

@@ -36,3 +36,5 @@ Should I store the character set in the DB too?
 Tools need options for
 samples vs full dataset
 db credentials for each
+
+Turned on WSL mirrored network mode...
