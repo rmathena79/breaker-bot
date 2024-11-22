@@ -14,7 +14,7 @@ ABORT_ON_DB_POPULATED = True
 
 # How many times to encrypt each file
 # It might be helpful to vary this by cipher type, since the more complex ones have far more possible keys
-ENCRYPTIONS_PER_SOURCE = 3
+ENCRYPTIONS_PER_SOURCE = 40
 
 # These need to be shared with the model maker and easier to customize
 SAMPLE_DATA_DIR = "sample_data"
