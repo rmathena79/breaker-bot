@@ -7,6 +7,10 @@ sample_data/simplified/*
 sample_data/encoded/*
 full_data/*
 
+# Temporary artifacts
+best.keras
+model.weights.h5
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
