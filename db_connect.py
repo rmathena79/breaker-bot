@@ -109,14 +109,29 @@ class DB(object):
         session.add(new_row)
         session.commit()
 
+       
+    # Get a single key by its ID, or None if not found
+    def get_key_by_id(self, session, key_id):
+        results = session.query(
+            self.db_keys_tbl.id,
+            self.db_keys_tbl.key_type_id,
+            self.db_keys_tbl.value
+        ).filter(
+            self.db_keys_tbl.id == key_id
+        ).all()
+
+        if len(results) == 0:
+            return None
+        else:
+            return results[0]
 
     # Returns the database ID for specified key, or -1 if not found
-    def get_key_id_by_type_and_value(self, session, key_type_id, value: str):
+    def get_key_id_by_type_and_value(self, session, key_type_id, key_value: str):
         results = session.query(
             self.db_keys_tbl.id
         ).filter(
             self.db_keys_tbl.key_type_id == key_type_id,
-            self.db_keys_tbl.value == value
+            self.db_keys_tbl.value == key_value
         ).all()
 
         if len(results) == 0:
@@ -124,6 +139,6 @@ class DB(object):
         else:
             return results[0].id
         
-    def add_key(self, session, key_type_id, value:str):
-        session.add(self.db_keys_tbl(key_type_id = key_type_id, value = value))
+    def add_key(self, session, key_type_id, key_value:str):
+        session.add(self.db_keys_tbl(key_type_id = key_type_id, value = key_value))
         session.commit()

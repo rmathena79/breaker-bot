@@ -30,7 +30,8 @@ def string_to_bytes(text, chunk_size, array_out=True) -> list[list]:
         # I'm sure there is a more optimal way to do this...
         encoded = text[offset : offset + chunk_size].encode('UTF-8')
         if array_out:
-            numbered = np.array([b for b in encoded])
+            #!!! Describe / clean up how this make better data types for TF
+            numbered = np.array([float(b) for b in encoded])
         else:
             numbered = [b for b in encoded]
 
