@@ -8,8 +8,8 @@ sample_data/encoded/*
 full_data/*
 
 # Temporary artifacts
-best.keras
-model.weights.h5
+saved_models/*
+tuner_projects/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
