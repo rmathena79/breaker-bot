@@ -37,6 +37,12 @@ SIMPLIFICATION_MAP = {
 
 CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
 
+def string_to_offsets(in_str:str) -> list[int]:
+    return [CHARSET.find(c) for c in in_str ]
+
+def offsets_to_string(offsets: list[int]) -> str:
+    return "".join(CHARSET[i] for i in offsets)
+
 
 # Simplify raw text:
 #   Removing Project Gutenberg's boilerplate
@@ -96,6 +102,7 @@ def _do_caesar(plaintext: str, key: int) -> str:
     result = "".join([CHARSET[(CHARSET.find(c) + key) % len(CHARSET)] for c in plaintext])
     return result
 
+
 def encode_substitution(plaintext: str, key: dict) -> str:
     raise Exception("Not implemented")
 
@@ -108,3 +115,25 @@ def encode_enigma(plaintext: str, key):
 
 def decode_enigma(plaintext: str, key):
     raise Exception("Not implemented")
+
+
+def self_test():
+    TEST_STR = "ABCDEFG\n"
+    TEST_OFFSETS = [0,1,2,3,4,5,6, len(CHARSET)-1]
+    KEY = 3
+    GOOD_CODED_STR = "DEFGHIJC"
+
+    coded_str = encode_caesar(TEST_STR, KEY)
+    print(f"Encode Caesar: {coded_str == GOOD_CODED_STR}")
+
+    decoded_str = decode_caesar(GOOD_CODED_STR, KEY)
+    print(f"Encode Caesar: {decoded_str == TEST_STR}")
+
+    offsets = string_to_offsets(TEST_STR)
+    print(f"string_to_offsets: {offsets == TEST_OFFSETS}")
+    
+    string_from_offsets = offsets_to_string(offsets)
+    print(f"offsets_to_string: {string_from_offsets == TEST_STR}")
+
+if __name__ == '__main__':
+    self_test()

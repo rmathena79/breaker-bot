@@ -38,3 +38,6 @@ samples vs full dataset
 db credentials for each
 
 Turned on WSL mirrored network mode...
+
+Be careful about when you're using ASCII values vs. offsets within the character set.
+I probably want to mostly use offsets, so it would be very helpful to save coded files as binary.
