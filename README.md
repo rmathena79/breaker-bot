@@ -42,6 +42,32 @@ Turned on WSL mirrored network mode...
 Be careful about when you're using ASCII values vs. offsets within the character set.
 I probably want to mostly use offsets, so it would be very helpful to save coded files as binary.
 
-My modulo-based accuraction function doesn't seem right at all.
-
 My GPU isn't getting used much, espescially when I have lots of chunks. Into into data pipeline optimization.
+
+Embed -> LSTM(128) -> Limiter(1): 
+Loss: 10.517082214355469, Accuracy: [0.6557093262672424, 0.28057751059532166]
+Loss: 13.5811, Accuracy (Distance): 0.553594, Accuracy (Rounded): 0.110939
+
+Embed -> RNN(128) -> Limiter(1): 
+Loss: 13.5811, Accuracy (Distance): 0.529031, Accuracy (Rounded): 0.0115869
+
+Embed -> GRU(128) -> Limiter(1): 
+Loss: 13.5811, Accuracy (Distance): 0.566594, Accuracy (Rounded): 0.158879
+
+Embed -> LSTM(128) -> Linear(1): 
+Loss: 13.5811, Accuracy (Distance): 0.565071, Accuracy (Rounded): 0.0760692
+
+Embed -> LSTM(128) -> Sigmoid(1)
+Loss: 13.5811, Accuracy (Distance): 0.532304, Accuracy (Rounded): 0.0
+
+Embed -> LSTM(128) -> Sigmoid(128) -> Scaler(128) -> Limiter(1): 
+Loss: 1.1285839080810547, Accuracy: [0.5765235424041748, 0.17478026449680328]
+Loss: 13.5811, Accuracy (Distance): 0.560611, Accuracy (Rounded): 0.0789181
+
+Embed -> LSTM(128) -> Sigmoid(1) -> Scaler(1) -> Limiter(1): 
+Loss: 3.157512903213501, Accuracy: [0.5821149349212646, 0.21897727251052856]
+Loss: 13.5811, Accuracy (Distance): 0.5572, Accuracy (Rounded): 0.113442
+
+Embed -> LSTM(128) -> Sigmoid(1) -> Scaler(1)
+Loss: 1.5583804845809937, Accuracy: [0.5726279616355896, 0.1371275782585144]
+Loss: 13.5811, Accuracy (Distance): 0.5619, Accuracy (Rounded): 0.129071

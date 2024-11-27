@@ -7,8 +7,7 @@ ENCODER_CAESAR = "Caesar Cipher"
 ENCODER_SUBST = "Substitution Cipher"
 ENCODER_ENIGMA = "Enigma Machine"
 ALL_ENCODER_NAMES = [ENCODER_NONE, ENCODER_SIMPLIFIER, ENCODER_CAESAR, ENCODER_SUBST, ENCODER_ENIGMA]
-#CIPHER_NAMES = [ENCODER_CAESAR, ENCODER_SUBST, ENCODER_ENIGMA]
-CIPHER_NAMES = [ENCODER_CAESAR]
+CIPHER_NAMES = [ENCODER_CAESAR, ENCODER_SUBST] # Add Enigma if it's ever implemented
 
 KEY_NAME_CAESAR = "Character Offset"
 KEY_NAME_SUBST = "Character Map"
@@ -16,7 +15,6 @@ KEY_NAME_ENIGMA = "Rotor Settings"
 KEY_NAMES = [KEY_NAME_CAESAR, KEY_NAME_SUBST, KEY_NAME_ENIGMA]
 
 # Key strings for making sense of Project Gutenberg texts:
-#!!! I have not confirmed that these are universal
 PG_FIRST_LINE_START = "The Project Gutenberg eBook of "
 PG_START_CONTENT = "*** START OF THE PROJECT GUTENBERG EBOOK "
 PG_END_CONTENT = "*** END OF THE PROJECT GUTENBERG EBOOK "
