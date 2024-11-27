@@ -103,12 +103,26 @@ def _do_caesar(plaintext: str, key: int) -> str:
     return result
 
 
-def encode_substitution(plaintext: str, key: dict) -> str:
-    raise Exception("Not implemented")
+# Get a key for the substitution cypher, in a form of a string where each character corresponds
+# to the same index in the original character set.
+def get_key_substitution() -> str:
+    key = list(CHARSET)
+    random.shuffle(key)
+    return key
 
-def decode_substitution(plaintext: str, key: dict) -> str:
-    raise Exception("Not implemented")
+def encode_substitution(plaintext: str, key: str) -> str:
+    return _do_substitution(plaintext, CHARSET, key)
 
+def decode_substitution(plaintext: str, key: str) -> str:
+    return _do_substitution(plaintext, key, CHARSET)
+
+def _do_substitution(plaintext: str, key_from: str, key_to: str) -> str:
+    result = "".join([key_to[key_from.find(c)] for c in plaintext])
+    return result
+
+
+def get_key_enigma():
+    raise Exception("Not implemented")
 
 def encode_enigma(plaintext: str, key):
     raise Exception("Not implemented")
@@ -120,20 +134,31 @@ def decode_enigma(plaintext: str, key):
 def self_test():
     TEST_STR = "ABCDEFG\n"
     TEST_OFFSETS = [0,1,2,3,4,5,6, len(CHARSET)-1]
-    KEY = 3
+
+    # Hard-coded keys to bump everything by 3
+    CAESAR_KEY = 3    
+    SUBST_KEY = "DEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \nABC"
     GOOD_CODED_STR = "DEFGHIJC"
-
-    coded_str = encode_caesar(TEST_STR, KEY)
-    print(f"Encode Caesar: {coded_str == GOOD_CODED_STR}")
-
-    decoded_str = decode_caesar(GOOD_CODED_STR, KEY)
-    print(f"Encode Caesar: {decoded_str == TEST_STR}")
 
     offsets = string_to_offsets(TEST_STR)
     print(f"string_to_offsets: {offsets == TEST_OFFSETS}")
     
     string_from_offsets = offsets_to_string(offsets)
     print(f"offsets_to_string: {string_from_offsets == TEST_STR}")
+
+
+    c_coded_str = encode_caesar(TEST_STR, CAESAR_KEY)
+    print(f"Encode Caesar: {c_coded_str == GOOD_CODED_STR}")
+
+    c_decoded_str = decode_caesar(GOOD_CODED_STR, CAESAR_KEY)
+    print(f"Decode Caesar: {c_decoded_str == TEST_STR}")
+
+    
+    s_coded_str = encode_substitution(TEST_STR, SUBST_KEY)
+    print(f"Encode Substitution: {s_coded_str == GOOD_CODED_STR}")
+
+    s_decoded_str = decode_substitution(GOOD_CODED_STR, SUBST_KEY)
+    print(f"Decode Substitution: {s_decoded_str == TEST_STR}")
 
 if __name__ == '__main__':
     self_test()
