@@ -6,7 +6,8 @@ import encoders
 import db_connect
 import helpers
 
-from credentials import SAMPLE_DB, FULL_DB
+from credentials import CONNECTION_INFO
+from constants import *
 
 # During development, it's very helpful to be able to run the full librarian even
 # if the database already has an entry.
@@ -16,22 +17,12 @@ ABORT_ON_DB_POPULATED = True
 # It might be helpful to vary this by cipher type, since the more complex ones have far more possible keys
 ENCRYPTIONS_PER_SOURCE = 40
 
-# These need to be shared with the model maker and easier to customize
-SAMPLE_DATA_DIR = "sample_data"
-FULL_DATA_DIR = "full_data"
-DATA_DIR = SAMPLE_DATA_DIR
-DATA_INTAKE_DIR = os.path.join(DATA_DIR, "intake")
-DATA_RAW_DIR = os.path.join(DATA_DIR, "raw")
-DATA_SIMPLIFIED_DIR = os.path.join(DATA_DIR, "simplified")
-DATA_ENCODED_DIR = os.path.join(DATA_DIR, "encoded")
-
-db = db_connect.DB(SAMPLE_DB)
-
+# Database access wrapper
+db = db_connect.DB(CONNECTION_INFO)
 
 # Database IDs, name: ID
 encoder_ids= {}
 key_type_ids = {}
-
 
 # Make a directory if it does not already exist.
 # Does not intermediate directories.
@@ -205,7 +196,7 @@ def encrypt_simple_files():
         for plainfile in files:
             print(f"Plaintext file ID {plainfile.id}")
 
-            for cipher_name in encoders.CIPHER_NAMES:
+            for cipher_name in encoders.AVAILABLE_CIPHERS:
                 # Check whether we've already encrypted this file with this cipher
                 encoder_id = encoder_ids[cipher_name]
                 encrypted_files = db.get_files_by_source_and_encoder(session, plainfile.source_id, encoder_id)

@@ -5,14 +5,12 @@ ENCODER_NONE = "None"
 ENCODER_SIMPLIFIER = "Simplifier"
 ENCODER_CAESAR = "Caesar Cipher"
 ENCODER_SUBST = "Substitution Cipher"
-ENCODER_ENIGMA = "Enigma Machine"
-ALL_ENCODER_NAMES = [ENCODER_NONE, ENCODER_SIMPLIFIER, ENCODER_CAESAR, ENCODER_SUBST, ENCODER_ENIGMA]
-CIPHER_NAMES = [ENCODER_CAESAR, ENCODER_SUBST] # Add Enigma if it's ever implemented
+ALL_ENCODER_NAMES = [ENCODER_NONE, ENCODER_SIMPLIFIER, ENCODER_CAESAR, ENCODER_SUBST]
+AVAILABLE_CIPHERS = [ENCODER_CAESAR] # Add additional ciphers as they are available
 
 KEY_NAME_CAESAR = "Character Offset"
 KEY_NAME_SUBST = "Character Map"
-KEY_NAME_ENIGMA = "Rotor Settings"
-KEY_NAMES = [KEY_NAME_CAESAR, KEY_NAME_SUBST, KEY_NAME_ENIGMA]
+KEY_NAMES = [KEY_NAME_CAESAR, KEY_NAME_SUBST]
 
 # Key strings for making sense of Project Gutenberg texts:
 PG_FIRST_LINE_START = "The Project Gutenberg eBook of "
@@ -33,6 +31,7 @@ SIMPLIFICATION_MAP = {
     '\r\n' : '\n'
 }
 
+# This is the character set I'd prefer to use, but resource limitations make it impractical:
 CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
 
 def string_to_offsets(in_str:str) -> list[int]:
@@ -118,15 +117,6 @@ def _do_substitution(plaintext: str, key_from: str, key_to: str) -> str:
     result = "".join([key_to[key_from.find(c)] for c in plaintext])
     return result
 
-
-def get_key_enigma():
-    raise Exception("Not implemented")
-
-def encode_enigma(plaintext: str, key):
-    raise Exception("Not implemented")
-
-def decode_enigma(plaintext: str, key):
-    raise Exception("Not implemented")
 
 
 def self_test():

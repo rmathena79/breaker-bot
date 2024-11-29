@@ -1,0 +1,494 @@
+;;IG'CH"G?:.GH]CDI.$]I':A.]D/]"DCI.CIH]',,.,]:N]IG'CH"G?:.G]'C,]EA'".,;?CID]I>.]EJ:A?"],DB'?C*]:DA,/'".]I.MI]?H]?C,?"'I.,]:N]1.FJ'AH]H?<CH1*;;"DCI.CIH;;]:G.'
+?C<]I>.]DJI.G]G?C<$]B'G?C.]A'C,?C<H]?C]I>.]B'GH>'AA]?HA'C,H;]EA'CC?C<]I>.]'II'"
+;]H?,.:'G$]B' DG]<.C.G'A]>DAA'C,]B*]HB?I>;]H?,.:'G$]B' DG]<.C.G'A]>'GGN]H">B?,I;]H?,.:'G$]I>.]SI>]B'G?C.],?K?H?DC;]I>.]B'G?C.]'II'"
+$]GD?ZC'BJG;]H?,.:'G$]C'K'A]HJEEDGI;]I>.]'GBN]'II'"
+$]
+L' 'A.?C;]I>.]/?C'A]'II'"
+$].C?L.ID
+;]H?,.:'G$]:G?<',?.G]<.C.G'A]I>DB'H].*]L'IHDC;]H?,.:'G$]I>.],.',AN]HE?,.G]>DA.H;]H?,.:'G$]H."G.I'GN]D/]I>.]C'KN]"DBB.C,'I?DC;]HDJG".H;]':DJI]I>.]'JI>DG;]':DJI]I>.]H.G?.H;]IG'CH"G?:.GH]CDI.H;;]:G.'
+?C<]I>.;]DJI.G]G?C<$;;]B'G?C.]A'C,?C<H]?C;]I>.]B'GH>'AA]?HA'C,H;;]B'G?C.H]?C;]LDGA,]L'G]??;]"DBB.BDG'I?K.]H.G?.H;;]:N]"'EI'?C] D>C]"*]">'E?C;;]J*H*]B'G?C.]"DGEH]G.H.GK.]9G.I0;;=?AAJHIG'I?DC$]']/A'B.I>GDL.G&]".CI.G&]?H]'BDC<]L.'EDCH]"'GG?.,]:N]B.C;D/]I>.]QQ,]B'G?C.H]DC].C?L.ID
+*`;;=?AAJHIG'I?DC$]B'G?C.]G?/A.B.C&]JC,.G]/?G.&]A.'E]/GDB]'] JHIZ:.'">.,;'BE>?:?'C]IG'"IDG]?C]I>.] 'CJ'GN]PXSS]A'C,?C<*]9,.E'GIB.CI]D/],./.CH.;E>DID]=JHB"`]VQSPP0`;;:G.'
+?C<]I>.]DJI.G]G?C<$]B'G?C.]A'C,?C<H]?C]I>.]B'GH>'AA]?HA'C,H;;:N]"'EI'?C] D>C]"*]">'E?C&]JHB"G]9G.I0;;:N]I>.]:.<?CC?C<]D/]PXSS&]JC?I.,]HI'I.H]B'G?C.]/DG".H]>',]'AG.',N]B',.;'],G'B'I?"]HI'GI]DC]I>.]"DCFJ.HI]D/]'G.'H]DK.GGJC]:N]I>.] 'E'C.H.].'GAN;?C]LDGA,]L'G]??*]HJ"".HH/JA]'B.G?"'C]'HH'JAIH]?C]I>.]HDJI>L.HI]E'"?/?"&;:.<?CC?C<]L?I>]<J','A"'C'A]?C]I>.]HDADBDC]?HA'C,H]?C]'J<JHI]PXSQ&]'C,;?C]I>.]".CIG'A]E'"?/?"]'I]I'G'L']?C]I>.]<?A:.GI]?HA'C,H]?C]CDK.B:.G;PXSR&]L.G.]"GJ"?'A]"'BE'?<CH]ID]B'G
+]I>.]IJGC]D/]I>.] 'E'C.H.]/ADD,I?,.;D/]"DCFJ.HI*]I>.]I?B.]>',]CDL]"DB.]ID]I'
+.]DC.]BDG.],."?H?K.]HI.E$;'HH'JAI]D/]I>.]?HA'C,H]>.A,]:N] 'E'C]:./DG.]PXSP*;;I>.H.]HIG'I.<?"]?HA'C,H&]B'C,'I.,]ID]I>.] 'E'C.H.]:N]I>.]A.'<J.]D/;C'I?DCH]'/I.G]LDGA,]L'G]?&]L.G.]']HDJG".]D/]BNHI.GN]'C,]HE."JA'I?DC*;DJIH?,.GH]L.G.]:'GG.,!]?AA.<'A]/DGI?/?"'I?DCH]L.G.]EG.HJB.,!]N.I;'CN]".CIG'A]E'"?/?"],G?K.]IDL'G,H] 'E'CH]?CC.G],./.CH.]G?C<]>',]ID;"DC/GDCI]I>.H.]JC
+CDLCH*]I>.]D:K?DJH]I'G<.I]ID]:.<?C]L?I>]L'H]I>.;B'GH>'AA]?HA'C,H*]'H].'GAN]'H]PXQP]']B'G?C.]EA'CC?C<]D//?".G]>',;E?CED?CI.,]I>.?G]<.D<G'E>?"]H?<C?/?"'C".*;;EA'CC?C<]I>.]'II'"
+;;?C]B'N]PXSR&]I>.]"DB:?C.,]">?./H]D/]HI'//],."?,.,]ID]H.?O.]I>.B*]I>?H;,?//?"JAI]'HH?<CB.CI]/.AA]ID]',B?G'A]">.HI.G]L*]C?B?IO]L>D]:DG.]I>.;?BEG.HH?K.]I?IA.H]D/]"DBB'C,.G]?C]">?./&]E'"?/?"&]'C,]"DBB'C,.G]?C;">?./&]E'"?/?"]D".'C]'G.'H]9"?C"ZE'"("?C"ED'0&]:'H.,]'I]E.'GA]>'G:DG;?C]>'L'??*]>.]IJGC.,]ID]/DJG]K.GN]"'E':A.]B.C]L>D]LDJA,]"'GGN]DJI;I>.]'"IJ'A]DE.G'I?DC$]I>G..]',B?G'AH]L>D]L.G.].ME.GIH]?C]'BE>?:?DJH;A'C,?C<H&]/'HI]"'GG?.G]HIG?
+.H&]'C,]H>DG.]:DB:'G,B.CI&]'C,]B' DG;<.C.G'A]>DAA'C,]B*]HB?I>&]L>D]L'H]I>.]"DBB'C,?C<]<.C.G'A]D/]I>.;B'G?C.H]K]'BE>?:?DJH]"DGEH]'C,]CDL]'AHD]LDJA,]:.]"DBB'C,?C<]<.C.G'A&;.ME.,?I?DC'GN]IGDDEH*]?I]L'H]>.]L>D]LDJA,]"DBB'C,]I>.]IGDDEH]DC".]I>.N;<DI]'H>DG.*]DG?<?C'A]"'JI?DJH]EA'CH]/DG]HI.EE?C<HIDC.]'II'"
+H]HI'GI?C<;?C]I>.].'HI.GC]B'GH>'AAH]L.G.]BD,?/?.,&]'C,]I>.],'G?C<],."?H?DC]L'H;B',.]ID]
+C?/.]I>GDJ<>]I>.].,<.H]'C,]HIG?
+.],?G."IAN]'I]
+L' 'A.?C]'IDAA;?C]I>.]>.'GI]D/]B'GH>'AAH]"AJHI.G]D/]RQ]'IDAAH&]BDG.]I>'C]P&YYY;?HA'C,H&]'C,]WUV]G../H*;;
+L' 'A.?C]?H]I>.]A'G<.HI]'IDAA]?C]I>.]LDGA,&]UY]B?A.H]ADC<]'C,]QY;B?A.H]L?,.&]']H.B?Z.C"ADH.,]H.G?.H]D/]WY]G../H]'C,]?HA.IH]'GDJC,]';>J<.]A'<DDC]D/]HDB.]WYY]HFJ'G.]B?A.H*]AD"'I.,]UQY]B?A.H]CDGI>L.HI]D/;I'G'L']'C,]Q&SPT]B?A.H]HDJI>L.HI]D/]E.'GA]>'G:DG&]?IH]"'EIJG.]LDJA,;>'K.]/'GZG.'">?C<]HIG'I.<?"]H?<C?/?"'C".]?C]I>'I]?I]LDJA,]:G.'
+]I>.;DJI.G]G?C<]D/] 'E'C.H.]E'"?/?"],./.CH.]A?C.H*]L?I>?C]I>.]'IDAA]?IH.A/;I>.G.]L.G.]ILD]D: ."I?K.H$]GD?]'C,]C'BJG&]']E'?G]D/]"DCC."I.,]?HA'C,H;H>'E.,]A?
+.]L.?<>IH]DC]']/DJGZB?A.]:'G:.AA]?C]I>.]CDGI>].C,&]'C,;"G.H".CIZH>'E.,]
+L' 'A.?C]?HA'C,]'I]I>.]HDJI>].C,*]I>.]SI>]B'G?C.;,?K?H?DC]JC,.G]B' DG]<.C.G'A]>'GGN]H">B?,I]L'H]ID]'HH'JAI]GD?ZC'BJG&;'C,]I>.]'GBN]VI>]?C/'CIGN],?K?H?DC]JC,.G]B' DG]<.C.G'A]">'GA.H]>*;"DGA.II]LDJA,]'II'"
+]
+L' 'A.?C*]'/I.G]I>.H.]?HA'C,H]L.G.]I'
+.C&]I>.G.;L'H]DC.]BDG.]D: ."I?K.]?C]I>.]B'GH>'AAH$].C?L.ID
+]'IDAA*]I>?H]L'H;I'G<.I.,]/DG]'II'"
+]HDB.]I>G..]BDCI>H]A'I.G]:N]']I'H
+]/DG".]"DBEG?H.,;D/]I>.]QQ,]B'G?C.]G.<?B.CI]9"'AA.,]?C]I>.]"DGEH]I>.]QQ,]B'G?C.H0]'C,;BDHI]D/]I>.]'GBNH]PYUI>]?C/'CIGN]G.<?B.CI*]:G?<',?.G]<.C.G'A]I>DB'H].*;L'IHDC&]JHB"&]LDJA,]:.]?C]"DBB'C,*;;'H]']EG.A?B?C'GN]ID]I>.H.]EG?DG?IN]DE.G'I?DCH&]I>.]D""JE'I?DC]D/;'CDI>.G]'IDAA]?C]I>.].'HI.GC]B'GH>'AAH]L'H]EA'CC.,*]I>?H]D: ."I?K.;L'H]B' JGD&]L>?">]LDJA,]H.GK.]'H]'C]',K'C".,]'?G]'C,]C'K'A]:'H.]'C,;H'/.<J'G,]HJEEAN]A?C.H]ID]
+L' 'A.?C]QQY]B?A.H]ID]I>.]CDGI>L.HI*;:."'JH.]?I]L'H]:.A?.K.,]ID]:.]K.GN]A?<>IAN],./.C,.,&]DCAN]I>.]B'G?C.;K]'BE>?:?DJH]"DGEH]G."DCC'?HH'C".]"DBE'CN]'C,]I>.]Q,]:'II'A?DC&]PYUI>;?C/'CIGN&]VI>]?C/'CIGN],?K?H?DC]L.G.]'HH?<C.,]ID]"'EIJG.]B' JGD*]ID;HJEEDGI]'AA]D/]I>.H.]I>GJHIH]I>.G.]LDJA,]:.]']B'HH?K.]'HH.B:A'<.]D/;J*H*]C'KN]H>?EH$]"'GG?.GH&]:'IIA.H>?EH&]"GJ?H.GH&],.HIGDN.GH&]'C,]'C;'HIDC?H>?C<AN]K'G?.,]'GG'N]D/]IG'CHEDGIH]'C,]A'C,?C<]"G'/I*]I>.H.;L'GH>?EH]EGDK?,.,]']B'M?BJB]EDI.CI?'A]/DG]?CI.CH?K.]EG.?CK'H?DC]'.G?'A;:DB:?C<]'C,]H>?EZIDZH>DG.]:DB:'G,B.CI!]I>.]?C"G.'H.,]IDCC'<.]?C]>?<>;.MEADH?K.H&]I>.]A.C<I>.C.,],JG'I?DC]D/]I>.]HD/I.C?C<ZJE]EGD".HH&]'C,;I>.]E?CED?CI?C<]D/]EG?DG?IN].C.BN]I'G<.IH]L.G.]'AA]A.HHDCH]HDG.AN;A.'GC.,]/GDB]I>.]?C',.FJ'I.]EG.E'G'IDGN]H>.AA?C<]L>?">]>',]"DCIG?:JI.,;ID]I>.]HI..E]"'HJ'AI?.H]D/]I'G'L'*]/DG]I>.]B'GH>'AAH&]I>.G.]L.G.;'AID<.I>.G]RWY]H>?EH&]"'GGN?C<]WT&YYY]B.C*;;L?I>]I>.]EA'CH]?C]EA'".]'C,]']K.GN]I?<>I]H">.,JA.]ID]B..I]I>.],Z,'N;,.',A?C.&]I>.]"DBEA.M]I'H
+]D/]'HH.B:A?C<]'C,]IG'CHEDGI?C<]I>.]'HH'JAI;IGDDEH]ID]I>.]I'G<.I]'G.']L'H]EJI]?C]BDI?DC*]G.',N?C<]I>.]'GBN]VI>;,?K?H?DC]L'H]I>.].'H?.HI]E'GI]D/]I>.]AD<?HI?"'A]EA'C!]?I]L'H]'AG.',N;?C]>'L'??]'/I.G].'GA?.G]DE.G'I?DCH]'I]'IIJ]'C,]
+?H
+']?C]I>.]'A.JI?'C;?HA'C,H]D//]'A'H
+'*]I>.]QQ,]B'G?C.H&]>DL.K.G&]>',]ID]"DB.]/GDB]H'BD';9L>.G.]?I]>',]:..C]DC]<'GG?HDC],JIN]/DG]HDB.]PW]BDCI>H0&]'C,]I>.]SI>;B'G?C.],?K?H?DC]L'H]HI?AA]'I]"'BE]E.C,A.IDC]?C]"'A?/DGC?'&]L>.G.]?I]>',;G.".CIAN]:..C]/DGB.,*]DC]PR] 'CJ'GN]PXSS&]I>.],?K?H?DC]H'?A.,]/GDB]H'C;,?.<D]ID]"DBB.C".]I>.]ADC<.HI]H>DG.ZIDZH>DG.]'BE>?:?DJH]DE.G'I?DC]?C;I>.]>?HIDGN]D/]L'G/'G.$]S&RYY]B?A.H3;;A?/.]'I]H.']HDDC]H.IIA.,],DLC]?CID]']G.<JA'G]GDJI?C.*]'AA]>'C,H]HDDC;:."'B.]'"FJ'?CI.,]L?I>]I>.]G?IJ'AH]D/]'A.GIH]/DG]<.C.G'A]FJ'GI.GH]?C;I>.]:A'"
+C.HH]D/]EG.,'LC&]B.HH]A?C.H]HIG.I">?C<]'ADC<]I>.]E'HH'<.L'NH&;?CHE."I?DCH]'C,]"'A?HI>.C?"H]DC]I>.]"AJII.G.,],."
+H&]I>.]ADJ,HE.'
+.G;L?I>]?IH]H>G?AA]L>?HIA.]D/]']:DHJCH]E?E.]'C,]?IH]CDL]>.'G]I>?H3;/G.H>]L'I.G]>DJGH&]'C,]"A'HH.H]'C,]L.'EDCHZ"A.'C?C<].K.GN],'N*]D//;,JIN&]I>.]B.C]IDD
+]',K'CI'<.]D/]I>.]DEEDGIJC?IN]ID]HA..E&]EA'N;"'G,H&]HI'C,]?C]A?C.]/DG]?".]"G.'B&]LG?I.]A.II.GH&]'C,&]D/]"DJGH.&;.C<'<.]?C].C,A.HH]HE."JA'I?DC]':DJI]I>.],?K?H?DCH]D: ."I?K.]9L>?">;L'H]DG?<?C'AAN]
+CDLC]DCAN]:N]I>.]?CIG?<J?C<]I?IA.]D/]:JGA.HFJ.]'C,;"'BDJ/A'<.0*;;DC]QP] 'CJ'GN]I>.]IG'CHEDGIH]"'GGN?C<]I>.]B'G?C.H]'C">DG.,]?C]A'>'?C';GD',H]D//]B'J?&]>'L'??&]'C,]K?H?DCH]D/]H>DG.]A.'K.]G'".,]I>GDJ<>]I>.;B?C,H]D/]'AA]I>.]B.C$]>JA']<?GAH&]HJG/]HL?BB?C<&]"DDA?C<],G'J<>IH;?C]']AD"'A]:'GZZ JHI]L>'I]L'H]C..,.,]'/I.G]I>.]ADC<]C?<>IH]?C]I>.;"GDL,.,&]>JB?,]IGDDE]"DBE'GIB.CIH],JG?C<]I>.]KDN'<.*]DK.G]I>.]H>?EH;ADJ,HE.'
+.GH&]H',]ID]H'N&]"'B.]']CDI]JC.ME."I.,]'CCDJC".B.CI&]I>.G.;L?AA]:.]CD]A?:.GIN****;;'/I.G]DC.],'N]/?AA.,]L?I>]"DC/.G.C".H]'C,]:G?./?C<H]/DG]I>.]H.C?DG;D//?".GH&]I>.]I'H
+]/DG".]H'?A.,]'<'?C*]C.MI]HIDE$]I>.]B'GH>'AA]?HA'C,H3;.C]GDJI.&]"GDHH?C<]I>.]PWYI>]B.G?,?'C&]I>.G.]L.G.]I>.]IG',?I?DC'A&;"DADG/JA]".G.BDC?.H]?C]L>?">]I>.]DA,]H'AIH]?C?I?'I.,]I>.]B.C]L>D]>',;C.K.G]:./DG.]"GDHH.,]I>.]?CI.GC'I?DC'A],'I.]A?C.]?CID]I>.],DB'?C]D/;I>.]<DA,.C],G'<DC*]DC]RY] 'CJ'GN]I>.]H>?EH]I>G.',.,]I>.?G]L'N]I>GDJ<>;I>.].'HI.GC]'IDAAH]D/]I>.]B'GH>'AAH&]'C,]I>.]/DAADL?C<]BDGC?C<]9,'LC&;RP] 'CJ'GN0]I>.N]>'AI.,]:./DG.]I>.?G]D: ."I?K.H&]L?I>]I>.]CDGI>.GC;"DBEDC.CI]D//]GD?ZC'BJG]'C,]I>.]HDJI>.GC]"DBEDC.CI]/'"?C<]
+L' 'A.?C;?HA'C,*]DC].K.GN]IG'CHEDGI]I>.]B.C]"GDL,.,]I>.]H>?EH]G'?AH]ID]HI'G.]'I;I>.]ADLZAN?C<]?HA.IH]L>?">]I>.N]BJHI]HDDC]'II'"
+*]I>.]QR,&]QSI>&]'C,;QTI>]B'G?C.H]L.G.]'HH?<C.,]ID]I>.]GD?ZC'BJG]DE.G'I?DC&]'C,]I>.]RQ,&;PVI>&]'C,]PWSI>]?C/'CIGN]G.<?B.CIH]D/]I>.]'GBNH]VI>],?K?H?DC]L.G.]ID;I'
+.]I>.]
+L' 'A.?C]?HA'C,]D: ."I?K.H*;;=?AAJHIG'I?DC$]E'"?/?"]D".'C]'G.'H`;;B.'CL>?A.&]I>.]HB'AA]<GDJE]'HH?<C.,]ID]B' JGD]9Q,]:'II'A?DC&]PYUI>;?C/'CIGN&]EAJH]I>.]K]'BE>?:?DJH]"DGEH]G."DCC'?HH'C".]"DBE'CN0]>',]HEA?I;D//]/GDB]I>.]B'?C]I'H
+]/DG".]'C,]LDJA,]B'
+.]?IH]DLC]A'C,?C<]DC]RP; 'CJ'GN*]',K'C".]?CI.AA?<.C".].HI?B'I.H]D/]B?C?B'A].C.BN]/DG".H]EGDK.,;'""JG'I.!]I>.G.]L.G.]CD]'B.G?"'C]"'HJ'AI?.H]'C,] JHI]DC.] 'E'C.H.;D//?".G]L'H]"'EIJG.,]DC]I>.]B'?C]?HA.I*]I>G..],'NH]A'I.G]BDG.]I>'C]RY;J*H*]H>?EH]A'N]'I]'C">DG]?C]I>.]B' JGD]A'<DDC*;;/DGL'G,]'I]I>.]B'?C]I>.'I.G&]'C]'L.HDB.]EG.ZA'C,?C<]H'IJG'I?DC;:DB:'G,B.CI&]:.<JC]DC]QX] 'CJ'GN&]L'H]?C]/JAA]HL?C<*]J*H*]C'KN]H>?EH;BDK.,]?C]DC]GD?ZC'BJG&]L?I>]HDB.]'I]I>.]JCEG.".,.CI.,]H>DGI]G'C<.]D/;P&XYY]N'G,H&]'C,]EDJG.,]?C]I>.?G]ED?CIZ:'C
+]B'HH.,]/?G.*]"DCI?CJ?C<;I>.]G.E.'I.,]'.G?'A]HIG?
+.H]L>?">]>',]:.<JC]L..
+H].'GA?.G]/GDB]I>.;"'GG?.GH&]L'K.H]D/]EA'C.H]HL.EI]?C]ADL]/DG]:DB:?C<]'C,]HIG'/?C<;GJCH*]
+.N].C.BN]'GI?AA.GN]'C,]:AD"
+>DJH.]HIGDC<]ED?CIH]>',].'GA?.G;:..C]B'EE.,]/GDB]HJ:B'G?C.]'C,]'.G?'A]G."DCC'?HH'C".&]'C,]?C,?K?,J'A;'II.CI?DC]L'H]<?K.C]ID]I>.],.HIGJ"I?DC]D/].'">]DC.*]I>.]"DB:?C.,]IDI'A;D/]H>.AAH]'C,]:DB:H]G.'">.,]']HI'<<.G?C<]U&YYY]IDCH*;;'H]']G.HJAI]D/]I>.]JC,.GL'I.G]D:HI'"A.H]'C,]:.'">]B?C.H]JC"DK.G.,]'I;I'G'L'&]/DG]I>.]/?GHI]I?B.]C'KN]JC,.GL'I.G],.BDA?I?DC]I.'BH]>',]:..C;/DGB.,]/DG]/JIJG.]DE.G'I?DCH*]/DGIJC'I.AN&]I>.N]/DJC,]CD]B?C.H]'I;GD?ZC'BJG]'C,]L.G.]CDI]C..,.,]'I]
+L' 'A.?C*;;'CDI>.G]/'"IDG]L>?">]LDJA,]'HH?HI]I>.]'HH'JAI]IGDDEH]L'H]I>.;"DC/?<JG'I?DC]D/]I>.]'IDAA*]I>.]ILD]B'?C]D: ."I?K.H&]'I]I>.]CDGI>].C,;'C,]'I]I>.]HDJI>&]L.G.].'">]', D?C.,]:N]?HA.IH&]'C,]I>.H.]C.?<>:DG?C<;AD"'I?DCH]L.G.]ID]:.]H.?O.,]DC],Z,'N&]RP] 'CJ'GN&]'H]:'H.H]ID]EGDK?,.;"ADH.Z?C]'GI?AA.GN]HJEEDGI]/DG]I>.]?C/'CIGN]A'C,?C<*]DC].?I>.G]H?,.]D/;GD?ZC'BJG]I>.]PSI>]B'G?C.H]LDJA,]:G?C<]?C]?IH]VTBB]'C,]PYTBB]>DL?IO.GH;'C,],?<]I>.B]?C]ID]HJEEDGI]I>.]B'?C]A'C,?C<]/GDB]?HA.IH]L>?">]"'GG?.,;I>.].MDI?"]C'B.H]D/].CCJ.:?C<&]B.AAJ&].CCJ:?GG&].CCJB.CC.I&]'C,;.CCJ<'GG.I*]'H]?H]'AL'NH]I>.]"'H.]?C]L'G&]I>.G.]L.G.]EGD:A.BH*]I>.;I'H
+]L'H]'HH?<C.,]ID]I>.]QTI>]B'G?C.H&]'C,&]:."'JH.]D/]"DBBJC?"'I?DCH;,?//?"JAI?.H&]I>.],?//.G.CI]JC?IH]<D?C<]'H>DG.]DC],?//.G.CI]?HA.IH;"DJA,]CDI]"DDG,?C'I.]I>.?G]A'C,?C<H*]I>.?G]G',?DH]L.CI],.',]/GDB;,G.C">?C<]H.']HL.AAH]I>'I]HL.EI]DK.G]I>.]<JCL'A.H]D/]I>.]'BIG'"H]9AKIH&;A'C,?C<]K.>?"A.H&]IG'"
+.,&]DG]'BE>?:?'C]IG'"IDGH0*]C.K.GI>.A.HH&]:N;C?<>I/'AA&]I>.]:.'">>.',H]>',]:..C]H."JG.,&]'C,&]/DG]I>.]/?GHI]I?B.&;J*H*]B'G?C.H]>',]A'C,.,]DC]'] 'E'C.H.]B'C,'I.*;;DC]:D'G,]I>.]IG'CHEDGIH]DJIH?,.]I>.]A'<DDC&]I>.]B.C]D/]I>.]QR,]'C,]QSI>;B'G?C.H]HE.CI]I>.]'/I.GCDDC]D/],Z,'N]IG'CH/.GG?C<]ID]AHIH]9A'C,?C<;H>?EH&]I'C
+0*]I>'I]C?<>I]H'L]']BJ,,A.,]E?"IJG.]D/]'BE>?:?'C]IG'"IDGH;HIG'C,.,]DG]DJI]D/]<'H]?CH?,.]I>.]A'<DDC&]L?I>]B'CN]DI>.GH]L'C,.G?C<]?C;I>.]:A'"
+DJI]'H]I>.N]HDJ<>I]ID]/?C,]I>.?G]DLC]AHI]BDI>.G]H>?E*;;L>?A.]I>?H]H"G'B:A.]L'H]<D?C<]DC&]I>.]'HH'JAI]IGDDEH]DC]:D'G,]I>.]AHIH;L.G.]/'"?C<&].'">]?C]>?H]DLC]L'N&]I>.]EGDHE."I]D/]?CI.CH?K.]"DB:'I]DC;I>.]/DAADL?C<]BDGC?C<*]DC.]G?/A.B'C&]EG?K'I.]/?GHI]"A'HH]GD:.GI]/*;<G'/&]G.B.B:.G.,$;;]'H]?]I>DJ<>I]D/]I>.]A'C,?C<]I>'I]?]LDJA,]:.]B'
+?C<]DC]I>.]BDGGDL&;]?]L'H]:DI>].M"?I.,]'C,]'CM?DJH*]N.H&]?]I>DJ<>I]D/],.'I>&]:JI]?;]L'HCI]'/G'?,*]HDB.>DL]?]"DJA,CI]H..]BNH.A/]'H],.',*]L>N]L'HCI;]I>.G.]/.'G[]?]LDC,.G.,*].K.C]I>DJ<>]?]L'H]C.GKDJH&]?I]L'H]L?I>;].M"?I.B.CI&]CDI]/.'G*]?CHI.',]I>.G.]L'H]']I>G?AA*]?]L'H]>.',.,;]/DG]<G.'I]',K.CIJG.&]L>.G.]?]>',]L'CI.,]ID]:.*]I>?H]L'H] JHI]'C;]',K.CIJG.*]?I]L'H]<GDLC]JE]"DL:DNH]'C,]?C,?'CH&]?I]L'H]<GDLC]JE;]"DEH]'C,]GD::.GH****]I>DJ<>IH]D/]<ADGN]L.G.]?C]BN]B?C,]I>'I]C?<>I*;]CDL]?I]L'H]BN]IJGC]ID]"'GGN]I>.]/A'<]?CID]:'IIA.*]?I]L'H]BN]IJGC;]ID]:.]']E'GI]D/]>?HIDGN*]ID]IDE]?I]'AA]D//&]?]L'H]<D?C<]?CID]:'IIA.;]L?I>]I>.].A?I.]D/]I>.].A?I.&]I>.]JC?I.,]HI'I.H]B'G?C.H*] JHI;]EG?DG]ID]/'AA?C<]'HA..E&]?]EG'N.,*]BN]EG'N.GH]L.G.]/DG]"DJG'<.&]/DG;]BN]/'B?AN&]'C,]?]EG'N.,]ID]HI'N]'A?K.*;;:N]I>.]C.MI]BDGC?C<&],]EAJH]P&]P]/.:GJ'GN&]I>.]AHIH]>',]BDK.,]?CH?,.;I>.]A'<DDC*]JE]:./DG.],'LC&]I>.]?C/'CIGNB.C]/?A.,]?CID]I>.]"'K.GCDJH;>DA,H]D/]I>.]AHIH]'C,]"A'B:.G.,]DC:D'G,]I>.?G]'BE>?:?DJH]IG'"IDGH*]<G'/;,.H"G?:.,]>?H].FJ?EB.CI$;;]A'C,?C<H]L.G.]B',.]L?I>].'">]E.GHDC]AD',.,]L?I>]L.?<>I*]L.]LDG.;]DJG],JC<'G..H&]A.<<?C<H&]'C,]:DDC,D"
+.GH]9H>D.H0*]DJG]H
+?KK?.H;]9JC,.GL.'G0]>',]:..C],N.,]<G..C]L>?A.]L.]L.G.]HI?AA]?C]I>.]HI'I.H*;]L>?I.]DC.H]L.G.]IDD]<DD,]']I'G<.I*]?C]',,?I?DC&]DJG]E'"
+H]L.G.;]AD',.,]L?I>]L>'I.K.G]<.'G]L.]I>DJ<>I]L.]LDJA,]C..,&]HJ">]'H].MIG';]HD"
+H&]ID?A.I]<.'G&]EDC">D&]'C,]DJG],]'C,]
+]G'I?DCH*].MIG';]"?<'G.II.H]L.G.]HIJ//.,]?C]'AHD*]:.A?.K.]?I]DG]CDI&]HDB.]D/]JH;]"'GG?.,]:DD
+H]I>'I]L.]L.G.]G.',?C<*;;]?]LDG.]ILD]
+C?K.H*]I>.]
+]:'G]=
+C?/.`]I>'I]L'H]?HHJ.,]L'H]IJ"
+.,;]?CID]BN]G?<>I]A.<<?C<*]I>.]I>GDL?C<]HI?A.IID]I>'I]?]>',]EJG">'H.,;]L'H]DC]BN]:.AI!]']A.'I>.G]I>DC<]'I]I>.]:DIIDB]D/]I>.]H>.'I>]L'H;]I?.,]'GDJC,]BN]A.<]HD]I>'I]I>.]
+C?/.]LDJA,]CDI]/ADE]'GDJC,*]BN;]:'NDC.I]L'H]?C]?IH]H>.'I>]'C,]'II'">.,]ID]BN]E'"
+*]DC]L.CI]I>.;]AD',.,]E'"
+*]'GDJC,]BN]L'?HI]L.CI]I>.]"'GIG?,<.]:.AI&]/JAAN]AD',.,&;]L?I>]I.C]"A?EH]D/]BP]G?/A.]'BBD&].'">]"A?E]>DA,?C<].?<>I]GDJC,H*;]DK.G]BN]H>DJA,.G]L.G.]ILD]:'C,DA..GH]D/]BP]'BBD&]>DA,?C<]'C;]',,?I?DC'A].?<>IN]GDJC,H*]>'C<?C<]/GDB]BN]ED"
+.IH]L.G.]/DJG]>'C,;]<G.C',.H&]DCAN]G.FJ?G?C<]']EJAA.,]E?C]ID]:.]'"I?K'I.,*]L.],DCC.,;]DJG]>.AB.IH]L?I>]I>.]:GDLC]"'BDJ/A'<.,]"DK.G?C<*]/?C'AAN]L.]HAJC<;]DJG]<'H]B'H
+H]DK.G]DJG]H>DJA,.GH*]CDL]L.]L.G.]G.',N]/DG]:.'G3;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]PSUXVT;; 'BB.,]'AA]ID<.I>.G]?C]I>.]/.I?,]BJAI?ZI?.G.,]:JC
+H]:.ADL],."
+H&;B'G?C.]IGDDEH]L.A"DB.,]:.?C<]?C]I>.]/G.H>]'?G]DC],."
+].K.C]?/]I>.N]L.G.;'AHD]"GDL,.,]I>.G.*`;;DJI]D/]I>.],.'/.C?C<],?C]D/]I>.]H>?EH]>DA,H&]..G?AN]A?I]:N]G.,]:'IIA.;A'BEH&],DLC]I>.]G'BEH]D/]I>.]JC/DA,?C<]:DLH&]AJG">?C<]?CID]I>.]GDJ<>;H.'H]L>?EE.,]JE]:N]I>.]L?C,&]I>.]"DAJBCH]D/]'BIG'"H]L.CI]ID]L'G*;;=H?,.:'G]9E'<.]Q0$]B' DG]<.C.G'A]>DAA'C,]B*]HB?I>;;DC.]D/]I>.]BDHI]/'BDJH]B'G?C.H]D/]>?H]I?B.&]<.C.G'A]HB?I>]L'H]:DGC]?C;PWWQ*]>.]L'H]"DBB?HH?DC.,]']H."DC,]A?.JI.C'CI]?C]PXYT*]I>.G.]/DAADL.,;']H.G?.H]D/]DK.GH.'H]'HH?<CB.CIH]?C]I>.]E>?A?EE?C.H&]C?"'G'<J'&;H'CID],DB?C<D&]'C,]L?I>]I>.]B'G?C.]:G?<',.]?C]/G'C".]?C]LDGA,]L'G]?*;:.<?CC?C<]?C]I>.].'GAN]PXRYH&]>.]:."'B.]?C"G.'H?C<AN]/D"JH.,]DC]I>.;,.K.ADEB.CI]D/]'BE>?:?DJH]L'G/'G.]"DC".EIH*]HDDC]'/I.G]I>.]DJI:G.'
+]D/;L'G]L?I>] 'E'C]?C]PXSP&]>.]L'H]'HH?<C.,]ID]']"GJ"?'A]EDH?I?DC&]"DBB'C,;D/]'AA]B'G?C.H]?C]I>.]".CIG'A]E'"?/?"*;;'H]'CDI>.G]B'G?C.]D//?".G]A'I.G],.H"G?:.,]>?B&]>.]L'H]D/]B.,?JB;>.?<>I&]E.G>'EH]/?K.]/..I]C?C.]DG]I.C]?C">.H&]'C,]HDB.L>'I]E'JC">N*]>?H;DC".Z:A'"
+]>'?G]>',]IJGC.,]<G'N*]>?H]DC".]"ADH.ZIG?BB.,]BJHI'">.]L'H;HDB.L>'I]H"G'<<AN*]>.]LDG.]HI..AZG?BB.,]<A'HH.H]'C,]>.]HBD
+.,]"?<'GH;?C".HH'CIAN*]I>.G.]L'H]DC.]DI>.G]/.'IJG.]I>'I]">'G'"I.G?O.,]>?B$]';/.GD"?DJH]I.BE.G]I>'I].'GC.,]>?B]I>.]C?"
+C'B.&]>DLA?C]B',]HB?I>&;'AI>DJ<>]>?H]"ADH.]/G?.C,H]
+C.L]>?B]'H]>D
+.*;;I>?H]">'G'"I.G?HI?"]LDJA,]JHJ'AAN].B.G<.]'H]?GG?I'I?DC]'I]L>'I]>.;/.AI]L.G.]HJ:ZHI'C,'G,]E.G/DGB'C".H*]DC.]/'BDJH].M'BEA.]D/]I>?H]L'H;>?H]G.A?./]D/]'C]'GBN]<.C.G'A]/GDB]>?H]"DBB'C,*]?I]"'B.]L>.C]'C]'GBN;,?K?H?DC]L'H]DC]I>.]A?C.]'ADC<H?,.]ILD]B'G?C.],?K?H?DCH]DC]H'?E'C]?C;I>.]B'G?'C'H]?HA'C,H]"'BE'?<C]/DAADL?C<]I>.]B'GH>'AAH]DE.G'I?DC*]']>J<.;?CI.GH.GK?".]JEGD'G].GJEI.,3;;A.HH]I>'C]ILD]N.'GH]A'I.G&]'/I.G]SP]N.'GH]D/]'"I?K.]H.GK?".&],JG?C<;L>?">]>.]L'H]'L'G,.,]/DJG],?HI?C<J?H>.,]H.GK?".]B.,'AH]/DG]>?H;A.',.GH>?E]?C]/DJG]HJ"".HH?K.]HJ"".HH/JA]'BE>?:?DJH]DE.G'I?DCH&]>.;G.I?G.,]?C]'EG?A]PXSU&]'H]']/DJGZHI'G]<.C.G'A*]>.],?.,]?C] 'CJ'GN]PXUV*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VQPUQ:;;DC]:D'G,]GD"
+N]BDJCI]9'<"]R0&]C.LAN],.H?<C.,]'C,].FJ?EE.,]ID]H.GK.;'H]']'BE>?:?DJH]"DBB'C,]H>?E&]B' <.C]>DAA'C,]B*]HB?I>&]K]'BE>?:?DJH;"DGEH]"DBB'C,.G]'C,]"DBB'C,.G]D/].ME.,?I?DC'GN]IGDDEH]'I]GD?ZC'BJG]?C;I>.]B'GH>'AAH&]ED?CIH]DJI]']/.'IJG.]D/]I>.]:'IIA.]ID]>?H]">?./]D/]HI'//;:<.C]<G'K.H]:*].GH
+?C.*`;`;;=H?,.:'G]9E'<.]R0$]B' DG]<.C.G'A]>'GGN]H">B?,I;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]PPPW,;;B' <.C]>'GGN]H">B?,I`;;I>.]A.',.G]D/]I>.]SI>]B'G?C.],?K?H?DC]'I]GD?ZC'BJG]L'H]:DGC]?C]PWWU;'C,].CI.G.,]I>.]"DGEH]'H]']H."DC,]A?.JI.C'CI]?C]PXYX*]:N].MIG'DG,?C'GN;"D?C"?,.C".&]>?H]/?GHI]/DG.?<C],JIN]L'H]'I]<J'B]?C]I>.]B'G?'C'H;?HA'C,H&]'C]'G.']>.]LDJA,]G.IJGC]ID]RR]N.'GH]A'I.G]JC,.G]K'HIAN;,?//.G.CI]"?G"JBHI'C".H3;;I>.]E>?A?EE?C.H&]B.M?"D&]"J:'&]'C,]C?"'G'<J']9L>.G.]>.]L'H]'L'G,.,;']C'KN]"GDHHZZH."DC,]DCAN]ID]I>.]B.,'A]D/]>DCDG0&]?CI.GHE.GH.,]L?I>;G.E.'I.,]HI'NH]?C]">?C'&]L.G.]I>.]B'G
+H]D/]'],?K.GH.]DK.GH.'H]"'G..G*;'I]>DB.&]I>.G.]L.G.]HI'//]H">DDAH&]E'NB'HI.G],JI?.H&]'C,]']IDJG]'H;'HH?HI'CI]"DBB'C,'CI*;;:N]I>.].C,]D/]I>.]L'G&]>.]>',]:..C],."DG'I.,]L?I>]I>G..],?HI?C<J?H>.,;H.GK?".]B.,'AH*]G.I?G?C<]?C]PXSW]'/I.G]RX]N.'GH]D/]H.GK?".&]>.]L'H;',K'C".,]ID]I>.]/DJGZHI'G]G'C
+]D/]<.C.G'A*]>.],?.,]?C]PXUW*;;']"DCI.BEDG'GN],.H"G?:.,]>?B]'H]']:J,,>'&]']INE?"'A]DA,ZI?B.]B'G?C.$;>.]>',]:..C]?C]">?C'!]>.]L'H]G.<JA'I?DC]DA,].HI':A?H>B.CI!]']G.<JA'G;B'G?C.*;`;;=H?,.:'G]9E'<.]S0$]I>.]SI>]B'G?C.],?K?H?DC;;=?AAJHIG'I?DC$],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]'VYVPPR;;H>DJA,.G]E'I">]D/]I>.]SI>]B'G?C.],?K?H?DC$]']<DA,]S]DC]H"'GA.I;:'"
+<GDJC,&]D//?"?'A]"DADGH]D/]I>.]J*H*]B'G?C.]"DGEH*]I>?H].B:A.B]L'H;,.H?<C.,]:N] D>C]/':?DC&]?C]I>.],?K?H?DCH]EJ:A?"]'//'?GH]D//?".]:./DG.;I>.]B'GH>'AA]"'BE'?<C&]'C,]>?H]"DBB'C,?C<]D//?".G]L'H]'HIDC?H>.,]ID;/?C,]I>'I]I>.]A'NDJI]D/]I>.]GJCL'NH]DC]I>.] 'E'C.H.]'?GHIG?E]DC]GD?;L.G.]'C].M'"I]G.EA?"'*`;;I>?H],?K?H?DC]L'H]/DGB.,]'H]I>.]G.HJAI]D/]I>.]DG<'C?O'I?DC]'C,;G.,.H?<C'I?DC]D/]H.K.G'A]DI>.G]JC?IH*]I>.]QR,]B'G?C.H]:.<'C]'H]?C/'CIGN;,.I'">.,]/GDB]I>.]R,],?K?H?DC]?C]/.:GJ'GN]PXSR&]I>.]H'B.]BDCI>]I>'I]'C;'GI?AA.GN]:'II'A?DC]D/]I>.]PQI>]B'G?C.H]:."'B.]I>.]<.C.H?H]D/]I>.]PSI>;B'G?C.H]'C,].C<?C..G].A.B.CIH]D/]I>.]PXI>]B'G?C.H]/DGB.,]I>.]CJ"A.JH]D/;I>.]QYI>]B'G?C.H*]?C]B'G">]I>.]QSI>]B'G?C.H]L'H]DG<'C?O.,&]'C,]I>.C]?C;B'N]?I]L'H]HEA?I]?C]ILD]ID]HJEEAN]I>.]B.C]/DG]I>.]QTI>]B'G?C.H*;;I>?H]L'GZI?B.]H>J//A?C<]EGDK?,.,]I>.]B' DG]:J?A,?C<]:AD"
+H]/DG]']C.L;,?K?H?DC*]I>.]JC?IH]L.G.]DG?<?C'AAN]H.E'G'I.,&]>DL.K.G&]L?I>]I>.]QSI>;B'G?C.H]'C,]']K'G?.IN]D/]G.?C/DG"?C<]JC?IH]9.C<?C..G&]'GI?AA.GN&;B.,?"'A&]BDIDG]IG'CHEDGI&]HE."?'A]L.'EDCH&]I'C
+H&].I"*0]'I]"'BE;E.C,A.IDC]?C]"'A?/DGC?'*]I>.]G.HI]D/]I>.]JC?IH]L.G.]'I]"'BE]A. .JC.&;CDGI>]"'GDA?C'*]I>?H].'HI]"D'HI].">.ADC]BDK.,]ID]E.C,A.IDC]:N]IG'?C]'C,;IG'CH?I]D/]I>.]E'C'B']"'C'A]?C] JAN]'C,]'J<JHI*]L>.C]'AA]I>.]JC?IH]L.G.;/?C'AAN]ID<.I>.G&]I>.]SI>]B'G?C.],?K?H?DC]L'H]/DGB'AAN]'"I?K'I.,]DC]PS;'J<JHI]PXSR*;;'/I.G]?CI.CH?K.]IG'?C?C<&]?I]H>?EE.,]DJI]DC]PR] 'CJ'GN]PXSS&]'C,]?C;PR]H>DGI]BDCI>H]B',.]/DJG]B' DG]'HH'JAI]A'C,?C<H$]GD?ZC'BJG&]H'?E'C&;I?C?'C&]'C,]?LD] ?B'&]HJ//.G?C<]BDG.]I>'C]PV&YYY]"'HJ'AI?.H*]?I]L'H;'L'G,.,]ILD]EG.H?,.CI?'A]JC?I]"?I'I?DCH]'C,]']C'KN]JC?I]"DBB.C,'I?DC&;'C,]I>.C],.'"I?K'I.,]QW]CDK.B:.G]PXST*]?C]/.:GJ'GN]PXUU&]>DL.K.G&]?I;L'H]G.'"I?K'I.,]'H]I>.]A.',],?K?H?DC]?C]I>.]B'G?C.]"DGEH]G.H.GK.&]'C,;B' DG]JC?IH]A'I.G]H.GK.,]L?I>],?HI?C"I?DC]?C]I>.]E.GH?'C]<JA/*;`;;I>.]B'G?C.]'II'"
+$]GD?ZC'BJG;;'H]I>.]'BE>?:?'C]IG'"IDGH]HDJ<>I]ID]/DGB]JE]?C]DG<'C?O.,]'II'"
+]L'K.H&;']H.G?.H]D/]EGD:A.BH]'GDH.*]I>.G.]L'H]']"DCI?CJ'I?DC]D/]I>.]GDJ<>;L.'I>.G]'C,]G',?D]"DBBJC?"'I?DCH],?//?"JAI?.H]D/]I>.],'N]:./DG.!]I>.;'BIG'"]"G.LH]>',]CDI]EG.K?DJHAN]EG'"I?".,]L?I>]I>.]'HH'JAI]JC?IH!;I>.]"DCIGDA]H>?E]IJGC.,]DJI]ID]>'K.]:..C]'HH?<C.,]/?G?C<]B?HH?DCH]'H;L.AA]'H]L'K.]"DCIGDA]'C,]A./I]?IH]"DCIGDA]HI'I?DC]9/DAADL.,]:N]HDB.;HIG'N]'BIG'"H0!]I>.]'II'"
+]"DBB'C,.G]L'H]G.,J".,]ID]G'"?C<]'GDJC,]?C]';HB'AA]H>?E]'C,]H>DJI?C<]?CHIGJ"I?DCH]I>GDJ<>]']B.<'E>DC.*]'H]']G.HJAI&;LZ>DJG&]I>.]>DJG]/DG]'II'"
+&]>',]ID]:.]EDHIEDC.,]/GDB]PYYY]ID]PPYY*;;B.'CL>?A.]I>.]B.C]?C]I>.]'BIG'"H]9'C,]HDB.]?C]>'HI?AN]H"GDJC<.,;JE]A"KEH]=A'C,?C<]"G'/I&]K.>?"A.]DG]E.GHDCC.A`0]L.G.]L'I">?C<]I>.;'L.Z?CHE?G?C<]H?<>I]D/]I>.]/JG?DJH]:DB:'G,B.CI*]DK.G>.',&]/DG]I>.;/?GHI]I?B.]?C]I>.]E'"?/?"]L'G&]ILD]B'G?C.H]L.G.]?C]'?GEA'C.H]ID]'"I;'H]C'K'A]<JC/?G.]"DCIGDAA.GH]L>D]LDJA,]"JI]D//]I>.]H>.AA?C<]L>.C]I>.;IGDDEH]'EEGD'">.,]I>.]:.'">*]:G?<',?.G]<.C.G'A]L?AA?'B]L*]:J">'C'C;A'I.G]G."'AA.,]>DL]DC.]D/]I>.B]DC]DC.]D/]>?H]E'HH.H]/DJC,]DC.]D/]I>.;IG.C">.H]DC]I>.]CDGI>]H?,.]D/]C'BJG]/?AA.,]L?I>]']CJB:.G]D/]IGDDEH;"GDJ">?C<],DLC]?C]I>.]IG.C">*]HD]>.]'H
+.,]I>.]E?ADI]ID]<D]?C]DC]';HIG'/?C<]'II'"
+&]'C,]I>.C]'H]I>.N]"'B.]DK.G]>.]L'H]<D?C<]ID]"DCI?CJ.;G'
+?C<]I>.B]L?I>]I>.]B'">?C.]<JCH*]>.],?,]I>?H]ID]HJ">]']ED?CI]I>'I&;'/I.G]I>.N]<DI]:'"
+]ID]I>.]H>?E&]?I]L'H],.I.GB?C.,]I>'I]?C]>?H]=I>.;HEDII.GH`].CI>JH?'HB]>.]EG'"I?"'AAN]H>DI]D//]I>.]I'?A].C,3;;=?AAJHIG'I?DC$]'BE>?:?DJH]DE.G'I?DCH]'<'?CHI] 'E'C.H.]DC]I>.]B'GH>'AA;?HA'C,H]PXSS;;B'GH>'AA]?HA'C,H`;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VYSXY;;"DA]/G'C
+A?C]'*]>'GI&]"DBB'C,.G]D/]I>.]QSI>]B'G?C.H&]:G?./H]>?H]HI'//;DC]I>.]DE.G'I?DC]EA'C]/DG]I>.]?CK'H?DC]D/]GD?ZC'BJG*]ID]>?H]A./I]?H]>?H;G.<?B.CI'A].M."JI?K.]D//?".G&]AI"DA]>DB.G]A*]A?IO.C:.G<&] G*]:DI>]LDJA,;G.I?G.]'H]<.C.G'A]D//?".GH*`;;,DLC]?C]I>.]A'<DDC]I>.]H?<C'A]/?C'AAN]"'B.]ID]I>.]'HH'JAI]L'K.H&]<D]DC;?C3]I>.]ILD]A.',]:'II'A?DCH]D/]I>.]QR,]B'G?C.H]>.',.,]/DG]GD?&]L?I>;I>.]ILD]A.',]:'II'A?DCH]D/]I>.]QSI>]B'G?C.H]">JGC?C<]IDL'G,H]C'BJG*;I>.]B.BDG?.H]D/]I>?H]GJCZ?C]L.G.]:JGC.,]/DG.K.G]?CID]I>.]B?C,]D/]NDJC<;H."DC,]A?.JI.C'CI] D>C]"*]">'E?C&]A.',?C<]>?H]EA'IDDC]?C]I>.]/?GHI]L'K.$;;]:N]CDL].K.GNI>?C<]L'H]'AA]B?M.,]JE&]L?I>]DJG]'HH'JAI]L'K.]'AA;].CI'C<A.,]L?I>]I>.]'GBDG.,]IG'"IDGH]'>.',]D/]JH*]?]DG,.G.,]BN;],G?K.G]ID]B'C.JK.G]'GDJC,]I>.B*]HADLAN]L.]?C">.,]E'HI&]'H]I>.?G;]RVBB]<JCH]'C,]*TYZ"'A*]B'">?C.]<JCH]/A'B.,*]I>.]:.'">]A'N]G?<>I;]:./DG.]JH*]>DL.K.G&]?I]L'H]H>GDJ,.,]?C]HJ">]']E'AA]D/],JHI]'C,;]HBD
+.]/GDB]DJG]:DB:'G,B.CI]I>'I]L.]"DJA,]H..]K.GN]A?IIA.]D/]?I*]'H;]']G.HJAI&]L.]L.G.]JC':A.]ID]I.AA]L>?">]H."I?DC]L.]L.G.]'EEGD'">?C<;]9'/I.G]'AA]DJG]>DJGH]D/]"'G./JA]EA'CC?C<&]:'H.,]DC]>?II?C<]I>.;]:.'">]'I]DC.].M'"I]HEDI30]?]IJGC.,]ID]I'A
+]ID]BN]EA'IDDC]H.G<.'CI&;]L>D]L'H]B'CC?C<]I>.]B'">?C.]<JC]G?<>I]:.H?,.]B.*]>.]L'H]HAJBE.,;]DK.GZZI>.]L>DA.]G?<>I]H?,.]D/]>?H]>.',],?H?CI.<G'I.,]?CID]']B'HH;]D/]<DG.*]JE]ID]CDL&]I>.].CI?G.]DE.G'I?DC]>',]H..B.,]'ABDHI]A?
+.]';]BDK?.&]DG]A?
+.]DC.]D/]I>.]?CCJB.G':A.]EG'"I?".]A'C,?C<H]L.,]B',.*;;]CDL]DC.]D/]BN]B.C]A'N]?C]']L.AI.G]D/]:ADD,]:.H?,.]B.&]'C,]I>.;]G.'A?IN]D/]?I]HB'H>.,]?CID]BN]"DCH"?DJHC.HH*;;I>.]A'C,?C<]I>.C]:."'B.]']">'DI?"] JB:A.]D/]G'E?,].K.CIH]/DG]I>'I;D//?".G]'C,]>?H]B.C*]I>.G.]L'H]']<G?C,?C<]"G'H>]ID]I>.?G]G?<>I&]'C,;ADD
+?C<]DK.G]I>.N]H'L]'C]AKI]"DAA?,.]'I]I>.]L'I.GH].,<.]L?I>]'C;'GBDG.,]IG'"IDG&]"A?B:]DC]?IH]H?,.]'C,]>'C<]I>.G.&]"G'O?AN]'I?AI*;H?BJAI'C.DJHAN&]I>.G.]L'H]']<G'I?C<]HDJC,]JC,.G]I>.?G]IG'"IDG]'H]I>.N;>?I]I>.]:.'">*]
+..E?C<]ADL&]I>.]B.C]HA?,]DK.G]I>.]H?,.]D/]I>.]IG'"IDG;'C,],DK.]/DG]"DK.G&]/DG]I>.?G]AKI]L'H]']E.G/."I]I'G<.I]H?II?C<]I>.G.]DC;I>.]H'C,*]I>.]A?.JI.C'CI]L'H]I>.]A'HI]DC.]ID],GDE]ID]I>.],."
+&]'C,]'H;>.]HEG'LA.,]DC]I>.]H'C,&]I>.]'BIG'"]<GDJC,]?IH]L'N]:'"
+L'G,H]?CID]I>.;D".'C*;;CDL]I>.]A?.JI.C'CI]/'".,]>?H]/?GHI]"DB:'I]?C]']H?IJ'I?DC]I>'I;">'G'"I.G?O.,]'AA]I>.]A'C,?C<]:.'">.H*]>?H]?CI.CH?K.]IG'?C?C<]HIDD,]>?B;?C]<DD,]HI.',]'H]>.]IDD
+]HID"
+]D/]I>.]H?IJ'I?DC*]:.?C<]?C]I>.]/?GHI;H"'II.G.,]<GDJE]D/]IG'"IDGH]'H>DG.&]>?H]B.C]>',]CD]"DCI'"I]N.I]L?I>;'CN]DI>.G]JC?I&]HD]I>.] 'E'C.H.]L.G.]DC]:DI>]H?,.H]D/]I>.BZZ'H]L.AA]'H;?C]/GDCI*]DC.]<A'C".]IDA,]>?B]I>'I]I>.N]>',]A'C,.,]DC]I>.]L.HI]H?,.]D/;C'BJG&]RYY]N'G,H]ID]I>.]G?<>I]D/]I>.]HE?I]D/]A'C,]I>'I]I>.?G]"DBE'CN;>',]/DG]?IH]D: ."I?K.*]I>.]ADC<]>DJGH]D/]HIJ,N?C<]B'EH]'C,]'.G?'A;E>DID<G'E>H]>',]EGDK.,]I>.?G]LDGI>*]I>.]A?.JI.C'CIH]'""DJCI]"DCI?CJ.,$;;]BN]?BB.,?'I.]I'H
+]L'H]ID]G.DG<'C?O.]BN]EA'IDDC&]/DG]?I]L'H;]H"'II.G.,]'ADC<]I>.]:.'">*]I>.]CD?H.&]HBD
+.&]'C,]">D
+?C<]E'AA]D/;]:JGCI]EDL,.G]/JGI>.G]"DBEA?"'I.,]I>?C<H*]?]IJGC.,]ID]BN]H.G<.'CI;]<J?,.&]'H]L.]A'N]I>.G.]?C]I>.]H'C,&]'C,]'H
+.,]>?B]L>.G.]>?H]B.C;]L.G.*]>.]HI'GI.,]ID]ED?CI]'C,]G?<>I]:./DG.]BN].N.H]>?H]>'C,;],?HHDAK.,]?CID]']:ADD,N]HIJBE*]>.]GDAA.,]DK.G&]H"G.'B?C<]H'?ADG3;]H'?ADG3]9I>?H]L'H]DJG]"D,.]C'B.]/DG]']"DGEHB'C*]:?II.G]E'HI;].ME.G?.C".H]D/]I>.]B'G?C.H]>',]H>DLC]I>'I]I>.] 'EH],.A?<>I.,]?C;]"'AA?C<]"DGEHB'C]I>.BH.AK.H&]'C,]I>.C]H>DDI?C<]'CNDC.]L>D]H>DL.,;]>?BH.A/*0]HDDC]DJG]"DGEHB'C]"G'LA.,]DK.G&]'C,]HI'GI.,]ID]<?K.]I>.;]H.G<.'CI]/?GHI]'?,&]HD]?]IJGC.,]BN]'II.CI?DC]ID]BDG.]EG.HH?C<;]B'II.GH*;;'H]N.I]I>.]D//?".G]>',CI]H..C]']H?C<A.] 'E'C.H.&].K.C]I>DJ<>]>.]L'H]?C;I>.]B?,HI]D/]I>.B*]:JI]CDL]DC.]D/]I>.]B.C]C.MI]ID]>?B]<'HE.,&]I>.NG.;?C]I>.G.3&]ED?CI?C<]ID]']HA?I]IG.C">]/DJG]/..I]'L'N!]I>.]B'G?C.]G'?H.,;>?BH.A/]JE]ID]']"GDJ">?C<]EDH?I?DC]'C,]>JGA.,]>?H]:'NDC.II.,]G?/A.]A?
+.;'] 'K.A?C]?CID]I>.]HA?I]IG.C">*]I>.G.]L'H]>.'KN].C.BN]/?G.]"DB?C<]'I;I>.]EA'IDDC&]:JI]?I]L'H]'ABDHI]?BEDHH?:A.]ID],.I.GB?C.]?IH]HDJG".*]I.C;/..I]?C]/GDCI]D/]I>.]B'G?C.H&]>DL.K.G&]I>.] 'E'C.H.]>',],J<]']H.G?.H]D/;IG.C">.H]GJCC?C<]I>.]A.C<I>]D/]I>.]:.'">*]I?.,]?C]L?I>]I>.H.]IG.C">.H;L.G.]H"DG.H]D/]B'">?C.]<JC]EDH?I?DCH]'C,]/DM>DA.H&]BJIJ'AAN]HJEEDGI?C<;.'">]DI>.G&]'AA]"'BDJ/A'<.,]HD]I>'I]I>.N]L.G.]?CK?H?:A.]JCI?A]';B'G?C.]L'H]G?<>I]DC]IDE]D/]I>.B*]'""DG,?C<AN&]'H]HDDC]'H]I>.]B.C]D/;I>.]EA'IDDC]LDJA,]AD"'I.]'C].BEA'".B.CI&]I>.N]LDJA,],.AJ<.]?I]L?I>;>'C,]<G.C',.H&]'C,]I>.C]LDG
+]DC]I>.]C.MI]DC.*]I>.]A?.JI.C'CIH]C.MI;.ME.G?.C".]L'H]'ABDHI]>?H]A'HI$;;]'I]DC.]ED?CI]?C]I>?H]HL?GA?C<]B'.AHIGDB]D/]'"I?DC]?]L'H]
+C..A?C<;]:.>?C,]']E'AB]IG..]HIJBE]L?I>]BN]"'G:?C.]DC]I>.],."
+&]'H]?]/?H>.,;]/DG]']/G.H>]"A?E]D/]:JAA.IH]?C]BN]:.AI*]HDB.I>?C<]B',.]B.]ADD
+;]JE]'C,]I>.G.&]CDI]I.C]/..I]'L'N&]L'H]'] 'E]">'G<?C<]B.]L?I>]>?H;]:'NDC.I*]BN]>'C,H]L.G.].BEIN*]?]L'H]>.AEA.HH*]I>.]I>DJ<>I]I>'I;]I>?H]?H]?I]/A'H>.,]I>GDJ<>]BN]:G'?C3]I>.C]H>DIH]">'II.G.,]/GDB;]'AA]H?,.H]D/]B.*]BN]B.C]>?I]I>.]GJCC?C<] 'E]?C]'],DO.C]EA'".H*]>.;]/.AA],.',]I>G..]/..I]/GDB]B.*;;H>DGIAN]'/I.G]I>?H&]I>.]HFJ',]L?I>]I>.]B'G?C.]D//?".G]L'H]LDG
+?C<;DC]'CDI>.G] 'E'C.H.].BEA'".B.CI*]>.]EJAA.,]I>.]E?C]/GDB]DC.]D/]>?H;<G.C',.H&]A.I]I>.]>'C,A.]/AN]D//&]'C,]HI'GI.,]"DJCI?C<]ID]I>G..*]9I>.;<G.C',.H]/JH.]L'H]I?B.,]ID]<?K.]']B'C]':DJI]/?K.]H."DC,H]:./DG.]?I;.MEAD,.,*0]?C]I>.]B?,,A.]D/]>?H]"DJCI&]'] 'E'C.H.]HI'GI.,]H>DDI?C<]'I;>?B]/GDB]I>.]/A'C
+*]?CHI?C"I?K.AN]>.]IJGC.,]ID]ADD
+]/DG]I>.].C.BN*;I>.C]HDB.I>?C<]?C]>?H]B?C,]"A?"
+.,&]'C,]L>'I]':DJI]I>'I]A?K.]<G.C',.;?C]NDJG]>'C,[]L?I>DJI]ADD
+?C<&]>.]I>G.L]?I]'C,],DK.]/DG]I>.],."
+*]?I;L.CI]D//]?C]B?,Z'?G]'C,]I>.]/G'<B.CIH]HE'II.G.,]'AA]'GDJC,]>?B****;;=?AAJHIG'I?DC$],Z,'N]?C]I>.]CDGI>`;;=?AAJHIG'I?DC$]'GI?AA.GNB.C]JCAD',]DG,C'C".]DC],Z,'N]/DG]I>.;EG.E'G'IDGN]:DB:'G,B.CI]/GDB]I>.]C.?<>:DG?C<]?HA.IH]ID]EDJC,]I'G<.IH;:./DG.]I>.]?C/'CIGN]'II'"
+H]DC]GD?ZC'BJG*;;],.E'GIB.CI]D/],./.CH.]E>DID]9'GBN0]RQSVQX;`;;<GDJEH]D/]B'G?C.H]L.G.]/DGB?C<]CDL]JC,.G]I>.?G]DLC]?C?I?'I?K.&]'C,;:.<?CC?C<]ID]LDG
+]I>.?G]L'N]HADLAN]?CA'C,*]?I]L'H]C.'GAN]?BEDHH?:A.;ID]
+..E]I?<>I]"DCIGDA]D/]I>.]EA'IDDC]JC,.G]I>.H.]"DC,?I?DCH&]:JI]I>.;A?.JI.C'CI]L'H]BDK?C<]L?I>]I>.B&]IGN?C<]ID]<.I]I>.B]"DDG,?C'I.,]'H]:.HI;>.]"DJA,&]L>.C]HJ,,.CAN]>.],GDEE.,]ID]I>.]<GDJC,&]HIJCC.,*]>.]G."'AA.,$;;]BN]/?GHI]G.'"I?DC]L'H]I>'I]HDB.DC.]>',]>?I]BN]G?<>I]">..
+]L?I>]';]:'H.:'AA]:'I*]L?I>]I>.]H>D"
+&]?CHI?C"I]B',.]B.]"DK.G]BN]G?<>I].N.;]L?I>]BN]>'C,*]I>.C]?]G.'A?O.,]?,]:..C]>?I*]H.'G?C<]BN]B?C,]"'B.;]I>.]FJ.HI?DC&]L>.C]?]I'
+.]BN]>'C,]'L'N&]L?AA]?]:.]':A.]ID]H..[;]HADLAN]?]ADL.G.,]BN]'GB]'C,]DE.C.,]BN].N.*]?]"DJA,]H..3]G.A?./;]/ADD,.,]I>GDJ<>]B.*]I>.]LDJC,]L'H]DC]BN]">..
+:DC.&] JHI]:.ADL]I>.;].N.&]'C,]?I]L'H]:A..,?C<]EGD/JH.AN&]HD]?]A'N]I>.G.]'C,]:GD
+.]DJI]BN;]/?GHI]'?,]E'"
+.I*]'/I.G]H>'
+?C<]HJA/']EDL,.G]?CID]I>.]LDJC,]G'I>.G;]'L
+L'G,AN&]?]:'C,'<.,]BN]G?<>I].N.]'C,]">..
+:DC.]'H]:.HI]?]"DJA,*;]I>.]:JAA.I]>',]<DC.]"DBEA.I.AN]I>GDJ<>]BN]>.AB.I] JHI]':DK.]BN;]G?<>I].'G&]'C,]A./I]'] '<<.,&]<'E?C<]>DA.]?C]I>.]HI..A*]BN]A./I].N.;]L'H]HI?AA]/JC"I?DC?C<]'AA]G?<>I&]>DL.K.G&]HD]'/I.G]'],G?C
+]/GDB]BN;]"'CI..C&]?]HI'GI.,]/DGL'G,]'<'?C*;;]']A?IIA.]A'I.G]?].C"DJCI.G.,]'CDI>.G]A?.JI.C'CI]/GDB]DJG]"DBE'CN&;] '"
+]EDL.GH*]>.]>',]:..C]>?I]?C]I>.]HIDB'">&]:JI]L'H]HI?AA;]/?<>I?C<*]"GDJ">?C<]:.>?C,]']"DC"G.I.]L'AA&]>.]H>DL.,]B.]']E?AA:DM;]':DJI]QT]/..I]'L'N]I>'I]L'H]/JAA]D/] 'EH]L>D]L.G.]HI?AA]K.GN]BJ">;]'A?K.]'C,]/JAA]D/]/?<>I*]I>?H]HIGDC<]ED?CI]"DBB'C,.,]I>.]L>DA.]'G.';]'GDJC,]JH]'C,]L'H]>DA,?C<]JE]DJG]',K'C".]K.GN].//."I?K.AN*]?I]L'H;]':DJI]TY]/..I]ADC<]'C,]PT]/..I]L?,.&]"DCHIGJ"I.,]D/],DJ:A.]GDLH;]D/]H'C,Z/?AA.,]D?A],GJBH*]<G'::?C<]I>.]C.'G.HI]B.C&]L.].MEA'?C.,;]DJG]EA'C]D/]'II'"
+]'C,]L.CI]ID]LDG
+*]L?I>]']"DJEA.]D/]'JIDB'I?";]G?/A.B.C&] '"
+]"DK.G.,]I>.]G.'G].CIG'C".]L?I>]/?G.*]I'
+?C<]'CDI>.G;]B'C]'C,]']>?<>Z.MEADH?K.]:'C<'ADG.]IDGE.,D&]?]"G'LA.,]'GDJC,]ID]I>.;]/GDCI]'C,]D:H.GK.,]/DG]']/.L]B?CJI.H*]I>.C]L.]?C">.,]DJG]L'N]JE]ID;]I>.]HA?I]I>'I]H.GK.,]'H]']/GDCI].CIG'C".&]'C,]?]I>G.L]']<G.C',.]?C;]ID]
+..E],DLC]'CN] 'E]L>D]B?<>I]:.]?C"A?C.,]ID]ED
+.]']G?/A.]DJI]?C;]DJG]/'".H*;;]C.MI]L.]A?<>I.,]I>.]/JH.]DC]I>.]:'C<'ADG.&] 'BB.,]?I]?CH?,.]I>.;]E?AA:DM&]'C,]H"G'B:A.,]/DG]H>.AI.G*]I>.]/JH.]L'H]K.GN]H>DGI&]L.;]
+C.L&]'C,]L.]:'G.AN]>',]IJB:A.,]?CID]']C.'G:N]H>.AA]>DA.]L>.C;]L.]L.G.]DK.GL>.AB.,]:N]I>.]:A'HI]D/]I>.]:'C<'ADG.*],?GI]HEG'N.,;]'AA]DK.G]JH&]:?AADL?C<]'"G?,]HBD
+.]:A?C,.,]JH&]'C,]I>.]CJB:?C<;]"DC"JHH?DC],.'/.C.,]JH*]?C]']/.L]BDB.CIH]L.]/.AI]'AA]G?<>I]DC".;]BDG.&]'C,]']<A'C".]IDA,]JH]I>'I]L.]>',]"ADH.,]I>'I].CIG'C".;]E.GB'C.CIAN*]L.]LDG
+.,]DJG]L'N]:'"
+]ID]L>.G.]L.,]A./I] '"
+]EDL.GH&;]'C,]/DJC,]I>'I]>.,]B'C'<.,]ID]AD"'I.]']H>'E.,]">'G<.]D/]>?<>;].MEADH?K.]?C]I>.]B.'CI?B.*]I'
+?C<]I>?H&]L.]G.E.'I.,]DJG] D:ZZI>?H;]I?B.]:ADL?C<]I>.]G.'G].CIG'C".]H>JI*;;]I>'I]IDD
+]"'G.]D/]I>'I]E?AA:DM3] '"
+]ADD
+.,]A?
+.]>.]L'H]?C]EG.IIN;]:',]H>'E.&]'C,]?]JG<.,]>?B]ID]<D]<.I]HDB.]B.,?"'A]'II.CI?DC&]:JI]>.;]G./JH.,]'C,]BDK.,]DC]'ADC.]ID]I>.]C.MI] 'E]E?AA:DM]9L>.G.&]?]A'I.G;]A.'GC.,&]>.]L'H]
+?AA.,]?C]']H?C<A.Z>'C,.,]>.GD?"]'II'"
+]/DG]L>?">;]>.]L'H]'L'G,.,]I>.]B.,'A]D/]>DCDG0*;;'AA]DK.G]C'BJG]I>.G.]L.G.]H?B?A'G].M'BEA.H]D/]?C,?K?,J'A]?C?I?'I?K.*;I>.N]L.G.]C..,.,&]/DG]I>.]?HA'C,]L'H]"DK.G.,]L?I>],.CH.] JC<A.&;"DC"G.I.]/DGI?/?"'I?DCH&]',B?C?HIG'I?K.]:J?A,?C<H&]'C,]:'GG'"
+H*]?I;L'H],?//?"JAI]ID]BDJCI]'C]'GBDG.,]'II'"
+]JC,.G]I>.H.]"DC,?I?DCH*;B.'CL>?A.&]I>.] 'E'C.H.]JH.,]I>.B]ID]I>.?G]/JAA.HI].MI.CI]/DG]"DK.G]'C,;"DC".'AB.CI*].C.BN]G.H?HI'C".]'C,]EGD:A.BH]D/]B'?CI'?C?C<]JC?I]"DCI'"I;HADL.,]I>.]B'G?C.H]',K'C".*;;'B?,HI]'AA]D/]I>?H&]']B'G?C.],.BDA?I?DC]I.'B]I>G.L]']H'I">.A]">'G<.]D/;>?<>].MEADH?K.]?CID]'] 'E'C.H.]:JC
+.G]L>?">]IJGC.,]DJI]ID]:.]"G'BB.,;L?I>]IDGE.,D]L'G>.',H*]'C].CDGBDJH]:A'HI]D""JGG.,*]/GDB]D//]H>DG.&]'C;D//?".G]L'I">.,]'H]I>.]L>DA.]D/]C'BJG]?HA'C,],?H'EE.'G.,]/GDB]H?<>I;?C]']IG.B.C,DJH]:GDLC]"ADJ,]D/],JHI]'C,]H'C,]G'?H.,]:N]I>.].MEADH?DC*;DK.G>.',&]']B'G?C.]'GI?AA.GN]HEDII.G]/.AI]>?H]EA'C.]"'I'EJAI]JE]P&YYY;/..I]'C,].M"A'?B.,&]<G.'I]<D,]'AB?<>IN3]I>.]L>DA.],'BC]?HA'C,]>'H;:ADLC]JE3]DC]I>.]:.'">]'CDI>.G]D//?".G]G."'AA.,]I>'I]IGJC
+H]D/;E'AB]IG..H]'C,]">JC
+H]D/]"DC"G.I.]'H]A'G<.]'H]E'"
+?C<]"G'I.H]L.G.;/AN?C<]I>GDJ<>]I>.]'?G]A?
+.]B'I">]HI?"
+H****]I>.]>DA.]A./I]L>.G.]I>.;:AD"
+>DJH.]HIDD,]L'H]'H]A'G<.]'H]']/'?GZH?O.,]HL?BB?C<]EDDA*]I>.;"DAJBC]D/]HBD
+.]GDH.]ID]DK.G]P&YYY]/..I]?C]I>.]'?G&]'C,]I>.].MEADH?DC;"'JH.,]I>.],.'I>H]D/]QY]B'G?C.H]'C,]LDJC,.,]PYY]DI>.GH]?C]I>.]'G.'*;;=?AAJHIG'I?DC$]GD?ZC'BJG]?HA'C,H;;EG.E'G.,]:N]>?HIDG?"'A],?K?H?DC]J*H*]B'G?C.]"DGEH`;;/?C'AAN&]'I]PXRY&]"DADC.A]/G'C
+A?C]'*]>'GI&]"DBB'C,.G]D/]I>.]QSI>;B'G?C.H]DG,.G.,]>?H]B.C]ID],?<]?C]/DG]I>.]C?<>I*]I>.]IGDDEH]>',]"DB.;'"GDHH]']<DD,]EDGI?DC]D/]I>.]?HA'C,*]CDL]I>.N]LDJA,]>DA,]I>.]<GDJC,;<'?C.,]'C,]<.I]G.',N]/DG]I>.]BDGGDL*]DC.]G?/A.B'C&]GD:.GI]/*]<G'/&;A'I.G]LGDI.]':DJI]I>'I]I?B.$;;]I>GDJ<>DJI]I>.]C?<>I]I>.]/A..I]H.CI]/A'G.H]H
+NL'G,&]A?<>I?C<]I>.;]?HA'C,H]'H]I>.]/A'G.H],G?/I.,]L?I>]I>.]EG.K'?A?C<]L?C,*]<>DHIAN;]/A?"
+.G?C<]A?<>I]L'H]"'HI]/GDB]I>.]/A'G.H]'H]I>.N],G?/I.,]'ADC<;]DC]I>.?G]E'G'">JI.H*]A'N?C<]?C]DJG]/DM>DA.&]BN]:J,,N]'C,]?]L.G.;]L'I">?C<&]L'?I?C<&]'C,]HIG'?C?C<]DJG].'GH]IGN?C<]ID]/?AI.G]DJI]I>.;]
+CDLC]HDJC,H*;;]DJG]/DM>DA.]?C]I>'I]H'C,]L'H]':DJI]H?M]/..I]ADC<]:N]ILD]/..I]?C;],.EI>]'C,] JHI]':DJI]L?,.].CDJ<>]ID]>DA,]I>.]ILD]D/]JH*]H?C".]?;]>',].'I.C]DCAN]BN],]G'I?DC]H?C".]A.'K?C<]I>.]H>?E&]?]L'H]>JC<GN*;],]G'I?DCH]L.G.]:?II.GZHL..I]">D"DA'I.]:'GH]':DJI]'C]?C">]'C,]';]>'A/]HFJ'G.]'C,]L.G.]HJEEDH.,]ID]:.]/JAA]D/].C.G<N*]?]G.BDK.,]']
+;]G'I?DC]/GDB]BN]E'"
+]'C,]DE.C.,]?I*]
+]G'I?DCH]"'B.]?C]']:DM]':DJI;]I>.]H?O.]D/]']"G'"
+.G] '"
+]:DM]'C,]>',]']L'I.GEGDD/]"D'I?C<*]I>.H.;]G'I?DCH]"DCI'?C.,]']HB'AA]I?C]D/]EDL,.G.,]"D//..]DG]A.BDC',.&]HDB.;]GDJC,]>'G,]"'C,?.H&]']E'"
+'<.]D/]I>G..]"?<'G.II.H&]'C,]']I?C]':DJI;]I>.]H?O.]D/]']IJC'Z/?H>]"'C]"DCI'?C?C<].?I>.G]">..H.&]>'H>&]DG].<<H;]L?I>]']A?IIA.]:'"DC*]L.],?C.,]DC]DJG]G'I?DCH&],G'C
+]L'I.G]/GDB]DJG;]"'CI..CH&]'C,]EG.E'G.,]ID]H.IIA.]?C]/DG]I>.]C?<>I****;;]'/I.G]/?C?H>?C<]">DL]L.].A."I.,]ID]I'
+.]ILDZ>DJG]L'I">.H&]DC.]DC;]<J'G,]L>?A.]I>.]DI>.G]HA.EI*]'AHD]L.]B',.]HJG.]L.]
+C.L]L>.G.]DJG;]:J,,?.H]/DM>DA.H]L.G.&]:DI>]DC]I>.]A./I]'C,]G?<>I]D/]JH*]I>JH]L.;]L.G.]H.I]JE]HD]I>'I]'CNDC.]ID]DJG]/GDCI]LDJA,]:.]'C].C.BN*]DJG;]/?GHI]C?<>I]?C]"DB:'I]>',]HI'GI.,*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VYUXS;;A'C,?C<]K.>?"A.H&]IG'"
+.,]9AKIH0].FJ?EE.,]L?I>]GD"
+.I]A'JC">.GH]C.L]ID;I>.]SI>]B'G?C.],?K?H?DC&]">JGC]IDL'G,H]I>.]'HH'JAI]:.'">.H]D/]GD?ZC'BJG;DC],ZEAJH]DC.*`;;:./DG.],'LC]I>.] 'E'C.H.]BDJCI.,]'],.I.GB?C.,]"DJCI.G'II'"
+]L>?">;L'H]/?C'AAN]G.EJAH.,*]C.K.GI>.A.HH&]?I]L'H]']IG'<?"]C?<>I]/DG]DC.;E'GI?"JA'G]/'B?AN*]']PXZN.'GZDA,]B'G?C.]EG?K'I.]/?GHI]"A'HH]'C,]>?H;SSZN.'GZDA,]/'I>.G&]']"DGEDG'A&]>',]:..C]ID<.I>.G]?C]I>.]H'B.]"DBE'CN;:'"
+]?C]"'A?/DGC?'&]:JI]I>.]HDC]L'H]>DHE?I'A?O.,]L?I>]']B?CDG]?AAC.HH;'C,]I>.C]IG'CH/.GG.,]ID]'CDI>.G]DJI/?I*]I>.]/'I>.G]:D'G,.,]>?H]H>?E;EG.E'G.,]ID]H'?A]/DG]"DB:'I]'ADC.&]:JI]I>.C]>?H]HDC]L'H]/DJC,]HIDL.,;'L'N]DC]?I]?C]DG,.G]ID]:.]L?I>]>?H]/'I>.G*]I>.]NDJC<]B'C]L'H]I'
+.C;D//]'C,]L'H]EA'".,]JC,.G]'GG.HI*]>?H]BDI>.G&]>DL.K.G&]I.A.E>DC.,]I>.;"DBB'C,'CIH]D//?".]?C]L'H>?C<IDC]'C,]IDA,]I>.]HIDGN]D/]>.G]HDCH;.//DGI]ID]:.]ID<.I>.G]L?I>]>.G]>JH:'C,*]I>.]">'G<.H]L.G.],GDEE.,]'C,;I>.]ILD]L.G.]G.JC?I.,]/DG]I>.]IG?E]ID]I>.]B'GH>'AAH*]I>.]HDC]L'H]
+?AA.,;I>'I]/?GHI]C?<>I]DC]C'BJG*]I>.]/'I>.G]L.CI]DC]/?<>I?C<ZZ'ADC.*;;=?AAJHIG'I?DC$]IGDDEH]D/]I>.]QSI>]B'G?C.H]C.'G]I>.]:.'">]DC]C'BJG&;I>'C
+/JA]/DG]>'K?C<]B',.]?I]H'/.AN]'H>DG.&]'G.]CDL]'L'?I?C<]I>.;?C.K?I':A.]LDG,]ID]G.HJB.]I>.]'II'"
+*;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VYQYX;`;;.'GAN]DC]I>.]'/I.GCDDC]D/]I>.]C.MI],'N&]Q]/.:GJ'GN&],]EAJH]Q&]I>.]QSI>;B'G?C.H]/?C?H>.,]?IH]"DCFJ.HI]D/]C'BJG&]'C,]I>.]?HA'C,]L'H],."A'G.,;H."JG.,*]?C]I>.]/?C'A]BDB.CIH]D/]"DB:'I&]>DL.K.G&]A?.JI.C'CI]"DADC.A;'FJ?AA'] *],N.HH&]"DBB'C,.G]D/]I>.]PHI]:'II'A?DC&]L'H]HI'C,?C<]ID;,?G."I]I>.]A'HI]'II'"
+]D/]>?H]B.C*]']:JGHI]D/]B'">?C.]<JC]/?G.]G?,,A.,;>?H]:D,N&]'C,]>.]:."'B.]I>.]BDHI]H.C?DG]D//?".G]ID],?.]?C]I>.]:'IIA.*;/DG]>?H]HJE.G:]A.',.GH>?E]JC,.G]/?G.]>.]L'H]'L'G,.,]']EDHI>JBDJH]B.,'A;D/]>DCDG*;;=?AAJHIG'I?DC$;;]B'G?C.]"DGEH]'GI]"DAA."I?DC;;']L'I.G"DADG]:N]"DB:'I]'GI?HI]AI"DA],DC'A,]A*],?"
+HDC],.E?"IH]B.B:.GH;D/]']B'G?C.]/?G.]I.'B]?C]']"ADH.Z?C]'II'"
+]DC]'] 'E'C.H.],./.CH?K.;EDH?I?DC]DC]C'BJG*`;;'"GDHH]I>.]H'C,]HE?I&]DC]GD?&]?I]>',]:..C]'],?//.G.CI]HIDGN*]I>?H;?HA'C,]L'H]C.'GAN]:'G.&]/DG]?I]L'H]BDHIAN]"DK.G.,]:N]I>.]'?G/?.A,;GJCL'NH*]L>.C]I>.]QR,]B'G?C.H]>?I]I>.]:.'">.H]DC],]EAJH]P&]I>.;/?.G".C.HH]D/]I>.]EG.ZA'C,?C<]:DB:'G,B.CI]EG.K.CI.,]I>.] 'E'C.H.;,./.C,.GH]/GDB]BDJCI?C<]']"DDG,?C'I.,],./.CH.*]HB'AA]<GDJEH]D/]B'G?C.;G?/A.B.C] D?C.,]I>.?G]G.<?B.CIH]'II'">.,]I'C
+H]?C]']G'".]'"GDHH]ID;I>.]/'G]H?,.]D/]I>.]?HA'C,*]I>?H]">'G<?C<]HINA.]"'JH.,]"DCH?,.G':A.;"DC/JH?DC]'H]ID]L>D]L'H]L>.G.*]G.DG<'C?O.,]?CID]BDG.]"D>.G.CI]JC?IH&;I>.]B.C]B',.]']/?C'A]DG,.GAN],G?K.]ID]/?C?H>]I>.] D:*;;=?AAJHIG'I?DC$]B.B:.GH]D/]I>.]QR,]B'G?C.H]DC]GD?]IJGC]ID]ADD
+]?C;'HIDC?H>B.CI]'I]I>.]:A'"
+]EAJB.]D/]I>.]<?'CI].MEADH?DC]L>?">]IDD
+]B'CN;A?K.H]?C]I>.]QSI>]B'G?C.H]DC]C'BJG*;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VPXQP;`;;?C]HE?I.]D/]I>.]G'E?,]EGD<G.HH]DC]GD?&]I>.G.]L.G.]HI?AA]HDB.]B' DG;.C.BN]HIGDC<ED?CIH]L>?">]>',]ID]:.],.'AI]L?I>*]'C]'/I.GZ'"I?DC]G.EDGI;D/]I>.]Q,]:'II'A?DC],.H"G?:.,]DC.].M'BEA.]D/]I>?H]E.G?ADJH]LDG
+]?C;B'II.G]D/]/'"I]I.GBH$;;]=I>.G.`]L'H]']:AD"
+>DJH.]"DCHIGJ"I.,]D/]G.?C/DG".,]"DC"G.I.;]'EEGDM?B'I.AN]I>G..]/..I]I>?"
+*]?I]>',]I>G..]<JCEDGIH&]DC.].'">;]/'"?C<]CDGI>&].'HI&]'C,]L.HI&]'CDI>.G]?C,?"'I?DC]D/]I>.].C.BNH;]B?HI'
+.C]'HHJBEI?DC]I>'I]I>.]'B.G?"'CH]LDJA,]'II'"
+]/GDB]I>.]H.';]G'I>.G]I>'C]I>.]A'<DDC]H>DG.*]ILD]>.'KN]>?IH]>',]:..C]B',.]DC]I>.;]:AD"
+>DJH.&]DC.]'EE'G.CIAN]:N]PSZ?C">]DG]PUZ?C">]H>.AAH]'C,]I>.;]DI>.G]:N]'C]'.G?'A]:DB:*]C.K.GI>.A.HH&]I>.]EDH?I?DC]>',]CDI]:..C;],.BDA?H>.,****;;]=I>.]:'II'A?DC]"DBB'C,.G&]A?.JI.C'CI]"DADC.A].,L'G,] *],?AADC`;]I>.C]DG,.G.,]"DBE'CN]<]ID]I'
+.]I>.]:AD"
+>DJH.*]I>.]"DBE'CN;]"DBB'C,.G]/?GHI]H.CI]/DGL'G,]']VTBB]>'A/IG'"
+&]L>?">]/?G.,]/?K.;]GDJC,H]'<'?CHI]I>.]HI..A],DDG*]'I]I>?H]ED?CI]'],.BDA?I?DC]HFJ',;]"'B.]JE&]'C,]?IH]"DBB'C,.G]KDAJCI..G.,]ID]
+CD"
+]DJI]I>.]EDH?I?DC;]L?I>].MEADH?K.H*]L>?A.]I>.]>'A/IG'"
+]"DCI?CJ.,]ID]/?G.&]?C/'CIGN;]EA'IDDCH]BDK.,]JE]DC].'">]/A'C
+]D/]I>.]?CHI'AA'I?DC*]I>.],.BDA?I?DC;]HFJ',]EA'".,]">'G<.H]'I]I>.]EDGIH]'C,]EJH>.,]:'C<'ADG.]IDGE.,D.H;]I>GDJ<>]']H>.AA]>DA.]?C]I>.]GDD/****;;]".'H.]/?G.]L'H]I>.C]DG,.G.,&]'C,]'/I.G]>'C,Z<G.C',.H]L.G.]I>GDLC;]?CH?,.]I>.],DDG&]>'A/]']HFJ',]D/]?C/'CIGN]L.CI]?CID]?CK.HI?<'I.*;]JC/DGIJC'I.AN&]I>.].C<?C..GH]D/]I>.],.BDA?I?DC]HFJ',]>',]CDI]<DI;]I>.]LDG,]ID]".'H.]/?G.&]'C,]>',]EA'".,]']H>'E.,]">'G<.]'I]DC.]D/;]I>.]EDGIH]L>?A.]I>.]?C/'CIGN]L'H]HI?AA]?CH?,.*]AJ"
+?AN&]CD]DC.]L'H;]>JGI&]:JI]'H]I>.]"DBE'CN]"DBB'C,.G]G.EDGI.,&]']K.GN]JC,?<C?/?.,;]'C,]>JGG?.,].M?I]L'H]B',.]:N]'AA]"DC".GC.,*]?CH?,.]L.G.]I>G..;]>.'KN]B'">?C.]<JCH&]']FJ'CI?IN]D/]'BBJC?I?DC&]'C,]I>.]:D,?.H]D/;]I>G..] 'E'C.H.*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VYQSP;;DC.]D/]I>.]K.GN]/.L] 'E'C.H.]/?C'AAN]E.GHJ',.,]ID]HJGG.C,.G]?C]I>.;GD?ZC'BJG]DE.G'I?DC&]I>?H]HIG?EE.,Z,DLC]HDA,?.G]?H]L.AA]"DK.G.,]:N;HJHE?"?DJH]B'G?C.]G?/A.B.C]'H]>.]A.'K.H]>?H]>?,?C<]EA'".]?C]']B'HH?K.;:JI]H>.AAZH>'II.G.,]:AD"
+>DJH.*`;;B'CN] 'E'C.H.]>',]ID]:.]/AJH>.,]DJI]D/]DG]:ADLC]JE]?C]I>.]'?G/?.A,H;,G'?C'<.],?I">.H]'C,]"JAK.GIH&]:JI]:N]PWYY]I>'I],'N&],]EAJH]P&]GD?]>',;:..C]H."JG.,*]9H."JG.,]H..B.,]']HDB.L>'I]/A.M?:A.]I.GB]L>.C]I>.]/?GHI;H.GK?".]D/]B'HH&]>.A,]I>.]C.MI],'N&]L'H]?CI.GGJEI.,]:N] 'E'C.H.]H>DIH*0;:N]U]/.:GJ'GN&]>DL.K.G&]I>.]<GDJC,].A.B.CIH]D/]']B'G?C.]'?G"G'/I]L?C<;L.G.].CH"DC".,]'I]I>.]'?G/?.A,&]EG.E'G?C<]/DG]I>.]'GG?K'A]D/]I>.?G;EA'C.H]?C]/?K.]BDG.],'NH*]/DG]I>.].CI?G.]G.B'?C,.G]D/]I>.]L'G]I>.H.;EA'C.H]EDJC,.,]I>.]:NZE'HH.,]'IDAAH]L?I>]HJ">]EDL.G]I>'I]I>.] 'E'C.H.;DC]I>.B]L.G.].A?B?C'I.,]/GDB]'CN]/JGI>.G]GDA.]?C]I>.]L'G*]9I>.G.]L'H;DC.]HJGEG?H.] 'E'C.H.]'?G]G'?,]DC]GD?&]HI'<.,]/GDB]I>.]B'G?'C']?HA'C,H&;DC]PQ]/.:GJ'GN*]I>?H]"'JH.,]']CJB:.G]D/]"'HJ'AI?.H]'C,]B' DG],'B'<.]ID;B'I.G?'A*0;;=?AAJHIG'I?DC$]B'G?C.]I'C
+H]'C,]?C/'CIGN]LDG
+.,].//."I?K.AN]ID<.I>.G;L>.C]I>.]I.GG'?C]E.GB?II.,*;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VYQYR;`;;I>.]G.E'?G]D/]I>.]'?G/?.A,]'C,]?IH]FJ?"
+]G.IJGC]ID]'"I?DC]L'H]']IG?:JI.;ID]I>.]H
+?AAH]D/]:DI>]I>.]QYI>]B'G?C.H&]'C].C<?C..G]G.<?B.CI&]'C,]I>.;PYXI>]C'K'A]"DCHIGJ"I?DC]:'II'A?DC]9H.':..H0*]I>?H]'">?.K.B.CI]L'H]DC.;BDG.]?AAJHIG'I?DC]D/]I>.]K?I'A]GDA.]EA'N.,]:N]'],?OON?C<]A?HI]D/]JC?IH;I>'I]HJEEDGI.,]I>.]'HH'JAI]G?/A.]:'II'A?DCH*]:.H?,.H]I>.]K'HI]'GB',']D/;C'K'A]EA'C.H&]H>?EH&]'C,]A'C,?C<]"G'/I&]I>.G.]L.G.]C'KN]">'EA'?CH]'C,;"DGEHB.C]9ILD]HE."?'AI?.H]L>?">]'G.]'AL'NH]C'KN0*]?C]',,?I?DC]ID]I>.;B'G?C.]'?G&]'GI?AA.GN&]'C,].C<?C..G]JC?IH&]I>.G.]L.G.]I>.]I'C
+H&]>.'KN;L.'EDCH&]BDIDG]IG'CHEDGI&]FJ'GI.GB'HI.G&]H?<C'AH&]'C,]>.',FJ'GI.GH;HJEEDGI?C<]JC?IH*]'C]'BE>?:?DJH]DE.G'I?DC&]ID]:.]HJ"".HH/JA&]BJHI]:.]';/?C.AN]IJC.,&]>?<>AN]IG'?C.,] J<<.GC'JI]I>'I],.E.C,H]DC]'AA]?IH]E'GIH;LDG
+?C<]HBDDI>AN]ID<.I>.G]'C,]I>?H]L'H]"A.'GAN],.BDCHIG'I.,]?C]I>.;B'GH>'AAH*;;=?AAJHIG'I?DC$]I>?H]L'I.G"DADG]:N]AI"DA],DC'A,]A*],?"
+HDC&]JHB"G&;EDGIG'NH]B'G?C.H]G.K?K?C<]I>.BH.AK.H]'C,]I'
+?C<]?I].'HN]'/I.G]I>.;/?<>I?C<]C.'G]:AD"
+>DJH.]H
+.A.IDC*`;;I>.]"DCFJ.HI]D/]GD?ZC'BJG]>',]:..C]']G.A'I?K.AN].'HN]DE.G'I?DC]L>.C;"DBE'G.,]ID]HDB.]D/]I>.]DI>.G]B'G?C.]"'BE'?<CH]?C]I>.]E'"?/?"*]9'I;I'G'L'&]/DG].M'BEA.&]BDG.]I>'C]R&RYY]B.C]>',]:..C]
+?AA.,]DG]LDJC,.,]?C;VU]>DJGH*0]I>.]SI>],?K?H?DCH]K?"IDGN]"'B.]'I]']"DHI]D/]RPR]B'G?C.H]'C,;"DGEHB.C]
+?AA.,]'C,]TYQ]LDJC,.,*]:N]"DCIG'HI&]I>.],./.'I.,] 'E'C.H.;<'GG?HDC]CJB:.G.,]'C].HI?B'I.,]R&TURZZL?I>]'AA]:JI]']>'C,/JA]D/]I>.B;CDL],.',*;;=?AAJHIG'I?DC$]I>.]DC".]>.'K?AN]DK.G<GDLC]I.GG'?C]D/]C'BJG]L'H]'ABDHI;"DBEA.I.AN],.CJ,.,]'I]I>.].C,]D/]I>.]:'IIA.]:N]I>.]"DB:?C'I?DC]D/]C'K'A;<JC/?G.]'C,]:DB:?C<*;;]C'I?DC'A]'G">?K.H]E>DID]PQVZCZVQSYV;`;;ILD]BDG.]I'H
+H]G.B'?C.,]/DG]I>.]SI>],?K?H?DC!]I>.]/?GHI]L'H]BDEE?C<]JE;I>.]G.HI]D/]I>.]?HA.IH]?C]I>.]CDGI>.GC]ILDZI>?G,H]D/]I>.]'IDAA*]I>.;QTI>]B'G?C.H&]L>?">]>',]HJEEDGI.,]I>.]'II'"
+H]D/]I>.]QR,]'C,]QSI>&;IDD
+]D//]DC]']H.G?.H]D/]?HA'C,Z>DEE?C<]IG?EH]DC]:D'G,]I>.?G]AKIH*;I>.]G.<?B.CI]">."
+.,]DJI]BDG.]D/]I>.].MDI?"'AAN]C'B.,]?HA.IH]HJ">]'H;:D<<.GA'EE&]B'GHJ<'AI&]<.<?:J&]DC?DIID&]'C,].GJ*]I>.]QTI>]/DJC,]CD;G.H?HI'C".]'C,]:N],]EAJH]V]?I]>',]"DK.G.,]'AA]TY]D/]I>.]?HA.IH]I>'I;L.G.]?IH]D: ."I?K.H*]I>?H]'HH?<CB.CI]L'H]']IDI'A]">'C<.]/GDB]L>'I]I>.;G.<?B.CI]>',].ME.G?.C".,]'GDJC,]GD?ZC'BJG*]DC.]LG?I.G&]"'GA]L*]EGD.>A&;,.H"G?:.,]I>.].ME.,?I?DC]I>?H]L'N$;;]?I]L'H]DC]I>?H] JC
+.I]I>'I]I>.]B.C]D/]I>.]QTI>]<DI]ID]
+CDL]I>.;]B'GH>'AA]?HA'C,]C'I?K.H&]/DG]?I]L'H]I>.H.]B'G?C.H]L>D]/G..,;]I>.B]/GDB] 'E'C.H.],DB?C'I?DC*]DC]B'CN]?HA.IH&]:?KDJ'"
+?C<;]DK.GC?<>I&]I>.]C'I?K.H]'C,]B'G?C.H]<DI]ID<.I>.G]'C,]H'C<]>NBCH!;]I>.]B'GH>'AA]?HA'C,.GH]>',]:..C]">G?HI?'C?O.,]B'CN]N.'GH]:./DG.&;]'C,]B?HH?DC'G?.H]>',]I'J<>I]I>.B]HJ">]HDC<H]'H]DCL'G,]">G?HI?'C;]HDA,?.GH*]
+]G'I?DCH]'C,]"?<'G.II.H]'AHD]B',.]']:?<]>?I]L?I>;]I>.B*]'C,]BDG.]I>'C]DC.]B'G?C.]H.CIGN&]L'A
+?C<]EDHI]?C]/GDCI]D/;]']C'I?K.]"'BE&]IDD
+]JE]I>.]?HA'C,.GH],G.HH]'C,]LDG.]DCAN]']AD?C;]"ADI>ZZJHJ'AAN]']IDL.A]/GDB]']ADH]'C<.A.H]>DI.A*;;I>.]/?C'A]I'H
+]I>'I]G.B'?C.,]/DG]I>.],?K?H?DC]L'H]']B?H.G':A.]DC.*]GD?;'C,]C'BJG]L.G.]A?II.G.,]L?I>],.',] 'E'C.H.!]I>.]HI.C">]L'H]DK.GEDL.G?C<;'H]I>.?G]:D,?.H]EJIG./?.,]?C]I>.]:A'O?C<]IGDE?"'A]HJC*]'AA]>'C,H&;D//?".GH]'C,].CA?HI.,&]L.G.]EJI]ID]LDG
+],'N]'C,]C?<>I]DC]:JG?'A;,.I'?AH*]>.N&]?] JHI]/?C?H>.,]ILD],'NH]D/]:GJI'A]"DB:'I3]L.],DCI;>'K.]'CN]<ADK.H]DG].FJ?EB.CI]/DG]I>?H3ZZIDD]:',&] JHI]HI'GI],D?C<]?I;'CNL'N3]>.'AI>]"DC,?I?DCH]L.G.]HD]:',]I>'I]P&TYY]B.C]?C]I>.],?K?H?DC;L.G.]HJ//.G?C<]/GDB],NH.CI.GN]L>.C]I>.]IGDDEH]/?C'AAN]G.:D'G,.,;IG'CHEDGIH]/DG]I>.] DJGC.N]:'"
+]ID]I>.?G]G.'G]:'H.]'I]B'J?]?C]I>.;>'L'??'C]?HA'C,H*;;=H?,.:'G]9E'<.]V0$]C'K'A]HJEEDGI;;I>.]?C/'CIGN]'HH'JAI]JC?IH]?C]I>.]B'GH>'AAH]DE.G'I?DCH]L.G.]"'GG?.,;:N]'C]?C"G.,?:A.]'GG'N]D/]H>?EH],.H?<C.,]ID]E.G/DGB]K.GN]HE."?'A?O.,;/JC"I?DCH*]'AHD]?C"AJ,.,]L.G.]"DCK.GI.,],.HIGDN.GH*]I>.]'BE>?:?'C;IG'"IDGH]"'GG?.,]I>.]?CK',?C<]B'G?C.H]?C]ID]I>.]:.'">.H&]HJEEA.B.CI.,;:N]I>.]DA,.G]G'BE.,]A'C,?C<]"G'/I*]',,.,]ID]I>.H.]L.G.]'] JB:A.]D/;'"GDCNBH$]A"?&]AHI&]AHB&].I"*&]/DG]?C/'CIGN&]GD"
+.IH&]I'C
+H&]'C,]IGJ"
+H*;;CD]A'C,?C<H]LDJA,]>'K.]:..C]HJ"".HH/JA&]>DL.K.G&]L?I>DJI]I>.]"GJ"?'A;HJEEDGI]D/]C'K'A]<JC/?G.]'C,]'.G?'A]:DB:'G,B.CI*]I>.]/'HI]I'H
+]/DG".;I>'I]GD'B.,]I>.]E'"?/?"]'C,]I>.]HJEEDGI]<GDJEH]L>?">]HIDD,]D//]I>.;?HA'C,]D: ."I?K.H]L.G.]K?HJ'A]EGDD/]D/]I>.],.',AN]HIG?
+?C<]EDL.G]I>'I;>',]:..C]G.:DGC]?C]I>.]J*H*]C'KN]?C]I>.]ILD]N.'GH]H?C".]I>.],.:'"A.;'I]E.'GA]>'G:DG*]C.'GAN]'AA]I>.]DA,&]HADL]:'IIA.H>?EH]L>?">]>',]A'?C;H>'II.G.,]?C]I>.]BJ,]L.G.]:'"
+]?C]'"I?DC&]'C,]CDL]L.G.] D?C.,]:N;:G'C,]C.L&]/'HI]"DJCI.GE'GIH&]'C,]I>.]/'B?A?'G]DA,]E.'".I?B.]"'GG?.GH;L.G.]CDL]HJEEA.B.CI.,]:N]']HI.',N]/ADL]D/]C.L]/A..I]"'GG?.GH]'C,]I>.;?CCDK'I?DC]D/]HB'AA.G].H"DGI]"'GG?.GH*;;I>?H]?H]I>.]GDAA]"'AA]D/]I>.]H>?EH]L>?">]EDJG.,]?C]I>.?G]/?G.]:./DG.;'C,],JG?C<]I>.]A'C,?C<H$;;:'IIA.H>?EH$]I.CC.HH..]9::]PR0&]"DADG',D]9::]ST0&]B'GNA'C,]9::;SU0&]E.CCHNAK'C?']9::]RW0&]?,'>D]9::]SQ0&]C.L]B.M?"D]9::]SY0&]'C,;B?HH?HH?EE?]9::]SP0*;;>.'KN]"GJ?H.GH$]ADJ?HK?AA.]9"']QW0&]?C,?'C'EDA?H]9"']RT0&;EDGIA'C,]9"']RR0&]B?CC.'EDA?H]9"']RU0&]H'C]/G'C"?H"D]9"']RW0&]'C,;C.L]DGA.'CH]9"']RQ0*;;A?<>I]"GJ?H.GH$]H'CI']/.]9"A]UY0&]BD:?A.]9"A]UR0&]'C,]:?ADM?]9"A;WY0*;;"'GG?.GH$]H'G'ID<']9"K]R0&]EG?C".IDC]9"KA]QR0&]A'C<A.N]9"KA]QW0&;.CI.GEG?H.]9"K]U0&]NDG
+IDLC]9"K]PY0&]:.AA.'J]LDD,]9"KA]QS0&;?CIG.E?,]9"K]PP0&].HH.M]9"K]X0&]"':DI]9"KA]QV0&]"DLE.CH]9"KA;QT0&]BDCI.G.N]9"KA]QU0&]'C,]:JC
+.G]>?AA]9"K]PV0&]EAJH]H?M].H"DGI;"'GG?.GH*;;,.HIGDN.GH$]I>.]
+L' 'A.?C]'IDAA]A'C,?C<H]>',]SY]?C],?G."I]HJEEDGI*;`;;I>.]'GBN]'II'"
+$]
+L' 'A.?C;;?C]'""DG,'C".]L?I>]I>.]DK.G'AA]"'BE'?<C]EA'C]/DG]I>.]H.?OJG.]D/]I>.;B'GH>'AA]?HA'C,H&]I>.]'GBNH]'II'"
+]DC]
+L' 'A.?C]?HA'C,]'I]I>.]HDJI>;.C,]D/]I>.]'IDAA]:.<'C]?C].M'"I]HNC">GDC?O'I?DC]L?I>]I>.]B'G?C.]'HH'JAI;?C]I>.]CDGI>*]I>.]H'B.]HD/I.C?C<ZJE]EGD".HH]L'H]JH.,]DC],Z,'N&]RP; 'CJ'GN&]L?I>]']A'G<.]/DG".]D/]L'GH>?EH]'C,]EA'C.H]EDJG?C<]DC]';:A'C
+.I]D/]>?<>].MEADH?K.*]I>.]C'KN&]/DG]?CHI'C".&]/?G.,]V&YYY]H>.AAH*;:."'JH.]D/]I>.]AD"'I?DC]D/]I>.]?HA.IH]?BB.,?'I.AN]HJGGDJC,?C<]?IH;B'?C]D: ."I?K.&]I>.]VI>]?C/'CIGN],?K?H?DC]L'H]':A.]ID]/DAADL]']EA'C;?,.CI?"'A]ID]I>.]B'G?C.H&]L?I>]I>.]PVI>]?C/'CIGN]G.<?B.CI]"A.'G?C<]I>.;L'N]/DG]EA'".B.CI]D/]"ADH.Z:N]HJEEDGI?C<]'GI?AA.GN*]I>.]PSTI>]/?.A,;'GI?AA.GN]:'II'A?DC]I>.C]EGD"..,.,]ID]?CJC,'I.]I>.]I'G<.I]L?I>]QW&YYY;GDJC,H*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VPXQY;;JH?C<]E'AB]/GDC,H]/DG]"DC".'AB.CI&]ILD]B'G?C.H]"'G./JAAN]H"DJI]DJI]I>.;I.GG'?C]'>.',]D/]I>.B]DC]GD?]?C]']/?G./?<>I]L?I>]I>.] 'E'C.H.]/DGL'G,;D/]I>.?G]EDH?I?DC*`;;I>.C&]DC],]EAJH]P&]I>.]G?/A.B.C]D/]I>.]RQ,]'C,]PWSI>]?C/'CIGN;G.<?B.CIH]A'C,.,]DC]
+L' 'A.?C]?HA'C,]?IH.A/*]:."'JH.]D/]EG.K?DJH] D?CI;G.>.'GH'AH]>.A,]?C]>'L'??]I>.]'BIG'"H]"'GG?.,]?C]I>.]'HH'JAI]IGDDEH;L?I>]HBDDI>C.HH]'C,].//?"?.C"N*]?C]',,?I?DC&]B' DG]<.C.G'A]">'GA.H]>*;"DGA.II&]I>.],?K?H?DC]"DBB'C,.G&]>',]'C]'HH.B:A'<.]D/],J
+LH]9'BE>?:?DJH;IGJ"
+H]'AL'NH]"'AA.,],J"
+H0]'K'?A':A.&]'C,]?I]EGDK.,]K'AJ':A.]?C;/.GGN?C<]EG?DG?IN]HJEEA?.H]'H>DG.]ID]I>.]/?<>I?C<]B.C*;;=?AAJHIG'I?DC$]']G?/A.B'C]D/]I>.]QR,]B'G?C.H]BDK.H]HADLAN]E'HI]'; 'E'C.H.]'?GEA'C.]'C,]']>'C<'G],.HIGDN.,]DC]GD?]:N]C'K'A]<JC/?G.*]I>.;G?/A.]HAJC<]DK.G]>?H]H>DJA,.G]'C,]I>.]', '".CI]B'G?C.]"'GGN?C<]HJEEA?.H;?C,?"'I.]I>'I]"DB:'I]?H]CD]ADC<.G]?BB?C.CI*;;]C'I?DC'A]'G">?K.H]E>DID]PQVZ<LZPQTRZVYRST;`;;DC".]'H>DG.&]I>.]'HH'JAI]JC?IH]/DJC,]L?,.HEG.',],.K'HI'I?DC]/GDB]I>.;EG.?CK'H?DC]:DB:?C<]'C,]H>.AA?C<*]HB'H>.,]H.'L'AAH&]JEGDDI.,]IG..H&;,.BDA?H>.,]:J?A,?C<H&]H"'GG.,]E?AA:DM.H]L.G.].K.GNL>.G.*],J<]?C]'B?,HI;'AA]I>?H],.:G?H&]I>.] 'E'C.H.]/DJ<>I]G.HDAJI.AN*]I>?H]
+?C,]D/]"ADH.;"DB:'I]JHJ'AAN]/DG".,]I>.]?HHJ.],DLC]ID]I>.]?C,?K?,J'A]A.K.A*]'C]'GBN;D//?".G&]A?.JI.C'CI]"DADC.A]H*A*'*]B'GH>'AA&]L>D]A'I.G]?CI.GK?.L.,;I>.]IGDDEH&]<'K.]I>?H]'""DJCI]D/]>DL]I>.N],.'AI]L?I>]I>.],.',AN; 'E'C.H.]HE?,.G]>DA.H]I>.N].C"DJCI.G.,$;;]I>.]>DA.H]L.G.].K.GNL>.G.*].'">]DC.]>',]ID]:.]H.'G">.,]/GDB]"ADH.;]JE*].K.GN]HEDI]L>.G.]']B'C]B?<>I]:.]>?,?C<]>',]ID]:.]HI'::.,]DJI*;]HD]<G.'IAN]L'H]I>.]:.'">]A?II.G.,]L?I>]:GD
+.C]/DA?'<.]I>'I]?I]L'H;]A?
+.]ADD
+?C<]I>GDJ<>]']>'NHI'"
+]/DG]']/.L]ED?HDC.,]C..,A.H****;;]I>.]/?G.]L>?">]"JI]I>.]B.C],DLC]"'B.]/GDB]I>.]HE?,.G]>DA.H]/'GI>.G;]JE]I>.]A?C.*]?I]L'H]I>.]
+?C,]D/]:?II.G]<D?C<]I>'I]B',.]?I]C.".HH'GN;]/DG]I>.] JC?DG]A.',.GH]ID]EGD,]I>.?G]B.C]"DCHI'CIAN*]I>.]A.',.G]D/;]I>.]R,]HFJ',]>',]:..C]IGN?C<]ID]<.I]>?H]B.C]/DGL'G,]'<'?CHI]I>.;]/?G.*]EG?K'I.]/?GHI]"A'HH] D>C]IG.'<.G]<DI]JE&]GJH>.,]/DGL'G,]':DJI;]I.C]N'G,H&]>?I]I>.],?GI&]/?G.,]']/.L]H>DIH]L?I>]>?H]:'G]=:GDLC?C<;]'JIDB'I?"]G?/A.`]'C,]"GJBEA.,]L?I>]']:JAA.I]?C]>?H]>.',*;;]HDB.L>'I]/'GI>.G]'ADC<&]']:'NDC.I]L'H]H..C]HI?"
+?C<]JE]I>GDJ<>]';]E'I">]D/]/GDC,H*]I>.] 'E]"GDJ">.,]L?I>?C]?I]>',CI]GDDB]ID],G'L]?C;]I>.]L>DA.]A.C<I>]D/]I>.]L.'EDC*]EG?K'I.]/?GHI]"A'HH].,L'G,]/?H
+.;]/?G.,]>?H]:'G]'I]I>.]>DA.!]I>.],G?.,]/GDC,H]"'J<>I]/?G.]/GDB]I>.;]IG'".GH*]'I]I>'I]ED?CI]/?H
+.]G'C]DJI]D/]'BBJC?I?DC*;;]EG?K'I.]/?GHI]"A'HH] JA?'C]<JI.GG.O]I>.C]IDD
+]JE]I>.]/?G.]L?I>;]>?H]BP]=G?/A.`*]>.]HIDD,],?G."IAN]':DK.]I>.]>DA.]'C,]/?G.,],DLC;]?CID]?I*]I>.C]I>.]>DA.].MEAD,.,!]I>.] 'E]?CH?,.]>',]IJGC.,]';]<G.C',.]DC]>?BH.A/*]']B'CH]H>'II.G.,]'GB]"'B.]/AN?C<]DJI]D/]I>.;]>DA.]'C,]>?I]<JI.GG.O]DC]I>.]H>DJA,.G&]HEA'II.G?C<]:ADD,]'AA]DK.G;]>?H]/'".]'C,]"ADI>?C<*]I>.]'GB]:DJC".,]D//]'C,]/.AA]ID]I>.]H?,.*;]'H]<JI.GG.O]ADD
+.,]'I]?I&]/'H"?C'I.,]'C,]>DGGDGZHIG?"
+.C&]>.]H'L;]'CDI>.G]:'NDC.I]G?H?C<]DJI]D/]']E'I">]D/]/GDC,H] JHI]:.NDC,]I>.;]DJIHIG.I">.,]'C,]HI?AAZFJ?K.G?C<]/?C<.GH*]>.]N.AA.,]ID]']B'C]:.>?C,;]>?B*]I>.]B'C]G.A'N.,]']<G.C',.]'C,]<JI.GG.O]E?I">.,]?I]L?I>]'AA]D/;]>?H]B?<>I]?CID]I>.]E'I">]D/]/GDC,H*]?I].GJEI.,]?C]']H>DL.G]D/]E'AB;]A.'K.H]'C,]:ADD,]'C,]/A.H>*;;]<JI.GG.O]G..A.,]DK.G]IDL'G,]I>.]A'<DDC]ID]"A.'CH.]>?BH.A/]D/]I>.;]:ADD,*]:./DG.]>.]"DJA,]G.'">]I>.]L'I.G&]?C]H?<>I]D/]'AA]I>.]DI>.G;]B.C&]>.]KDB?I.,]'AA]DK.G]I>.]:.'">*]B?CJI.H]E'HH.,]:./DG.]>.]"DJA,;]<'I>.G]>?BH.A/]ID<.I>.G]'<'?C*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VYUTY;;I>.]'B.G?"'C]/A'<]?H]G'?H.,]DC]GD?]DC]Q]/.:GJ'GN]PXSS]ID]H?<C?/N]I>.;.C,]D/]I>.]/?<>I?C<*]?C]I>.]:'"
+<GDJC,]?H]I>.]H>'II.G.,]>JA
+]D/]';I>G..ZHIDGN]"DC"G.I.]:AD"
+>DJH.*`;;'H]I>.]ILD]'GBN]G.<?B.CIH]:.<'C]I>.?G]I>?G,],'N]D/]"DB:'I&]?I]L'H],?GIN;'C,],'C<.GDJH]LDG
+*]DC.]B'G?C.]>?HIDG?"'A]HJBB'GN]D/]I>.]B'GH>'AAH;DE.G'I?DC]IDA,]I>.?G]HIDGN$;;]G.H?HI'C".],JG?C<]I>.],'N]L'H]"DCI?CJ'AAN]HI?//.G]'H]I>.].C.BN;]IDD
+]',K'CI'<.]D/].K.GN]EDHH?:A.]JC".GI'?CIN]D/]I>.]I.GG'?C&]'C,;]"DC".CIG'I.,]I>.]/?G.]D/]HJ">]BDGI'GH]'C,]'GI?AA.GN]'H]L.G.]A./I;]ID]I>.B*],.HE?I.]I>.]>'KD"]LGDJ<>I]:N]I>.]:DB:'G,B.CIH&]I>.G.]L'H;]HI?AA]BJ">]"DK.G]'K'?A':A.]'C,]EDH?I?DCH]L.G.]"DC".'A.,]L?I>]<G.'I;]',GD?IC.HH*]B'CN]D/]I>.]"DC"G.I.]?CHI'AA'I?DCH]HI?AA]HIDD,]?C;]E'GI?'A]GJ?C].K.C]I>DJ<>]I>.N]>',]G.".?K.,],?G."I]>?IH]/GDB]>.'KN;]C'K'A]<JCH&]'C,]I>.]/?G.]/GDB]VTBB]="'CCDC`]>',]A?IIA.].//."I]DC;]I>.B*;;]?I]L'H]C.".HH'GN]ID].BEADN]>.'KN],.BDA?I?DC]">'G<.H]ID]:G.'">;].BEA'".B.CIH]HJ//?"?.CIAN]/DG]I>.].BEADNB.CI]D/]/A'B.I>GDL.GH;]'C,]<G.C',.H*]?C]I>.]JII.G]IJGBD?A&]?I]L'H]C.'GAN]?BEDHH?:A.;]ID]B'?CI'?C]"DCI'"I*]CDI>?C<]L'H]'CN]ADC<.G]G."D<C?O':A.*]I>.;]H?IJ'I?DC]L'H]B',.],DJ:AN]JC".GI'?C]/GDB]I>.]/'"I]I>'I]/?G.]B?<>I;]"DB.]/GDB]'ABDHI]'CN],?G."I?DC]'I]I>.]/A'C
+H&]/GDCI'AAN&]DG]/GDB;]I>.]G.'G*]I>.]<D?C<]L'H]IDJ<>*;;L.?G,]I>?C<H]"'C]'C,],D]>'EE.C]?C]HJ">]/?<>I?C<*]'] 'E'C.H.]D//?".G;">'G<.,]']J*H*]I'C
+]L?I>] JHI]>?H]:'G.]H':.G*]?C]I>.],JH
+]DC.].K.C?C<; 'E'C.H.]G?/A.B.C]IG?.,]ID]L'A
+]?CID]I>.]'B.G?"'C]A?C.H]"'GGN?C<]E'AB;:G'C">.H]?C]/GDCI]D/]I>.?G]:D,?.H]HD]I>.N]LDJA,]CDI]:.]H..C*]']J*H*;?C/'CIGNB'C]"'GGN?C<]']/A'B.I>GDL.G]'EEGD'">.,]']E?AA:DM&]'C,]DJI;I>GDJ<>]?IH],DDG]:DAI.,]'] 'E'C.H.]D//?".G]?C]"DJCI.G'II'"
+*]>.]L'H;HFJ?GI?C<]']/?G.].MI?C<J?H>.G]IDL'G,H]I>.]/A'B.]<JC*]I>.]A?FJ?,],DJH.,;I>.]'B.G?"'C]HDA,?.G]'H]>.]A.I]I>.]/A'B.]<D*]I>.] 'E'C.H.]D//?".G;,GDEE.,],.',]'I]>?H]/..I&]:JGC.,]ID]']"G?HE*;;=?AAJHIG'I?DC$;;]C'I?DC'A]'G">?K.H]E>DID]PQVZCZWWSVV;;C'B.,],N.HH]/?.A,]?C]>DCDG]D/]I>.],.".'H.,]:'II'A?DC]"DBB'C,.G]L>D;.'GC.,]I>.]B.,'A]D/]>DCDG&]I>.]GD?]'?GHIG?E]L'H]FJ?"
+AN]"DCK.GI.,]/GDB; 'E'C.H.]JH.]ID]:."DB.]']C.L]:'H.]/DG]B'G?C.]'?G"G'/I]'H]I>.]".CIG'A;E'"?/?"],G?K.]BDK.,]L.HIL'G,*`;;'C,]HD]?I]L.CI]/DG]/DJG]ADC<],'NH]JCI?A]I>.]/'G]I?E]D/]
+L' 'A.?C]>',;:..C]G.'">.,]'C,]I>.]?HA'C,]L'H],."A'G.,]H."JG.,*;;=?AAJHIG'I?DC$]C'KN]"DGEHB.C]9?C]I>.?G]B'G?C.]JC?/DGBH0]'G.]I>.G.]DC;I>.]/GDCI]A?C.H]D/]"DB:'I&]EA'HB']?C]>'C,&]H'K?C<]G?/A.B.CH]A?K.H]?C;I>.]"G?I?"'A]B?CJI.H]'/I.G]']LDJC,*;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VQRXX;`;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]RUYRS;;AI"DA]'FJ?AA'] *],N.HH]L'H]EDHI>JBDJHAN]'L'G,.,]I>.]B.,'A]D/]>DCDG]/DG;>?H]>.GD?"]E.GHDC'A]A.',.GH>?E]DC]C'BJG*]
+CDLC]'//."I?DC'I.AN]'H]:?<;G.,&]>.]L'H]I>.]DCAN]E.GHDC]ID]>'K.]:..C]'L'G,.,]:DI>]I>.]B.,'A]D/;>DCDG]'C,]I>.]"'GC.<?.]B.,'A]/DG]>.GD?HB]9?C]PXQW0*]>.]L'H]>DCDG.,]?C;PXST]:N]>'K?C<]']C'KN],.HIGDN.G]C'B.,]'/I.G]>?B*`;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]RYQXTQ;;E/"]G?">'G,]:*]'C,.GHDC]L'H]EDHI>JBDJHAN]'L'G,.,]I>.]B.,'A]D/]>DCDG;/DG]H'"G?/?"?C<]>?H]A?/.]L>.C]>.]I>G.L]>?BH.A/]JEDC]']A?K.] 'E'C.H.;>'C,]<G.C',.&]?C]DG,.G]ID]EGDI."I]>?H]/.AADL]B'G?C.H*`;;=?AAJHIG'I?DC$]PHIAI] D>C]K*]EDL.G&]'/I.G]:.?C<]H.G?DJHAN]LDJC,.,;'II'"
+?C<]DC.]E?AA:DM&]>.A,]>?H]>'C,]DK.G]>?H]LDJC,]'C,]L.CI]DC]ID;'II'"
+]']H."DC,]DC.*]>.]L'H]EDHI>JBDJHAN]'L'G,.,]I>.]B.,'A]D/]>DCDG*;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]RYVUWX;`;;=?AAJHIG'I?DC$]EKI]G?">'G,]
+*]HDG.CHDC]H'K.,]I>.]A?K.H]D/]/?K.]B'G?C.H;:N]I>GDL?C<]>?BH.A/]DC]'] 'E'C.H.]<G.C',.]L>?">]L'H]I>GDLC]?CID]I>.;H>.AA]"G'I.G]I>.N]D""JE?.,*]>.]L'H]'L'G,.,]I>.]B.,'A]D/]>DCDG]'C,]A'I.G;G."DK.G.,]/GDB]>?H]I.GG?:A.]LDJC,H*;;]B'G?C.]"DGEH]>?HIDG?"'A]"DAA."I?DC;`;;I>.]HJ"".HH/JA]:'IIA.]/DG]:DI>].C,H]D/]
+L' 'A.?C]'IDAA]>',]:..C;"DC"AJ,.,&]'C,]']H.G?.H]D/]"DC"AJH?DCH]L.G.],G'LC]/GDB]?I*] 'E'C.H.;,.'I>H]G.'">.,]']IDI'A]D/]W&PQQ&]HDB.]QV]I?B.H]I>.]CJB:.G]D/]'B.G?"'CH;
+?AA.,*]I>.]G.A'I?K.AN]HB'AA]H"'A.]D/]J*H*]"'HJ'AI?.H]<'K.]',B?G'A;">.HI.G]L*]C?B?IO]I>.]G.',N]/DG".H]>.]C..,.,]ID]EJH>]/DGL'G,]G'E?,AN;L?I>]EA'CH]/DG]/JGI>.G]'"I?DC$]/?GHI&]DC.]BDG.]'IDAA]?C]I>.]B'GH>'AAH&;'C,]I>.C]FJ?"
+AN]DC]ID]I>.]K?I'A]B'G?'C']?HA'C,H&]I>.]A?C">E?C]D/; 'E'CH]?CC.G]A?C.]D/],./.CH.*]
+L' 'A.?C]LDJA,]EGDK?,.]I>.]'?G]:'H.;/GDB]L>?">]I>.]:ZQX]:DB:.GH]LDJA,]"DC,J"I]I>.?G]G'?,H]DC]I>.]B'G?'C'H&;'C,]I>.]'GBN]VI>]?C/'CIGN],?K?H?DC]'C,]I>.]SI>]B'G?C.],?K?H?DC]LDJA,;EA'N]
+.N]GDA.H]?C]I>DH.]/JIJG.]DE.G'I?DCH*;;I'"I?"'AAN&]I>.G.]L.G.]']K'G?.IN]D/]?CCDK'I?DCH]?C]I>.]IL?C]:'IIA.H;'I]
+L' 'A.?C&]'C,]I>.H.]LDJA,]"DCI?CJ.]ID]EGDK.]K'AJ':A.]?C]I>.;/JIJG.*]I>.G.]L'H]I>.]/?GHI]JH.]D/]C'KN]JC,.GL'I.G],.BDA?I?DC]I.'BH!;I>.]/?GHI]JH.]D/],J
+LH]?C]"DB:'I!]I>.]/?GHI]JH.]D/]"DBB'C,]H>?EH]L?I>;HE."?'A]"DBBJC?"'I?DCH].FJ?EB.CI]ID]"DCIGDA]I>.]:'IIA.!]I>.]/?GHI]JH.;D/]'?GEA'C.H]ID]"DCIGDA]C'K'A]<JC/?G.!]'C,]I>.]/?GHI]JH.]D/]'GBDG.,;'BE>?:?'C]IG'"IDGH]9AKI'H0*]?C]',,?I?DC&]I>.]ILD]:'IIA.H]H'L]I>.],.:JI;D/]C.L]JC?IH],.H?<C.,]ID]/'"?A?I'I.]"GJ"?'A]"DBBJC?"'I?DCH],JG?C<;"DB:'I*]I>.H.]L.G.]I>.] D?CI]'HH'JAI]H?<C'A]"DBE'C?.H*]I>.]D//?"?'A;B'G?C.]>?HIDGN]D/]I>.]B'GH>'AAH]"'BE'?<C],.H"G?:.,]I>.?G]"DBEA.M;G.HEDCH?:?A?I?.H$;;]I>.]EG?B'GN]B?HH?DC]D/]I>?H]JC?I]L'H]ID]"DDG,?C'I.]'AA]HJEEDGI?C<;]/?G.H]'K'?A':A.]ID]']B'G?C.],?K?H?DC],JG?C<]'C]'BE>?:?DJH;]DE.G'I?DC*]?C]DG,.G]ID]"'GGN]DJI]I>?H]/JC"I?DC&]I>.]"DBE'CN;]L'H],?K?,.,]?CID]H>DG.]'C,]:.'">]E'GIN]"DBBJC?"'I?DCH]I.'BH&;]'?G]A?'?HDC]E'GI?.H&]'C,]H>DG.]/?G.]"DCIGDA]E'GI?.H****],JG?C<;]IG'?C?C<&]I>.]K'G?DJH]I.'BH]L.G.]'II'">.,]ID]I>.]G.<?B.CIH]'C,;]:'II'A?DCH]D/]I>.],?K?H?DC*]I>JH].'">]'HH'JAI]:'II'A?DC]"DJA,;]:."DB.]/'B?A?'G]L?I>]?IH]H>DG.]'C,]:.'">]E'GIN&]'?G]A?'?HDC&]'C,;]/?G.]"DCIGDA]I.'BH*;;'CDI>.G]C.L].A.B.CI]L'H]I>.]L'N]GD"
+.IH]L.G.]JH.,*]I>?H]L'H]';".CIJG?.HZDA,]I.">C?FJ.]D/]:DB:'G,B.CI&]:JI]?C]I>.]B'GH>'AAH]I>.]SI>;B'G?C.],?K?H?DC]L'H]I>.]/?GHI]'B.G?"'C],?K?H?DC]ID]JH.]GD"
+.IH]BDJCI.,;DC] ..EH&]E?"
+ZJE]IGJ"
+H&]'C,]C'KN]<JC:D'IH]?C]"DB:'I*;;DC.]DI>.G]B'G?C.]G.HDJG".]L'H]JC?FJ.$]I>.]JH.]D/]C'K' D]?C,?'C]"D,.;I'A
+.GH]?C]:'IIA.*]I>.N]EGDK.,]']E.G/."I]/D?A]/DG]I>.] 'E'C.H.]':?A?IN;?C]EG.K?DJH]:'IIA.H]ID]JC,.GHI'C,]B'G?C.]KD?".ZIDZKD?".]"DBBJC?"'I?DCH;'C,]BDGH.]"D,.*]ID]EG.K.CI]I>?H]']<GDJE]D/]C'K' D]?C,?'CH]>',]:..C;G."GJ?I.,]'C,]IG'?C.,]?C]HE."?'A]"D,.]LDG,H]I>.N]"DJA,]JH.]?C]"DB:'I*;L>.C]I>.N]L.G.]I'A
+?C<]?C]I>.]C'K' DH].MDI?"]A'C<J'<.&]CD] 'E'C.H.;LDJA,].K.G],."?E>.G]I>.]B.HH'<.3]'I]GD?ZC'BJG]I>.?G]L'A
+?.ZI'A
+?.;EDGI':A.]G',?DH]"'GG?.,]I>.]JG<.CI]?CHIGJ"I?DCH]:'"
+]'C,]/DGI>]:.IL..C;H>?E]'C,]H>DG.&]'H]L.AA]'H]:.IL..C]>?<>.G].">.ADCH]'C,]HJ:DG,?C'I.;JC?IH&]'C,],?,]?I]HD]FJ?"
+AN]I>'I]EG.K?DJH],.A'NH]D/]JE]ID]PQ]>DJGH;9?CI.G".EI?C<&]IG'CHB?II?C<&]'C,],."?E>.G?C<]B.HH'<.H0]L.G.].A?B?C'I.,*;;/?C'AAN&]I>.]ILD]:'IIA.H]/DG]
+L' 'A.?C]'IDAA]EGDK.,]?C"DCI.HI':AN]I>.;.//."I?K.C.HH]D/]EGDADC<.,]'C,]B'HH?K.]EG.?CK'H?DC]C'K'A]<JC/?G.]'C,;'.G?'A]:DB:?C<*]I>.]J*H*]EA'C.H]'C,]L'GH>?EH]>',]HD]I>DGDJ<>AN]H"DJG.,;CDI]DCAN]I>.]I'G<.I]?HA'C,H&]:JI]'AHD]I>.]DI>.G] 'E'C.H.]'?G]:'H.H]?C;I>.]B'GH>'AAH&]I>'I]CDI]']H?C<A.] 'E'C.H.]EA'C.]L'H]':A.]ID]'II'"
+]I>.;'B.G?"'C]HJG/'".]/DG".H]?C]I>.]"'BE'?<C*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VYQYY;;G.HDAJI.]'C,]/'C'I?"] 'E'C.H.],./.C,.GH]L>D]L.G.]CDI]EG.K?DJHAN]
+?AA.,;:N]I>.]B'G?C.H]K.GN]D/I.C]"DBB?II.,]>'G'Z
+?G?&]'H],?,]I>.]ILD]HDA,?.GH;?C]I>.]/DG.<GDJC,*`;;I>.]/?C'A]'II'"
+$].C?L.ID
+;;L?I>]
+L' 'A.?C]'IDAA]CDL]?C]'B.G?"'C]>'C,H&]']G.K?.L]D/]I>.]C.MI;DE.G'I?DC]?BB.,?'I.AN]IDD
+]EA'".*]',B?G'A]C?B?IO]/A.L]I>.G.]/GDB;E.'GA]>'G:DG]'C,]B.I]L?I>]>?H]IDE]"DBB'C,.GH*]I>.]Q,]B'G?C.],?K?H?DC&;I.BE.G.,]?C]I>.]/?G.H]D/]I'G'L'&]>',].'GA?.G]:..C]'A.GI.,]ID]EG.E'G.;/DG]']B'N]'II'"
+]DC].C?L.ID
+]'IDAA&]RRY]B?A.H]CDGI>L.HI]D/]
+L' 'A.?C*;I>.]EA'CC.GH],."?,.,]ID]JH.]?CHI.',]I>.]QQ,]B'G?C.H]9JC,.G]I>.]"DBB'C,;D/]"DADC.A] D>C]I*]L'A
+.G0]'C,]ILD]:'II'A?DCH]D/]I>.]'GBNH]PYUI>;?C/'CIGN]G.<?B.CI&]H?C".]I>.N]>',]CDI]:..C]C..,.,]?C]I>.]FJ?"
+]"DCFJ.HI;D/]GD?ZC'BJG]'C,]
+L' 'A.?C*]?C]',,?I?DC&]I>.],'I.]/DG]I>.]'II'"
+]L'H; JBE.,]/DGL'G,]ID]B?,Z/.:GJ'GN*;;I>.]HD/I.C?C<ZJE]EGD".HH]>',]:.<JC]'I]I>.].C,]D/] 'CJ'GN&]'C,]I>.;"'GG?.G]'?G]HIG?
+.H]?C"G.'H.,]I>.]/DAADL?C<]BDCI>*] 'E'C.H.]HDA,?.GH;"'J<>I]?C]I>?H],.AJ<.]L.G.],?HB'N.,*]DC.]LGDI.]?C]>?H],?'GN&]I>.;'B.G?"'C]'II'"
+H]'G.]:."DB?C<]BDG.]/JG?DJH*]EA'C.H]"DB.]DK.G],'N]'/I.G;,'N*]"'C]L.]HI'C,]JE]JC,.G]I>.]HIG'?C[]'CDI>.G]CDI.,]I>'I]HDB.;HDA,?.GH]>'K.]<DC.]DJI]D/]I>.?G]B?C,H*;;DC],Z,'N&]PV]/.:GJ'GN&]I>.]C'KNH]>.'KN]<JCH] D?C.,]?C]L?I>]';I>JC,.GDJH]H>.AA?C<*]I>.C&]JH?C<]H."G.I] 'E'C.H.]C'K?<'I?DC]">'GIH;"'EIJG.,]'I]
+L' 'A.?C&]I>.]I'H
+]/DG".]BDK.,]?CID]I>.]>J<.]A'<DDC&]PV;:N]QP]B?A.H]?C]H?O.*]:G?<',?.G]<.C.G'A]I>DB'H].*]L'IHDC&]I>.]B'G?C.]?C;DK.G'AA]"DBB'C,]D/]HDB.]PY&YYY]'HH'JAI]IGDDEH&]>',]I>.]G.HEDCH?:?A?IN;/DG]"DC,J"I?C<]']"DBEA.M]H.G?.H]D/]HJ"".HH?K.]B'C.JK.GH*]'H]'I;
+L' 'A.?C]'IDAA&]I>.]'GI?AA.GN]L'H]H.CI]'H>DG.]DC],Z,'N]DC]ILD]I?CN;?HA.IH]', '".CI]ID]I>.]/?GHI]
+.N]I'G<.I&].C<.:?]?HA'C,*]I>.]B'G?C.H;Q,]H.E'G'I.]=VTBB`]E'"
+]>DL?IO.G]:'II'A?DC]L.CI]ID]DC.]?HA.I&]'C,]I>.;'GBNH]PYSI>]/?.A,]'GI?AA.GN]:'II'A?DC]L.CI]ID]I>.]DI>.G*]I>.G.]I>.N;H.I]JE]ID]EGDK?,.]HJEEDGI?C<]/?G.]/DG]I>.]/DGI>"DB?C<]?C/'CIGN]'HH'JAI*;;=?AAJHIG'I?DC$]B.C]D/]I>.]PVI>]?C/'CIGN]G.<?B.CI]<D]?C]:N]'BIG'"]ID;D""JEN]DC.]D/]I>.]?HA.IH]', '".CI]ID]
+L' 'A.?C]?IH.A/]?C]EG.E'G'I?DC;/DG]I>.]B'?C]A'C,?C<]I>.]C.MI],'N*;;],.E'GIB.CI]D/],./.CH.]E>DID]9'GBN0]PWVSRT;`;;I>.]A'C,?C<]DC].C<.:?]"'B.]I>.]C.MI]BDGC?C<&],]EAJH]P&]PW]/.:GJ'GN&;'H]I>.]PHI]'C,]Q,]:'II'A?DCH]D/]I>.]QQ,]B'G?C.H]>.',.,]/DG]I>.]:.'">;?C]I>.?G]'BIG'"H*]'I]I>?H]I?B.]I>.G.]D""JGG.,]DC.]D/]I>DH.]E'I>.I?";.E?HD,.H]?C"?,.CI]ID]I>.]>DGG?:A.]L'HI.]D/]L'G*]'H]DC.]B'G?C.]G.EDGI;,.H"G?:.,]?I$;;]DC.]I'C
+]L'H]ADHI]?C]I>.]A'C,?C<H*]?I]L'H]:D'I.,]?C]'C]A"B]=A'C,?C<;]"G'/I&]B.,?JB`]DC]L>?">&]JC/DGIJC'I.AN&]DCAN]DC.].C<?C.]L'H;]/JC"I?DC?C<*]:N]HDB.]B?H">'C".]I>.]A.K.G],.EG.HH?C<]I>.]G'BE]L'H;]DE.G'I.,]L?I>]I>.]G.HJAI]I>'I]I>.]"G'/I]:.<'C]ID]/ADD,]G'E?,AN;]L>?A.]HI?AA]TYY]N'G,H]D//H>DG.*]I>.]I'C
+]"G.L]>',]:JIIDC.,]JE]'C,;]"DJA,]<'?C]:JI]='`]HB'AA]?,.']D/]I>.]'""?,.CI*],.HE?I.]I>.]/G'CI?";].//DGIH]D/]I>.]A"BH]"G.L]ID]L'GC]I>.]D""JE'CIH&]I>.],.HE.G'I.;]JG<.C"N]D/]I>.]H?IJ'I?DC]L'H]CDI]'EEG."?'I.,*]I>.]A"B]<G',J'AAN;]/?AA.,&]A?HI.,&]'C,]/?C'AAN]HE?AA.,]>.G]AD',]?CID]I>.]A'<DDC&;]IJGC?C<]"DBEA.I.AN]DK.G*]'I]I>.]A'HI]EDHH?:A.]BDB.CI&]DC.]D/]I>.;]"G.L]D/]I>.]I'C
+]B'C'<.,]ID].H"'E.]'H]I>.]I'C
+]'"IJ'AAN]>?I]:DIIDB;]/DGIN]/..I],DLC*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9'GBN0]RQSVQX;;IGDDEH]D/]I>.]'GBNH]VI>]?C/'CIGN],?K?H?DC]B'
+.]I>.]IG?"
+N]IG'CH/.G;/GDB]I>.?G]A'C,?C<]"G'/I]ID]I>.]'BE>?:?'C]IG'"IDGH]L>?">]L?AA]CDL]"'GGN;I>.B]?C]'"GDHH]I>.]G../]/G?C<?C<]
+L' 'A.?C&]/DG]I>.]/?C'A]A.<]D/]I>.?G;'HH'JAI]D/]I>.]?HA'C,*`;;=?AAJHIG'I?DC$]B'E]D/]I>.]'II'"
+]DC]
+L' 'A.?C]?HA'C,&]L?I>]I>.;A'C,?C<H]'I]I>.]L.HI].C,&]PWSI>]G.<?B.CI]DC]I>.]A./I]'C,]RQ,]DC]I>.;G?<>I*],.B'G
+'I?DC]A?C.H]H>DL],'?AN]EGD<G.HH*;;
+L' 'A.?C]?HA'C,;;PZS]/.:GJ'GN]PXSS`;;DC".]I>.]ILD]:'II'A?DCH]>?I]I>.]:.'">&]I>.N]/DJC,]I>.]"DG.]D/]I>.;.C.BN],./.CH.H]ID]:.]']E'AB]<GDK.]?C]I>.]B?,,A.]D/]I>.]?HA'C,*]I>?H;'G.']L'H]G?,,A.,]L?I>]HE?,.G]>DA.H&]'C,]I>.]'B.G?"'C]H>.AA?C<]>',;',,.,]/'AA.C]IG..H]ID]I>.]"DK.G]EGDK?,.,]ID]I>.] 'E'C.H.]:N]I>.],.CH.;JC,.G:GJH>*]I>JH]I>.?G]EDH?I?DCH]L.G.].MIG.B.AN],?//?"JAI]ID]AD"'I.*]?I;L'H],'C<.GDJH]LDG
+]/DG]I>.]?C,?K?,J'AH]'C,]HB'AA]<GDJEH]L>D]>',]ID]I'
+.;I>.]?C?I?'I?K.&]:JI]I>.N],?,]'C,]I>.]'HH'JAI]<GDJC,]'>.',]'<'?CHI].C.BN;,./.CH.H*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9'GBN0]QPQTXY;;I>.]RVBB]<JC]EGDK?,.,]?CK'AJ':A.],?G."I]/?G.]HJEEDGI]I>GDJ<>DJI]I>.;"'BE'?<CH]D/]I>.]E'"?/?"]L'G*]>.G.&]DC.]D/]I>.]<JCH]I'
+.H]DC]']HIJ::DGC; 'E'C.H.]EDH?I?DC]DC]
+L' 'A.?C&]G.?C/DG"?C<]I>.]':?A?IN]D/]G?/A.B.C]ID;,.'A]L?I>]I>.].C.BN*`;;=?AAJHIG'I?DC$]'GBN]HDA,?.GH]A?.]L'G?AN]DC]I>.]<GDJC,]'H]I>.?G;/A'B.I>GDL.G]EDJGH]']H>..I]D/]/?G.]DC]'] 'E'C.H.]E?AA:DM*]H?C".]I>.G.;L.G.]D/I.C]BJAI?EA.].M?IH]/GDB]I>.]HIGDC<ED?CIH&]I>.H.]HDA,?.GH]'G.]DC;I>.]'A.GI]/DG]'CN]D/]I>.].C.BN]L>D]B'N]IGN]ID].H"'E.*;;],.E'GIB.CI]D/],./.CH.]E>DID]9'GBN0]QPQVVY;`;;L?I>]I>.H.]',K'C".H]'C,]HDB.],?G."I]/?G.]/GDB]H.A/ZEGDE.AA.,]PYTBB;<JCH]'<'?CHI]"DC"G.I.]E?AA:DM.H&]I>.]L>DA.]D/].C<.:?]>',]:..C]DK.GGJC;:N]I>.]B'G?C.H]:N]I>.]'/I.GCDDC]D/],]EAJH]P*]DC]I>.]/DAADL?C<]BDGC?C<;I>.]'B.G?"'C]/A'<]L'H]G'?H.,]ID]I>.]HDJC,]D/]']B'G?C.]EA'N?C<]ID;I>.]"DADGH]DC]']"'EIJG.,] 'E'C.H.]:J<A.*]'C].C<?C..G]"DBE'CN&;>DL.K.G&]HE.CI]']:JHN],'N]JH?C<]/A'B.I>GDL.GH]'C,],.BDA?I?DCH]ID]BDE;JE]:NZE'HH.,].C.BN]HDA,?.GH*]BDG.]I>'C]P&QYY] 'E'C.H.&]
+DG.'CH&]'C,;D
+?C'L'CH]L.G.]DC].C<.:?&]'C,]DCAN]PX]HJGG.C,.G.,*;;I>.]B'?C]'"I?DC]CDL]H>?/I.,]FJ?"
+AN]DC],]EAJH]Q]ID]I>.]'II'"
+]DC;.C?L.ID
+]?HA'C,*]I>?H]B?HH?DC]L'H]'HH?<C.,]ID]I>.]PHI]'C,]R,]:'II'A?DCH;D/]I>.]'GBNH]PYUI>]?C/'CIGN]G.<?B.CI*]L>.C]I>.N]A'C,.,&]I>.?G]',K'C".;L'H]HADL*]DCAN]QYS]IDCH]D/]C'K'A]<JC/?G.]GDJC,H]9"DBE'G.,]ID]I>.]P&PVX;IDCH]L>?">]>',]EA'HI.G.,].C<.:?0]>?I].C?L.ID
+*]HE?,.G]>DA.],./.CH.H;>.A,]JE]I>.?G]',K'C".*]']HI..E]:AJ//]:AD"
+.,]I>.]EA'CC.,]?CA'C,]',K'C".;D/]I>.?G]AKI'H&]G.HJAI?C<]?C]']IG'//?"] 'B]DC]I>.]:.'">.H*]A.HH]I>'C]'C;>DJG]'/I.G]I>.]?C?I?'A]A'C,?C<&]<.C.G'A]L'IHDC]/.AI]D:A?<.,]ID]G',?D;"DADC.A]GJHH.AA]<*]'N.GH&]"DBB'C,?C<]I>.]PYUI>&]EJH>]NDJG]'II'"
+*;;I>?C<H]L.G.]"A.'GAN]CDI]<D?C<]'H]EA'CC.,&]/DG]<.C.G'A]L'IHDC]>',]>DE.,;ID]H."JG.].C?L.ID
+]FJ?"
+AN&]'C,]I>.C]>'K.]I>.]:'II'A?DCH]D/]I>.]PYUI>;?BB.,?'I.AN]G.',N]/DG]'C]'II'"
+]DC]I>.]/?C'A]D: ."I?K.&]E'GGN]?HA'C,*;ID]HE..,]I>.]EGD<G.HH]DC].C?L.ID
+&]I>.]G.H.GK.]IGDDEH&]I>.]R,]:'II'A?DC;D/]I>.]QQ,]B'G?C.H&]L.G.]DG,.G.,]ID]A'C,].'GAN]?C]I>.]'/I.GCDDC*]BDK?C<;/DGL'G,&]I>.N]L.G.]HDDC]?C]>.'KN]"DB:'I*] 'E'C.H.]HDA,?.GH]L>D]>',;:..C]:NZE'HH.,]
+.EI]JE]I>.?G]>'G'HH?C<]/?G.!]E.GB?HH?DC]ID]:G?C<]I>.;:'II'A?DCH]>'A/ZIG'"
+]VTBB]"'CCDC]'H>DG.]L'H]/A'IAN],.C?.,]"DADC.A;'N.GH*]I>.]B'G?C.H]>',]ID]I'
+.]G.HEDCH?:?A?IN]/DG]"A.'G?C<]ILDZI>?G,H;D/]I>.]HDJI>.GC]ODC.]DC]I>.]?HA'C,*]I'C
+H]L.G.]'H>DG.]:JI]CDI;'K'?A':A.&]'C,]"D"DCJI]AD<].BEA'".B.CIH]EGDK?,.,]I>.] 'E'C.H.]L?I>;HIGDC<],./.CH?K.]EDH?I?DCH*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9'GBN0]QRRVQV;;K?"IDG?DJH]'GBN]HDA,?.GH]G.A'M]:N]I>.]GJ?CH]D/]'] 'E'C.H.]EA'C.&;HB'H>.,]:N]I>.]EG.?CK'H?DC]:DB:'G,B.CI]D/]DC.]D/]I>.]?HA.IH]', '".CI]ID;
+L' 'A.?C*]DC.].CI.GEG?H?C<]B'C]HI?AA]>'H]I>.].C.G<N]'C,]I>.]"JG?DH?IN;ID]"A?B:]DC]:D'G,]/DG]']ADD
+*`;;C.K.GI>.A.HH&]I>.]'II'"
+]?C">.,]/DGL'G,]L?I>]I>.]G.E.'I.,]JH.]D/;/A'B.I>GDL.GH]'C,]H'I">.A]">'G<.H*]>'AI?C<]/DG]I>.]C?<>I]H.K.G'A;>JC,G.,]N'G,H]/GDB]I>.]I?E]D/]I>.]?HA'C,&]I>.]B'G?C.H]L.G.]<G..I.,;I>.]/DAADL?C<]BDGC?C<]9,]EAJH]R0]:N]'C]'HIDC?H>?C<]H?<>I*]I>.]'GBN;:'II'A?DC]HJEEDH.,]ID]:.]DC]I>.?G]G?<>I]/A'C
+]>',&]L?I>DJI]CDI?/N?C<;I>.]B'G?C.H&]EJAA.,]:'"
+]RYY]N'G,H]ID]I>.]G.'G],JG?C<]I>.]C?<>I]'C,;A./I]']A'G<.]<'E]?C]I>.]'B.G?"'C]A?C.H*]I>.]B'G?C.H]I>.C]>',]ID]HI.B;']HB'AA]:JI]/JG?DJH] 'E'C.H.]C?<>I]"DJCI.G'II'"
+*]L>.C]I>.]HDA,?.GH;G.IJGC.,]?C]I>.]BDGC?C<&]I>.]'B.G?"'C]'II'"
+]:.<'C]'<'?C&]'C,]:N;B?,Z'/I.GCDDC]I>.]B'G?C.H]'C,]I>.]'GBN]:'II'A?DC]>',]H."JG.,]I>.;HDJI>.GC]E'GI]D/]I>.]?HA'C,*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9C'KN0]QPWUPT;;']"G'I.G]/GDB]J*H*]C'KN]<JC/?G.]B'G
+H]I>.]A./I].C,]D/]']H.G?.H]D/; 'E'C.H.]IG.C">.H],.H?<C.,]ID]EGDK?,.]BJIJ'AAN]HJEEDGI?C<].C/?AA',.;/?G.]'<'?CHI]'II'"
+.GH*]I>.]H>'II.G.,]IGJC
+H]D/]I>.]E'AB]IG..H]H>DL]I>.;.//."IH]D/]I>.]C'KNH]:DB,'G,B.CI*`;;EGD<G.HH]L'H]HI?AA]K.GN]HADL]?C]I>.]CDGI>.GC]H."IDG&]HD]B'G?C.]I'C
+H;'C,].C<?C..GH]BDK.,]?C]ID]'HH?HI]I>.]DI>.G]'GBN]:'II'A?DC]I>.G.*;/?C'AAN&]?C]I>.]'/I.GCDDC]D/],]EAJH]S&]QP]/.:GJ'GN&]I>.]CDGI>.GC]'G.';L'H]'AHD],."A'G.,]H."JG.*;;L?I>]I>.].A'EH.]D/]'AA]I>?H]I?B.]9XU]>DJGH]?CHI.',]D/]I>.]QS]>DJGH;.ME."I.,0&]<.C.G'A]L'IHDC]L'H]/DG".,]ID]'AI.G]>?H]EA'CH]/DG]I>.]/?C'A;E>'H.]D/]I>.]DE.G'I?DC$]I>.]'HH'JAI]DC]E'GGN*]>.]:GDJ<>I],DLC]/GDB;.C<.:?]I>.]PHI]'C,]Q,]:'II'A?DCH]D/]I>.]QQ,]B'G?C.H&]EJAA.,]I>'I;G.<?B.CIH]DI>.G]9R,0]:'II'A?DC]D//].C?L.ID
+&]'C,],.H?<C'I.,]I>.B]/DG;I>.]A'C,?C<]DC]E'GGN*;;'B?,HI]'AA]D/]I>?H]EJGEDH./JA]'"I?K?IN&]I>.]AJ,?"GDJH]H?,.]D/]L'G;.B.G<.,]?C]DC.].E?HD,.*]']J*H*]/AD'I]EA'C.]BDDG.,]?C]I>.]A'<DDC&]'C,;']:D'I]L'H]H.CI]ID]I'
+.]D//]I>.]"G.L*]"DB?C<]'ADC<H?,.&]I>.]:D'I;"A.K.GAN]B'C'<.,]ID]"'EH?O.]I>.]EA'C.*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9C'KN0]QPVUVX;;L'K.H]D/]'BIG'"H&].'">]DC.]"G'BB.,]L?I>]B'G?C.H]JC".GI'?C]D/]L>'I]I>.N;L?AA]/?C,]L>.C]I>.N]>?I]I>.]:.'">&]">JGC]?C]/DG]I>.]'HH'JAI]D/].C<.:?;DC]PW]/.:GJ'GN]PXSS*]I>.N]'G.]>DE?C<]ID]/?C,]'C].C.BN],'O.,]:N]I>.;EG.E'G'IDGN]'GI?AA.GN]/?G.*`;;I>.].M'"I]I?B?C<]D/]'C]'BE>?:?DJH]'HH'JAI]?H]']"GJ"?'A],."?H?DC]:'H.,;DC]'],.A?"'I.]:'A'C"?C<]D/]']>DHI]D/]/'"IDGH&]HJ">]'H]I>.]"DC,?I?DC]D/;I>.]IGDDEH]'C,]I>.?G].FJ?EB.CI&]EGDK?H?DC]D/]/?G.]HJEEDGI&].I"*]<.C.G'A;L'IHDC],."?,.,]ID]>DA,]D//]I>.]A'C,?C<]DC]E'GGN]JCI?A],]EAJH]T]9QQ;/.:GJ'GN0*]'C]D//?"?'A]G.EDGI].MEA'?C.,]I>.]G.'HDCH]/DG]I>.],.A'N$;;]9'0]ID]G.>':?A?I'I.]'C,]G.DG<'C?O.]=I>.]:'II'A?DC]D/]I>.]QQ,;]B'G?C.H`]L>?">]>',]:..C]?C]'"I?DC]/DG]I>G..]HJ"".HH?K.],'NH*;;]9:0]ID]G..B:'G
+&]G.E'?G&]'C,]H.GK?".]B.,?JB]I'C
+H]'C,]G.HI]I>.?G;]"G.LH*;;]9"0]ID]B'
+.]A?<>I]I'C
+H&]L>?">]L.G.]HI?AA].C<'<.,]DC].C?L.ID
+&;]'K'?A':A.]/DG]I>.]'HH'JAI]DC]E'GGN]?HA'C,]?/]G.FJ?G.,*;;]9,0]ID]EGDK?,.]DC.]=:'II'A?DC`]D/]I>.]PYUI>]?C/'CIGN]'H]HJEEDGI;]G.H.GK.]?C]I>.].K.CI]?I]L'H]G.FJ?G.,*;;]9.0]ID]'AADL]',,?I?DC'A]I?B.]/DG]I>.]'?G]'C,]HJG/'".]:DB:'G,B.CI]D/;]E'GGN*;;'L'?I?C<]I>.]'BIG'"H]D/]I>.]QQ,]B'G?C.H&]I>.] 'E'C.H.]"DBB'C,.G]DC]I>.;?HA'C,]?HHJ.,]']K.GN]HJ""?C"I]DG,.G]ID]>?H]IGDDEH$;;]'I]I>.].,<.]D/]I>.]L'I.G]H"'II.G]'C,],?K?,.]I>.].C.BN]?C/'CIGN;]?C]I>.?G]:D'IHZZ'II'"
+]'C,]'CC?>?A'I.].'">]DC.*]A'JC">]"A.K.GAN;]EG.E'G.,]EDL.G/JA]FJ?"
+]I>GJHIH]'C,]K?K?,]HJ,,.C]'II'"
+H&]'C,]'/I.G;]>'K?C<]'II'"
+.,]'C,]>'K?C<],.HIGDN.,]I>.].C.BN]A'C,?C<]/DG".H&;]/?GHI]D/]'AA&]I>.C]H"'II.G]'C,]:G.'
+]JE]I>.?G]<GDJEH]D/]:D'IH]'C,;]H>?EH*]?C]I>.].K.CI]I>'I]I>.].C.BN]HJ""..,H]?C]B'
+?C<]']A'C,?C<;]'CC?>?A'I.]>?B]:N]B.'CH]D/]C?<>I]'II'"
+H*;;I>.].C.BN]EA'CH]ID]'CC?>?A'I.]/'?A.,*]/DG]ILD],'NH]:./DG.]I>.]B'G?C.;'HH'JAI&]I>.]C'KN]>',]BDK.,]?IH]:?<]<JCH]?C]'H]"ADH.]'H]WTY]N'G,H;D//H>DG.]'C,]EDJC,.,]I>.],./.C,.GH]L?I>]XSS]IDCH]D/]H>.AAH*]I>?H]L'H;HJEEA.B.CI.,]:N]'GI?AA.GN]/?G.]/GDB]I>.]C.?<>:DG?C<]?HA'C,H]'C,]GD"
+.I;/?G.]/GDB]I>.]<JC:D'IH]'H]I>.]B'G?C.H]L.CI]?C*]I>?H]G'?C]D/]H>.AAH;"G.EI]'>.',]D/]I>.]I'C
+H]'C,]?C/'CIGNB.C]'H]I>.N]I.C'"?DJHAN]HAD<<.,;I>.?G]L'N]'"GDHH]I>.]?HA'C,*;;=?AAJHIG'I?DC$;;].C?L.ID
+;]9,DLCH?,.0;]'IDAA;;I>.]"'EIJG.]D/]I>?H]'IDAA]/DAADL.,]']"'G./JAAN]EA'CC.,]H.FJ.C".&;JH?C<]']K'G?.IN]D/]<.D<G'E>?"]ED?CIH$]9P0].CIG'C".]D/]J*H*]H>?EH]?CID;I>.]A'<DDC]I>GDJ<>]L?,.]E'HH'<.]?C]I>.]HDJI>]'C,],..E].CIG'C".]?C;I>.]HDJI>.'HI!]9Q0]'GI?AA.GN]H.I]JE]DC]"'B.AA?']'C,]"'CC']?C]I>.;CDGI>.'HI!]9R0]A'C,?C<]DC].C<.:?]?C]I>.]CDGI>!]9S0]A'C,?C<]DC].C?L.ID
+;?C]I>.]HDJI>!]'C,&]/?C'AAN]9T0]A'C,?C<]DC]E'GGN]?C]I>.]HDJI>.'HI*`;;'H]'AL'NH&]I>.G.]L'H]I>.]JC.ME."I.,*]L>.C]']H>.AA]/GDB]']J*H*]L'GH>?E;>?I],?G."IAN]DC]IDE]D/]'C]JC,.G<GDJC,]:JC
+.G&]'AA]I>.] 'E'C.H.]?CH?,.;EDJG.,]DJI]'C,]G'CZZD/]'AA]EA'".HZZ?CID]I>.]H.'*]'CDI>.G]H>.AA]>JGA.,]';"D"DCJI]IG..]'AD/I]'C,]"'I'EJAI.,]I>.]:D,N]D/]'C].C.BN]HC?E.G]/GDB]?IH;:G'C">.H]I>GDJ<>]I>.]'?G]ID]>?H],.'I>*;;=?AAJHIG'I?DC$]"EA]'CI>DCN]E*],'B'ID&]K]'BE>?:?DJH]"DGEH&]L'H;EDHI>JBDJHAN]'L'G,.,]I>.]B.,'A]D/]>DCDG]/DG]>'K?C<]H'K.,]I>.]A?K.H]D/;>?H]/.AADL]B'G?C.H]:N]I>GDL?C<]>?BH.A/]DC]'] 'E'C.H.]>'C,]<G.C',.*;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]RYRYRV;`;;/DG]I>.]'HH'JAI]IGDDEH&]?I]L'H]']"DCI?CJ?C<]HIDGN]D/]HE?,.G]>DA.H&;IJCC.AH&]JC,.G<GDJC,]HIGDC<]ED?CIH&]'C,].C.BN]G.H?HI'C".]ID]I>.],.'I>*;'CDI>.G]NDJC<]B'G?C.&]H."DC,]A?.JI.C'CI]"DG,]B.N.G&] G*&]?C]>?H]/?GHI;"DB:'I]/DJ<>I]DC]:DI>].C?L.ID
+]'C,]E'GGN*]I>.]<GJ.A?C<].ME.G?.C".H;>.]>',]L.G.]INE?"'A]D/].K.GNDC.]L>D]IDD
+]E'GI]?C]I>.H.]:'IIA.H*]>.;L'H]A'C,.,]L?I>]>?H]B'">?C.]<JC]EA'IDDC]?C]I>.]H."DC,]L'K.]D/]'HH'JAI;IGDDEH&]I>G..]B?CJI.H]'/I.G]I>.]/?GHI]B.C]ID]>?I]I>.]:.'">]DC].C?L.ID
+*;BDK?C<]FJ?"
+AN]?CA'C,&]I>.]EA'IDDC]"'B.]ID]I>.].,<.]D/]']:A'HI.,;"D"DCJI]<GDK.*]I>.C&]'H]I>.]A?.JI.C'CI]A'I.G]LGDI.]>DB.$;;]L.]L.G.]>'G,]>?I]I>.G.&]'C,]L?I>]I.GG?:A.]"A'G?IN]I>.]G.'A?IN]D/;]I>.].K.CI]"'B.]>DB.]ID]B.*]?]>',]"G'LA.,]/DGL'G,]ID]'H
+]']B'G?C.;]L>.G.]I>.] 'EH]L.G.ZZEG.IIN].M"?I.,]G.'AAN]'C,].C DN?C<]?I]'ABDHI;]A?
+.]']<'B.*]?]"G'LA.,]JE]:.H?,.]>?B]:JI]>.]LDJA,CI]'CHL.G*]I>.C]?;]H'L]I>.].K.G]L?,.C?C<]EDDA]D/],'G
+]:ADD,]:N]>?H]>.',]'C,]
+C.L]I>'I;]>.]L'H],N?C<]DG],.',*]HD]?I]"'B.]DK.G]B.]L>'I]I>?H]L'G]L'H&]'C,;]'/I.G]I>'I]?I]L'HCI]/JC]DG].M"?I?C<&]:JI]HDB.I>?C<]I>'I]>',]ID]:.;],DC.*;;]/DGIJC.]HB?A.,]DC]B.]I>'I],'N&]DG]I>.]>'C,]D/]'],?K?C.]EGDK?,.C".;]L'H]DK.G]B.&]DG]?]L'H] JHI]EA'?C]AJ"
+N*]L.]
+?AA.,]B'CN]D/]I>.B]?C;]/?<>I?C<]I>'I]A'HI.,]ID]C?<>I/'AA*]L.]"DGC.G.,]/?/IN]DG]HD]?BE.G?'A;]= 'E'C.H.`]B'G?C.H]DC]I>.].C,]D/]I>.]?HA'C,&]L>.G.]I>.N]'II.BEI.,;]']:'CO'?]">'G<.&]:JI]L.]"JI]I>.B],DLC]A?
+.]DK.GG?E.]L>.'I&]'C,]I>.N;]A'N]A?
+.]I?G.,]">?A,G.C]L?I>]I>.?G]/'".H]?C]I>.]H'C,*;;]I>'I]C?<>I]L'H]JC:.A?.K':AN]I.GG?:A.*]I>.G.]L.G.]B'CN]D/]I>.B]A./I;]'C,]I>.N]'AA]>',]DC.]/'C'I?"'A]CDI?DC&]'C,]I>'I]L'H]ID]I'
+.]DC.]D/;]JH]L?I>]I>.B*]L.],J<]?C]L?I>]DG,.GH]ID]
+?AA]'CNI>?C<]I>'I]BDK.,*]?;]
+.EI]L'I">]?C]']/DM>DA.]L?I>]BN]H.G<.'CI&]'C,]L.]:DI>]HI'N.,]'L'
+.;]'AA]C?<>I]L?I>]']
+C?/.]?C]DC.]>'C,]'C,]']<G.C',.]?C]I>.]DI>.G*;]I>.N]"G.EI]?C]'BDC<]JH&]'C,].K.GN]:JH>]DG]GD"
+]IDD
+]DC]H?C?HI.G;]EGDEDGI?DCH*]I>.N]<DI]HDB.]D/]JH&]:JI]?C]I>.]BDGC?C<]I>.N]'AA]A'N;]':DJI&]HDB.]L?I>]I>.?G]G?,,A.,]:D,?.H]'"IJ'AAN]?CH?,.]DJG]/DM>DA.H*;]L?I>],'NA?<>I]?I]L'H].'HN]/DG]JH]'C,]L.]/?C?H>.,]I>.B]D//*]C.K.G;]>'K.]?]:..C]HD]<A',]ID]H..]I>.]:A.HH.,]HJC*;;L?I>]I>'I]:'IIA.]DK.G&]I>.]A?.JI.C'CI]'C,]>?H]B.C]L.G.]>JHIA.,]:'"
+]DC;H>?E*]/DG]'],'N]'C,]']C?<>I]I>.N]L.G.],.HE.G'I.AN]IGN?C<]ID]<.I]I>.?G;<.'G]?CID]EGDE.G]H>'E.]ID]<D]G?<>I]:'"
+]?CID]"DB:'I*]I>.]/DAADL?C<;BDGC?C<&]I>.N]L.CI]?C]DC]I>.]'II'"
+]DC]E'GGN*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]VQSRS;;ED?H.,]?C]']H>'AADL]IG.C">&]G?/A.B.C]D/]I>.]QQ,]B'G?C.H]'L'?I]I>.;DG,.G]ID]'II'"
+]'C].C.BN]"D"DCJIZAD<]HIGDC<ED?CI]DC].C?L.ID
+*]L>?A.]I>.;BDHI]D/]I>.]B.C]'G.]"'GGN?C<]BP]G?/A.H&]I>.]/A'B.I>GDL.G]?C]I>.?G]B?,HI;B'N]L.AA]EGDK.]"GJ"?'A*`;;I>.N]/DJC,]I>.]:.'">]L'H]HL.EI]L?I>]B'">?C.Z<JC]'C,]BDGI'G]/?G.&]:JI;I>.N]HJG<.,]?CA'C,]DK.G]GJ?C.,&]H>.AAZ:A'HI.,]HD?A]GD"
+.,]:N]I>.;"DCI?CJ'A]BDGI'G]:JGHIH*]I>.C]I>.?G]"'EI'?C]HJ,,.CAN]ED?CI.,&]'C,;':DK.]I>.]:GJH>]A?C.]I>.N]H'L]PTY]DG]HD]B.C]:.C,?C<]/DGL'G,&]BDK?C<;DC]']E'G'AA.A]"DJGH.]':DJI]TY]N'G,H]'L'N*]I>.]B'G?C.H&]>DL.K.G&;L'K.,&]I>?C
+?C<]I>'I]I>.N]BJHI]:.]/.AADL]B'G?C.H*]I>.]B.C]E'?,]A?IIA.;'II.CI?DC]ID]I>.]B'G?C.H]'C,]H..B.,]ID]:.]H.II?C<]JE]B'">?C.]<JCH*]I>.;G.'A?O'I?DC]HIGJ"
+]>DB.$]I>.N]L.G.] 'E'C.H.*;;=?AAJHIG'I?DC$]/U/]>.AA"'I]/?<>I.GH]/GDB]"'GG?.G],."
+H]EA'N.,]'C;?BEDGI'CI]E'GI]?C]I>.]J*H*]C'KNH].A?B?C'I?DC]D/] 'E'C.H.]'?GEDL.G]DC]';CJB:.G]D/]?HA'C,H]?C]I>.]B'GH>'AAH&]'H]L.AA]'H]?C]I>.],.K'HI'I?C<]'?G;HIG?
+.H]HJEEDGI?C<]I>.]'HH'JAI]A'C,?C<H*;;],.E'GIB.CI]D/],./.CH.]E>DID]9C'KN0]WYZ
+ZPYY;`;;I>.]A?.JI.C'CI]:N]CDL]>',] JHI]>'A/]']EA'IDDC]D/]B.C]'C,]ILD]B'">?C.;<JCH*]I>.N]H.I]I>.]<JCH]JE]'C,]HI'GI.,]/?G?C<]'I]I>.].C.BN*]DC.]<JC; 'BB.,&]HD]I>.N]:JG?.,]I>.]E'GIH]?C]I>.]H'C,&]:."'JH.]I>.N]I>DJ<>I;I>'I]I>.] 'E'C.H.]LDJA,]">'G<.]'C,]I>.N]"DJA,CI]EDHH?:AN]HIDE]?I]DG;EG.K.CI]I>.]"'EIJG.]D/]I>.]<JC*]L>.C]I>.N],?,CI]'II'"
+&]I>.]B'G?C.H;BDK.,]?C]'<'?CHI]I>.B*]I>.]ILD]H?,.H]I>G.L]<G.C',.H]:'"
+]'C,]/DGI>;/DG]L>'I]H..B.,]A?
+.]>DJGH*]B'CN]L.G.]
+?AA.,]DC]:DI>]H?,.H*]/?C'AAN;I>.]A?.JI.C'CI]'C,]>?H]B.C]I>G.L]']L>DA.]KDAA.N]D/]<G.C',.H]'C,;">'G<.,]?C]'C,]<DI]ID]I>.]:.'">*],DLC]?I]I>.N]"DJA,]H..]']L>DA.]<GDJE;D/] 'E'C.H.&]HD]'AA]PQ]D/]I>.]B'G?C.H&]HI'C,?C<&]
+C..A?C<&]DG]AN?C<;EGDC.&]/?G.,]I>.?G]G?/A.H]'C,]"'G:?C.H*]I>.].C.BN]/.AA]A?
+.],J"
+H]?C;']H>DDI?C<]<'AA.GN&]:JI]HI?AA]I>.N]"ADH.,]?C]DC]I>.]A?IIA.]<GDJE]D/;B'G?C.H]L>D]I>.C]>',]ID]:'"
+]'L'N*;;=?AAJHIG'I?DC$;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]PSXPSS;;?C]DC.]D/]I>.]"A'HH?"]E>DID<G'E>H]D/]I>.]E'"?/?"]L'G&],D<ZI?G.,]'C,;:'IIA.Z<G?B.Z"D'I.,]B'G?C.H&]I>'C
+/JA]ID]:.]D//]I>.]?HA'C,]'C,]HI?AA;'A?K.&]G.A'M]L?I>]']>DI]"JE]D/]"D//..]DC]:D'G,]H>?E]'/I.G]K?"IDG?DJHAN;.C,?C<]I>.]:GJ?H?C<]/?<>I]/DG].C?L.ID
+*`;;CDL]I>.]A?.JI.C'CI]"DCI?CJ.,]>?H]HIDGN$;;]:JI]L.]<DI]HDB.]I'C
+H]'C,]G.?C/DG".B.CIH]HDB.]>'A/]>DJG]A'I.G]'C,;]BDK.,]I>GDJ<>]I>.B]?C]H
+?GB?H>]A?C.&]L>?">]:G?C<H]I>?H]I'A.]ID]I>.;]BDHI].MIG'DG,?C'GN]?C"?,.CI]D/]'AA*]?]L'H]/DAADL?C<]HDB.]I.C]N'G,H;]:.>?C,]I>.]I'C
+H&]L>.C]'] 'E]D//?".G]"'B.]DJI]D/]']>DA.]ED?CI?C<;]>?H]E?HIDA]'I]B.!]HD]?CHI?C"I?K.AN]?]H>DI]BN]"'G:?C.]/GDB]I>.]>?E;]'C,]>?I]>?B]/JAA]?C]I>.]/'".*]?]L'A
+.,]/DGL'G,]'C,]ADD
+.,]?CID]I>.;]IG.C">]'C,]H'L]'CDI>.G]L?I>]>?H]'GB]"D"
+.,]ID]I>GDL]']<G.C',.*]>.;],?,CI]H..]B.*]?]L'H]DCAN]H?M]/..I]'L'N*]?]EJAA.,]I>.]IG?<<.G]:JI;]I>.]L.'EDC]L'H] 'BB.,]L?I>]H'C,*]?]>',]ID],D]HDB.I>?C<&]HD]?]IDD
+;]BN]"'G:?C.]:N]I>.]:'GG.A]'C,]>?I]>?B]L?I>]'AA]BN]B?<>I]'I]I>.]:'H.;]D/]I>.]C."
+*]?I]:GD
+.]>?H]C."
+]'C,]BN]"'G:?C.*;;]/?C'AAN]L.]
+?AA.,]I>.B]'AA*]I>.N]C.K.G]HJGG.C,.G*]'<'?C]I>.]C?<>I;]L'H]']:',]DC.&]:JI]L?I>]I>.],'LC]"'B.]"DBEA.I.]K?"IDGN&]'C,]I>DH.;]D/]JH]L>D]HI?AA]L'A
+.,]L?I>DJI]']LDJC,]ADD
+.,]?C]'B'O.B.CI]'I]DJG;]L>DA.]:D,?.H*]I>.G.]L'H]CDI]BJ">] J:?A'I?DC*]L.] JHI]H'I]'C,]HI'G.,;]'I]I>.]H'C,&]'C,]BDHI]D/]JH]I>DJ<>I]D/]I>DH.]L>D]L.G.]<DC.ZZI>DH.;]L>DB]?]H>'AA]G.B.B:.G]'H]'AL'NH]NDJC<&]HB?A?C<&]'C,]<G'"./JA&;]'C,]?]H>'AA]IGN]ID]/DG<.I]>DL]I>.N]ADD
+.,]'I]I>.].C,&]:.NDC,]'AA;]G."D<C?I?DC****;;I>.]A?.JI.C'CIH]A.II.G]L.CI]DC]ID]EG'?H.]>?H]B.C$;;]I>.N]D:.N.,]L?I>]'C]JCFJ.HI?DC?C<]"DJG'<.*]DC.]D/]BN]H."I?DC;]A.',.GH]L'H]>?I]:N]']:JAA.I]?C]>?H]'GB*]?I]HEJC]>?B]"A.'G]'GDJC,;]'C,]H.I]>?B],DLC]DC]>?H]:.>?C,*]']A?IIA.],'O.,&]>.]H'I]I>.G.]/DG;]']H."DC,]'C,]I>.C] JBE.,]JE]L?I>]I>.]G.B'G
+&]I>.]A?IIA.]:'HI'G,H;]L?AA]>'K.]ID]>?I]B.]L?I>]BDG.]I>'C]I>'I*]?]>',]ID]DG,.G]>?B]:'"
+;]ID]I>.],G.HH?C<]HI'I?DC]'C]>DJG]A'I.G*]>.]L'H]L.'
+]L?I>]ADHH]D/;]:ADD,]:JI]'"IJ'AAN]EA.',.,]ID]HI'N*;;]BN]GJCC.G]L'H]
+CD"
+.,],DLC]G?<>I]:.H?,.]B.]L?I>]I>G..]:JAA.I]>DA.H;]?C]>?B]'C,]:ADD,]'AA]DK.G]>?H]/'".*]HIJE?,AN]?]H'?,&]'G.]NDJ]>?I&;]:DN[]>.]L'H]"GN?C<]']A?IIA.&]:.?C<] JHI]']
+?,]D/].?<>I..C&]'C,;]H'?,&]?B]HDGGN&]H?G*]?]<J.HH]?B] JHI]']H?HHN*]?],'BC]C.'G]"G?.,;]BNH.A/]'I]I>'I*;;'C,]HD]?I]L.CI]'AA]I>GDJ<>]I>.],'N&]:JI]:N].K.C?C<]?I]L'H]C.'GAN;'AA]DK.G*].'GAN]I>.]C.MI]BDGC?C<]9,]EAJH]U&]QR]/.:GJ'GN0]E'GGN]L'H;"DBEA.I.AN]?C]'B.G?"'C]>'C,H&]'C,]I>.]"DCFJ.HI]D/].C?L.ID
+]'IDAAH;K?I'A]D: ."I?K.H]L'H]"DBEA.I.*]HDB.]R&SYY] 'E'C.H.]>',]:..C].A?B?C'I.,;I>.G.]'I]']"DHI]D/]RSW]'B.G?"'C],.',]'C,]WUU]LDJC,.,*;;BDEE?C<]JE]DE.G'I?DCH]DC]B'CN]D/]I>.]I?CN]?HA.IH]?C]I>.]B'GH>'AAH;"DCI?CJ.,]JCI?A]QS]'EG?A*]I>.]IGDDEH].C"DJCI.G.,]']/.L]H"'II.G.,; 'E'C.H.]HDA,?.GHZZFJ?"
+AN],?HE'I">.,ZZ'C,]'C]D,,?IN*]DC]DC.]'IDAA]I>.N;/DJC,]']<.GB'C]L>D]>',]B'GG?.,]']C'I?K.]LDB'C]'C,]>',]A?K.,]I>.G.]H?C".;>.]>',]DG?<?C'AAN]:..C]H>?ELG."
+.,]?C]PWXP*]DC.]D/]I>.]D:H"JG.]'IDAAH;L'H]A'I.G]ID]:."DB.]/'BDJH]'H]']J*H*]CJ"A.'G]I.HI?C<]<GDJC,&]'C,]'H]';C'B.]<?K.C]ID]']H.CH'I?DC'A]C.L]LDB'CH]:'I>?C<]HJ?I$]:?
+?C?*;;I>.]QQ,]B'G?C.H]>',]E.G/DGB.,]HJE.G:AN*]G."D<C?I?DC]D/]I>.?G;'">?.K.B.CIH]"'B.]?C]I>.]/DGB]D/]']C'KN]JC?I]"DBB.C,'I?DC&]L>?">;EG'?H.,]?IH]HJHI'?C.,].C,JG'C".&]/DGI?IJ,.&]'C,]/?<>I?C<]HE?G?I;I>GDJ<>DJI]I>?H]DE.G'I?DC*;;I>JH]I>.]B'GH>'AA]?HA'C,H]DE.G'I?DCH]L.G.]HJ"".HH/JAAN]"DC"AJ,.,*]L?I>;G.A'I?K.AN]A?<>I]'B.G?"'C]"'HJ'AI?.H&]']:?<]HI.E]>',]:..C]I'
+.C]?C;I>.]".CIG'A]E'"?/?"]"'BE'?<C*]J*H*]/DG".H]L.G.]CDL]L?I>?C]P&PYY]B?A.H;D/]I>.?G]C.MI]D: ."I?K.&]I>.]B'G?'C']?HA'C,H*]I>.]I?B.I':A.]/DG]I>'I;A.'E]L'H]BDK.,]JE]:N]'I]A.'HI]QY]L..
+H*]I>.]Q,]B'G?C.],?K?H?DC]'C,]I>.;G.B'?C,.G]D/]I>.]'GBNH]QVI>],?K?H?DC]L.G.]CDL]/G..]/DG]I>'I]DE.G'I?DC&;H?C".]I>.N]L.G.]CDI]C..,.,]?C]I>.]B'GH>'AAH*]I>.]:'H?"]I.">C?FJ.H]/DG;K?"IDG?DJH]'BE>?:?DJH]'HH'JAIH]L.G.]CDL]"A.'GAN]EGDK.C*]'CDI>.G]A'G<.;"DCI?C<.CI]D/]'B.G?"'C]IGDDEH]>',]G.".?K.,]?IH]:'EI?HB]D/]/?G.&]'C,]I>.;'B.G?"'CH]>',]:GD
+.C]I>.]DJI.G]G?C<]D/] 'E'CH]".CIG'A]E'"?/?"],./.CH.H;L?I>]?BEG.HH?K.]H
+?AA]'C,]"DJG'<.*;;=H?,.:'G]9E'<.]QQ0$]:G?<',?.G]<.C.G'A]I>DB'H].*]L'IHDC;;=?AAJHIG'I?DC$]:<.C]I>DB'H].*]L'IHDC&]JHB"&]"DBB'C,.,]I'"I?"'A;<GDJEZP&]:J?AI]'GDJC,]I>.]QQ,]B'G?C.H&]'H]>.]A.,]>?H]B'G?C.H]?C]I>.;"'EIJG.]D/].C?L.ID
+*]>.]A'I.G]"DBB'C,.,]I>.]Q,]B'G?C.],?K?H?DC]?C]I>.;.CHJ?C<]H'?E'CZI?C?'C]DE.G'I?DC*;;],.E'GIB.CI]D/],./.CH.]E>DID]9JHB"0]PPXWU;`;;"DBB'C,.G]D/]I'"I?"'A]<GDJEZP]:J?AI]DC]I>.]QQ,]B'G?C.H&]>.]A.,]I>.;"DCFJ.HI]D/].C?L.ID
+*]/DG]I>?H]>.]L'H]'L'G,.,]'],?HI?C<J?H>.,]H.GK?".;B.,'A*]EGDBDI.,]ID]B' DG]<.C.G'A&]>.]G.".?K.,]']H."DC,],HB]/DG]>?H;H.GK?".]L>?A.]"DBB'C,?C<]I>.]Q,]B'G?C.],?K?H?DC]'I]H'?E'C]'C,]I?C?'C*;>.]G.I?G.,]?C]PXTY*;;L?I>]']:?GI>],'I.]D/]PWXQ&]'C,]'C].CA?HIB.CI],'I.]D/]PXPQ&]>.]/JAAN;FJ'A?/?.,]'H]']B.B:.G]D/]I>.]DA,]"DGEH*]'/I.G]:.?C<]"DBB?HH?DC.,]?C;PXPU&]>.]H.GK.,]?C]']K'G?.IN]D/]B'G?C.]'HH?<CB.CIH]?C]I>.]"'G?::.'C&;">?C'&]'C,]I>.]JC?I.,]HI'I.H*;;<?K.C]I>.]C?"
+C'B.]I.GG?:A.]IDBBN&]L'IHDCH]EGDK.G:?'A]?BE'I?.C".]L'H;A'I.G]">'G'"I.G?O.,]:N]<.C.G'A]L'AA'".]B*]<G..C.&] G*&]'H]/DAADLH$]>.;LDJA,]CDI]IDA.G'I.]/DG]DC.]B?CJI.]HIJE?,?IN&]A'O?C.HH&]EGD/.HH?DC'A;?C"DBE.I.C".&]DG]/'?AJG.]?C]A.',.GH>?E****]>?H]I.BE.G]?C]"DGG."I?C<;I>.H.]/'?A?C<H]"DJA,]:.]/?.GN]'C,]BDCJB.CI'A*]'C,]HD&]:DI>]B'G?C.]'C,;'GBN]D//?".GH]/DJC,]DJI]'I].C?L.ID
+]'C,]A'I.G]H'?E'C3;`;;=H?,.:'G]9E'<.]QU0$]I>.],.',AN]HE?,.G]>DA.H;;A'I.G]'""DJCIH].MEA'?C.,]L>'I]I>.]B'G?C.H]G'C]?CID]'I].C<.:?ZZ'C,]L>'I;I>.N],?,]ID]
+..E]I>.?G]',K'C".]BDK?C<]/DGL'G,*;;I>DH.],./.CH.H]L.G.]D/]I>.]HE?,.G]L.:]INE.]ID]L>?">]I>.G.]L.G.]B'CN;.CIG'C".H*]I>.N]L.G.]"DCHIGJ"I.,]:N]
+CD"
+?C<]DJI]I>.]>.',H]D/].BEIN;<'HDA?C.],GJBH]'C,]B'
+?C<]'C]?BEGDBEIJ]E?E.A?C.]D/]I>.B&]HJC
+]?CID;I>.]<GDJC,]'C,]"DK.G.,]L?I>].'GI>]'C,]E'AB]/GDC,H*]I>.]IJCC.AH]I>JH;"DCHIGJ"I.,]:G'C">.,]D//]?C]H.K.G'A],?G."I?DCH]/GDB]']".CIG'A]E?I;'C,]I>.]L>DA.].BEA'".B.CI]L'H]JHJ'AAN]"DC".'A.,]L?I>]<G.'I]H
+?AA]'C,;?C<.CJ?IN*]?/]I>.]B'?C]EDH?I?DC]L'H]HEDII.,]'C,]'II'"
+.,]I>.]G?/A.B.C;L?I>?C]"DJA,]"G'LA]D//]/?/IN]/..I]DG]HD],DLC]DC.]D/]I>.]"DGG?,DGH;'C,].B.G<.]'I]'C].CI?G.AN],?//.G.CI]'C,]JC.ME."I.,]HEDI]/GDB]L>?">;I>.N]"DJA,]<.I]D//]']H>DI]'C,],?K.],DLC]ID]"DC".'AB.CI]:./DG.]?I]L'H;EDHH?:A.]ID],.I.GB?C.]L>.C".]I>.]/?G.]EGD"..,.,*].K.GN]/DDI]D/]<GDJC,;>',]ID]:.]<DC.]DK.G]L?I>]I>.]<G.'I.HI]EG."'JI?DC]'C,]'A.GIC.HH]:./DG.;I>.H.]>DC.N"DB:H]D/],.'I>]"DJA,]:.]H?A.C".,]:N]I>.]A?I.G'A]EGD".HH]D/;.A?B?C'I?DC*;;I>.]'II'"
+?C<]B'G?C.H]HDDC]>?I]JEDC]']B.I>D,]D/],.HIGDN?C<]"DBEA.I.AN;I>.H.]JC,.G<GDJC,],./.CH.H*]L>.C]I>.]:JC
+.G]'I]I>.]".CI.G]D/]I>.]L.:;>',]:..C]AD"'I.,&]']B.B:.G]D/]I>.]'HH'JAI]I.'B]LDJA,]>JGA]']HBD
+.;<G.C',.]?CH?,.*]'AI>DJ<>]I>?H]INE.]D/]B?HH?A.],?,]CD]>'GB]ID]I>.; 'E'C.H.]L?I>?C&]?I]G.A.'H.,]']"ADJ,]D/]K'EDG]L>?">]GDAA.,]I>GDJ<>]I>.;IJCC.AH]'C,].H"'E.,]'GDJC,]I>.]ADDH./?II?C<]"DK.GH]D/]I>.]/DM>DA.H*;;DC".]I>.]DJIA?C.]D/]I>.]L.:]L'H]
+CDLC&]I>.]:JC
+.G]'C,]'AA]?IH]H'I.AA?I.;EDH?I?DCH]"DJA,]:.]H>'II.G.,]L?I>],.BDA?I?DCH*;`;;=H?,.:'G]9E'<.]QW0$;;]I>.]H."G.I'GN]D/]I>.]C'KN;]L'H>?C<IDC;;I>.]H."G.I'GN]D/]I>.]C'KN]I'
+.H]EA.'HJG.]?C]"DBB.C,?C<]I>.;;IL.CINZH."DC,]B'G?C.H&]G.?C/DG".,&]I'"I?"'A]<GDJE]DC.&]/?/I>]'BE>?:?DJH;"DGEH;;"DCH?HI?C<]D/;;]IL.CINZH."DC,]B'G?C.H!]H."DC,]H.E'G'I.]E'"
+]>DL?IO.G]"DBE'CN!;]H."DC,]H.E'G'I.]I'C
+]"DBE'CN!]H."DC,]H.E'G'I.].C<?C..G]"DBE'CN!;]H."DC,]H.E'G'I.]B.,?"'A]"DBE'CN!]H."DC,]H.E'G'I.]BDIDG]IG'CHEDGI;]"DBE'CN!]/?/I>]'BE>?:?DJH]"DGEH]G."DCC'?HH'C".]"DBE'CN!]"DBE'CN;],&]/DJGI>]I'C
+]:'II'A?DC&]/DJGI>]B'G?C.],?K?H?DC!]PYSI>]/?.A,;]'GI?AA.GN]:'II'A?DC&]J*H*]'GBN!]"DBE'CN]"&]VUUI>]I'C
+]:'II'A?DC&;]J*H*]'GBN!]"DBE'CN]'&]VYWI>]'BE>?:?'C]I'C
+]:'II'A?DC&]J*H*]'GBN!;]"DBE'CN],&]VYWI>]EGDK?H?DC'A]'BE>?:?'C]IG'"IDG]:'II'A?DC&]J*H*;]'GBN!]'C,]I>.]EGDK?H?DC'A],J
+L]:'II.GN&]H.K.CI>]?C/'CIGN],?K?H?DC&;]J*H*]'GBN*;;/DG]H.GK?".]'H]/DAADLH$;;]/DG]DJIHI'C,?C<]>.GD?HB]?C]'"I?DC]'<'?CHI].C.BN] 'E'C.H.]/DG".H;],JG?C<]I>.]'HH'JAI]'C,]"'EIJG.]D/].C?L.ID
+]'IDAA&]B'GH>'AA;]?HA'C,H&]/GDB]/.:GJ'GN]PV]ID]QQ&]PXSS*]'H]']JC?I]D/]']I'H
+]/DG".&;]'HH.B:A.,]DCAN]ILD],'NH]EG?DG]ID],.E'GIJG.]/DG].C?L.ID
+]'IDAA&]I>.;]IL.CINZH."DC,]B'G?C.H&]G.?C/DG".,&]A'C,.,]?C]L>DA.]DG]?C]E'GI]DC;].C<.:?&].C?L.ID
+]'C,]E'GGN]?HA'C,H]?C]G'E?,]HJ"".HH?DC]'C,]A'JC">.,;]'<<G.HH?K.]'II'"
+H]?C]I>.]/'".]D/]>.'KN]B'">?C.Z<JC]'C,]BDGI'G]/?G.;]/GDB]L.AA]"'BDJ/A'<.,].C.BN],J<DJIH]'C,]/DM>DA.H*]L?I>]H?BJAI'C.DJH;]A'C,?C<H]'C,]G."DCC'?HH'C".]B?HH?DCH]DC]CJB.GDJH]DI>.G]HB'AA;]?HA'C,H&]I>.N]DK.G"'B.]'AA]G.H?HI'C".]L?I>?C]H?M],'NH&],.HIGDN?C<;]']
+CDLC]Q&UUT]D/]I>.] 'E'C.H.]'C,]"'EIJG?C<]UU]EG?HDC.GH*]:N]I>.?G;]"DJG'<.]'C,],.I.GB?C'I?DC&],.HE?I.]I>.],?//?"JAI?.H]'C,]>'G,H>?EH;]?CKDAK.,]?C]G.E.'I.,]G..B:'G
+'I?DCH]'C,]A'C,?C<]/GDB],'N]ID],'N&;]I>.H.]<'AA'CI]D//?".GH]'C,]B.C]B',.]'K'?A':A.]ID]DJG]/DG".H]?C]I>.;]E'"?/?"]'G.']'C]',K'C".,]:'H.]L?I>]A'G<.]'C">DG'<.]/'"?A?I?.H]'C,;]'C].HI':A?H>.,]'?G/?.A,&]I>.G.:N]"DCIG?:JI?C<]B'I.G?'AAN]ID]I>.;]HJ"".HH/JA]"DC,J"I]D/]I>.]L'G*]I>.?G]HJHI'?C.,].C,JG'C".&]/DGI?IJ,.;]'C,]/?<>I?C<]HE?G?I]I>GDJ<>DJI]I>?H]DE.G'I?DC]G./A."I]I>.]>?<>.HI;]"G.,?I]DC]I>.]IL.CINZH."DC,]B'G?C.H&]G.?C/DG".,&]'C,]DC]I>.]JC?I.,;]HI'I.H]C'K'A]H.GK?".*;;'AA]E.GHDCC.A]'II'">.,]ID]'C,]H.GK?C<]L?I>]'CN]D/]I>.]':DK.]JC?IH;,JG?C<]I>.]E.G?D,]/.:GJ'GN]PV]ID]QQ&]PXSS&]'G.]'JI>DG?O.,]ID]L.'G]I>.;C'KN]JC?I]"DBB.C,'I?DC]G?::DC*;`;;HDJG".H;;'AA]D/]I>.]:'H?"]B'G?C.]>?HIDG?.H]/DG]LDGA,]L'G]??]"DCI'?C],.I'?A.,;'""DJCIH]D/]I>.]B'GH>'AAH]DE.G'I?DC*]I>?H]BDCD<G'E>]G.EG.H.CIH]';HJBB'GN&]HJEEA.B.CI.,]:N]?C,?K?,J'A].ME.G?.C".H],G'LC]/GDB]I>.]E.GHDC'A;E'E.GH]'C,]DG'A]>?HIDG?.H]"DAA."I?DCH]?C]I>.]B'G?C.]"DGEH]>?HIDG?"'A;".CI.G&]L'H>?C<IDC&],*"*;;'BDC<]I>.]BDHI]JH./JA]L.G.$]PHIAI] D>C]"*]">'E?C&]JHB"G&]I>.]SI>;B'G?C.],?K?H?DC]?C]LDGA,]L'G]??]9L'H>?C<IDC$]>?HIDG?"'A],?K?H?DC&;>FB"&]PXST0!]AI"DA]GD:.GI],*]>.?CA&] G*&]JHB"&]'C,]AI"DA] D>C]'*]"GDLC&;JHB"&]I>.]B'GH>'AAH$]?C"G.'H?C<]I>.]I.BED]9L'H>?C<IDC$]>?HIDG?"'A;:G'C">&]<ZR],?K?H?DC&]>FB"&]PXTS0!]>?HIDG?"'A],?K?H?DC&]>FB"*]I>.;B'GH>'AA]?HA'C,H]DE.G'I?DCH*]JCEJ:A?H>.,],G'/I&]C*,*]LDGA,]L'G;??ZZB'GH>'AA]?HA'C,H]G."DG,H]/?A.*]B'G?C.]"DGEH]>?HIDG?"'A]".CI.G&;L'H>?C<IDC&],*"*!]AI"DA]H*A*'*]B'GH>'AA&]'JH&]?HA'C,]K?"IDGN;9L'H>?C<IDC$]?C/'CIGN] DJGC'A]EG.HH&]PXSS0!]"'GA]L*]EGD.>A&].,*&;I>.]/DJGI>]B'G?C.],?K?H?DC]?C]LDGA,]L'G]??]9L'H>?C<IDC$]?C/'CIGN; DJGC'A]EG.HH&]PXSU0!]>.CGN]?*]H>'L&] G*&]:.GC'G,]"*]C'AIN&]'C,].,L?C;I*]IJGC:A',>&]".CIG'A]E'"?/?"],G?K.ZZ>?HIDGN]D/]J*H*]B'G?C.]"DGEH;DE.G'I?DCH]?C]LDGA,]L'G]??&]KDA]R]9L'H>?C<IDC$]>?HIDG?"'A]:G'C">&]<ZR;,?K?H?DC&]>FB"&]PXUU0*;;?C]I>.]E.GHDC'A]E'E.GH]"DAA."I?DC]JC?I&]B'G?C.]"DGEH]>?HIDG?"'A;".CI.G&]L'H>?C<IDC&],*"*&]I>.]/DAADL?C<]/?A.H]>'K.]:..C]JH./JA$]/?GHI;A?.JI.C'CI] D>C]"*]">'E?C]9E"]UVP0!]B'HI.G]H.G<.'CI]GD<.G]B*].BBDCH;9E"]RYS0!]EG?K'I.]/?GHI]"A'HH]GD:.GI]/*]<G'/]9E"]PXSU0!]EG?C".IDC;JC?K.GH?IN]"DAA."I?DC]9E"]QQPU0*;;IG'CH"G?EIH]D/]?CI.GK?.LH]?C]DG'A]>?HIDGN]"DAA."I?DC&]B'G?C.]"DGEH;>?HIDG?"'A]".CI.G&]L'H>?C<IDC&],*"*$]:<.C]L?AA?'B]L*]:J">'C'C!]:<.C;B.AK?C]A*]
+GJA.L?I">!]"DA]L?AA?'B]E*]B""'>?AA!]B' <.C]L?AA?'B]L*;GD<.GH!]AI<.C] 'B.H]A*]JC,.G>?AA*;;DI>.G]I?IA.H;;I>.]/DAADL?C<]E'BE>A.IH]?C]I>.]B'G?C.H]?C]LDGA,]L'G]??]"DBB.BDG'I?K.;H.G?.H]'G.]CDL]?C]EG?CI$]DE.C?C<]BDK.H$]B'G?C.H]<.'G]JE]/DG]L'G!;?C/'BDJH],'N$]B'G?C.H]'I]E.'GA]>'G:DG&]V],.".B:.G]PXSP!]/?GHI;D//.CH?K.$]I>.]B'G?C.]"'BE'?<C]/DG]<J','A"'C'A!]DJIEDHI]?C]I>.]CDGI>;'IA'CI?"$]B'G?C.H]?C]I>.],./.CH.]D/]?".A'C,!]']B'<C?/?".CI]/?<>I$;B'G?C.H]?C]I>.]:'IIA.]/DG]L'
+.]?HA'C,!]'"GDHH]I>.]G../$]I>.]B'G?C.;'HH'JAI]D/]I'G'L'!]JE]I>.]HADI$]B'G?C.H]?C]I>.]".CIG'A]HDADBDCH!;I?B.]D/]I>.]'".H$]B'G?C.]E?ADIH]?C]I>.]HDADBDCH&]PXSQZPXSS*;;':DJI]I>.]'JI>DG;;=?AAJHIG'I?DC`;;"'EI'?C] D>C]"*]">'E?C].'GC.,]']:'">.ADG]D/]'GIH],.<G..]L?I>]>DCDGH]?C;>?HIDGN]/GDB]N'A.]JC?K.GH?IN]?C]PXSQ]'C,]L'H]"DBB?HH?DC.,]A'I.G]I>'I;N.'G*]>.]H.GK.,]'H]']G?/A.ZEA'IDDC]A.',.G]?C]I>.]QSI>]B'G?C.H&]SI>;B'G?C.],?K?H?DC&]'C,]L'H]LDJC,.,]?C]'"I?DC],JG?C<]'HH'JAI]A'C,?C<H]DC;GD?ZC'BJG]'C,]H'?E'C*;;IG'CH/.GG.,]ID],JIN]'I]I>.]>?HIDG?"'A],?K?H?DC&]>.',FJ'GI.GH]B'G?C.;"DGEH&]>.]LGDI.]I>.]/?GHI]D//?"?'A]>?HIDG?.H]D/]I>.]SI>]'C,]TI>]B'G?C.;,?K?H?DCH*]BDK?C<]ID]G.H.GK.]HI'IJH]'I]I>.].C,]D/]LDGA,]L'G]??&]>.;.'GC.,]']B'HI.GH],.<G..]?C]>?HIDGN]'I]<.DG<.]L'H>?C<IDC]JC?K.GH?IN;L?I>]']I>.H?H]DC]I>.]B'G?C.]D""JE'I?DC]D/]>'?I?&]PXPTZPXQQ*;;CDL]']"'EI'?C]?C]G.I?G.,]HI'IJH&]>.]>'H]:..C]']KDAJCI..G]'I]I>.]B'G?C.;"DGEH]>?HIDG?"'A]".CI.G]/DG]PY]N.'GH*],JG?C<]I>'I]I?B.&]>.]LGDI.;>?HIDGN]D/]B'G?C.]/?<>I.GZ'II'"
+]9KB/'0]HFJ',GDC]PPT*]L?I>]HJEEDGI;/GDB]I>.]>?HIDG?"'A]".CI.G]'C,]I>.]B'G?C.]"DGEH]>?HIDG?"'A]/DJC,'I?DC&;>.]I>.C]HE.CI]HDB.]N.'GH]G.H.'G">?C<]'C,]?CI.GK?.L?C<]/DG]I>.]LG?I?C<;D/]']C.L]:DD
+*]JC"DBBDC]B.CZZI>.]H.G<.'CIH]B' DG]D/]I>.]B'G?C.]"DGEH*;I>?H]L'H]EJ:A?H>.,]?C]PXXQ]:N]I>.]L>?I.]B'C.]EJ:A?H>?C<]"DBE'CN*;;=?AAJHIG'I?DC`;;I>?H]E'BE>A.I]>?HIDGN&]DC.]?C]']H.G?.H],.KDI.,]ID]J*H*]B'G?C.H]?C;I>.]LDGA,]L'G]??].G'&]?H]EJ:A?H>.,]/DG]I>.].,J"'I?DC]'C,]IG'?C?C<]D/;B'G?C.H]:N]I>.]>?HIDGN]'C,]BJH.JBH],?K?H?DC&]>.',FJ'GI.GH&]J*H*]B'G?C.;"DGEH&]L'H>?C<IDC&],*"*&]'H]']E'GI]D/]I>.]J*H*],.E'GIB.CI]D/],./.CH.;D:H.GK'C".]D/]I>.]TYI>]'CC?K.GH'GN]D/]K?"IDGN]?C]I>'I]L'G*;;.,?IDG?'A]"DHIH]D/]EG.E'G?C<]I>?H]E'BE>A.I]>'K.]:..C],./G'N.,]?C]E'GI;:N]']:.FJ.HI]/GDB]I>.].HI'I.]D/].B?A?.]>*]L'IIH&]?C]B.BDGN]D/]>.G]A'I.;>JH:'C,&]I>DB'H]B*]L'IIH&]L>D]H.GK.,]'H]']B'G?C.]'C,]L'H]I>.]G."?E?.CI;D/]']EJGEA.]>.'GI*;;]LDGA,]L'G]??]"DBB.BDG'I?K.]H.G?.H;;],?G."IDG]D/]B'G?C.]"DGEH]>?HIDGN]'C,]BJH.JBH;]1:G?<',?.G]<.C.G'A].,L?C]
+*]H?BBDCH&]JHB"]9G.I01;;]<.C.G'A].,?IDG&;]LDGA,]L'G]??]"DBB.BDG'I?K.]H.G?.H;]1:.C?H]B*]/G'C
+1;;]"'GID<G'E>?"]"DCHJAI'CI;]1<.DG<.]"*]B'"<?AA?KG'N1;;].,?I?C<]'C,],.H?<C]H."I?DC&]>?HIDGN]'C,]BJH.JBH],?K?H?DC;]1GD:.GI].*]HIGJ,.G1&]H.C?DG].,?IDG!;]1L*]HI.E>.C]>?AA1&]K?HJ'A]?C/DGB'I?DC]HE."?'A?HI!;]1"'I>.G?C.]'*]
+.GCH1&]"DBEDH?I?DC]H.GK?".H]I.">C?"?'C;;]B'G?C.]"DGEH]>?HIDG?"'A]".CI.G;]:J?A,?C<]TW&]L'H>?C<IDC]C'KN]N'G,;]L'H>?C<IDC&],*"*]QYRVSZTYSY;;]1PXXS1;;]E"C]PXY]YYRPQS]YY;;=?AAJHIG'I?DC`;;IG'CH"G?:.GH]CDI.H;;EJC"IJ'I?DC&]>NE>.C'I?DC&]'C,]HE.AA?C<]L.G.]B',.]"DCH?HI.CI]L>.C]';EG.,DB?C'CI]EG./.G.C".]L'H]/DJC,]?C]I>?H]:DD
+!]DI>.GL?H.]I>.N]L.G.]CDI;">'C<.,*;;H?BEA.]INED<G'E>?"'A].GGDGH]L.G.]"DGG."I.,!]D""'H?DC'A]JC:'A'C".,;FJDI'I?DC]B'G
+H]G.I'?C.,*;;ID]B'
+.]I>?H].:DD
+].'H?.G]ID]G.',&]E'GI?"JA'GAN]DC]>'C,>.A,],.K?".H&;BDHI]?B'<.H]>'K.]:..C]B',.]G.A'I?K.AN]A'G<.G]I>'C]?C]I>.]DG?<?C'A;E'BE>A.I&]'C,]".CI.G.,&]G'I>.G]I>'C]D//H.I]ID]DC.]H?,.]DG]I>.]DI>.G!;'C,]HDB.]L.G.]EA'".,]']A?IIA.].'GA?.G]DG]A'I.G]I>'C]?C]I>.]DG?<?C'A*;H?,.:'GH]?C]I>.]DG?<?C'A]>'K.]:..C]G.EDH?I?DC.,]:.IL..C]">'EI.GH]'C,;?,.CI?/?.,]'H]=H?,.:'G]9E'<.]CC0$&]L>.G.]I>.]E'<.]G./.G.C".]?H]ID]I>.;DG?<?C'A]AD"'I?DC]?C]I>.]HDJG".]:DD
+*]?C]I>.]EA'?C]I.MI]K.GH?DC&]I>.;B'I">?C<]"ADH?C<]G?<>I]:G'"
+.I]/DAADLH]I>.]A'HI]A?C.]D/]I>.]H?,.:'GH;I.MI]'C,]?H]DC]']H.E'G'I.]A?C.]ID]B'
+.]?I]BDG.]CDI?".':A.*]?C]I>.]>IBA;K.GH?DCH&]I>'I]:G'"
+.I]/DAADLH]I>.]"DADC&]'C,].'">]H?,.:'G]?H],?HEA'N.,;L?I>?C]']:DM*;;E'<.]PP$]?C/'CIGN]L.CI]?CID]?CK.HI?<'I.]L'H]EG?CI.,]I>'I]L'N!]EGD:':AN;H>DJA,]:.]?C]ID*;;E'<.]PR]9H?,.:'G]C'K'A]HJEEDGI&]DG?<?C'AAN]DC]E'<.]V0$]::]PR]?H]';B?HEG?CI]/DG]::]SR*;;
