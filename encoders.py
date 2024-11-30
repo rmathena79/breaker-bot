@@ -31,12 +31,22 @@ SIMPLIFICATION_MAP = {
     '\r\n' : '\n'
 }
 
+# Character set -- this defines the characters the encoders will actually handle. Text files need to
+# be simplified to exclude any character outside this set before a cipher will work correctly.
+#
 # This is the character set I'd prefer to use, but resource limitations make it impractical:
-CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
+# CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
+#
+# This reduced character set has the most commonly used characters from the first several files I checked,
+# notably including the space character:
+CHARSET = " ETAONIRSH"
 
+
+# Convert a string to a list of offsets in the character set
 def string_to_offsets(in_str:str) -> list[int]:
     return [CHARSET.find(c) for c in in_str ]
 
+# Convert a list of character set offsets to a string
 def offsets_to_string(offsets: list[int]) -> str:
     return "".join(CHARSET[i] for i in offsets)
 
@@ -51,9 +61,8 @@ def offsets_to_string(offsets: list[int]) -> str:
 # Result is returned as a string
 def encode_simple(raw_text: str) -> str:
     # The good part starts on the first line after the "Start" marker
+    # and ends with the start of the "End" marker
     good_part_start = raw_text.find("\n", raw_text.find(PG_START_CONTENT))
-
-    # And it ends with the start of the "End" marker
     good_part_end = raw_text.find(PG_END_CONTENT)
     result = raw_text[good_part_start:good_part_end]
 

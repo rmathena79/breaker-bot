@@ -131,3 +131,6 @@ W    121094.0  0.013969
 15-epoch training, before character set reduction:
 Loss: 1.396213173866272, Accuracy: [0.5052090287208557, 0.03471368923783302]
 
+15-epoch training, 20-character set
+Loss: 0.6949121356010437, Accuracy: [0.5059632062911987, 0.05832824856042862]
+But my key are all below 0!

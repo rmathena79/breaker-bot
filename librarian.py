@@ -15,7 +15,7 @@ ABORT_ON_DB_POPULATED = True
 
 # How many times to encrypt each file
 # It might be helpful to vary this by cipher type, since the more complex ones have far more possible keys
-ENCRYPTIONS_PER_SOURCE = 40
+ENCRYPTIONS_PER_SOURCE = int(len(encoders.CHARSET) * 2 // 3)
 
 # Database access wrapper
 db = db_connect.DB(CONNECTION_INFO)

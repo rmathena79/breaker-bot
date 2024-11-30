@@ -1,3 +1,6 @@
+# This file contains a few reusable values.
+# Note that database credentials must be managed separately for security purposes.
+
 import os
 
 # Data (text) file locations
