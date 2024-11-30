@@ -2,10 +2,9 @@
 credentials.py
 
 # Data library, which is meant to be populated by script:
-sample_data/raw/*
-sample_data/simplified/*
-sample_data/encoded/*
-full_data/*
+data/raw/*
+data/simplified/*
+data/encoded/*
 
 # Temporary artifacts
 saved_models/*
