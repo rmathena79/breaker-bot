@@ -197,6 +197,19 @@ def encrypt_simple_files():
             print(f"Plaintext file ID {plainfile.id}")
 
             for cipher_name in encoders.AVAILABLE_CIPHERS:
+                if cipher_name == encoders.ENCODER_CAESAR:
+                    key_type_id = key_type_ids[encoders.KEY_NAME_CAESAR]
+                    func_get_key = encoders.get_key_caesar
+                    func_encode = encoders.encode_caesar
+                    func_decode = encoders.decode_caesar
+                elif cipher_name == encoders.ENCODER_SUBST:
+                    key_type_id = key_type_ids[encoders.KEY_NAME_SUBST]
+                    func_get_key = encoders.get_key_substitution
+                    func_encode = encoders.encode_substitution
+                    func_decode = encoders.decode_substitution
+                else:
+                    raise Exception(f"Unknown cipher {cipher_name}")
+
                 # Check whether we've already encrypted this file with this cipher
                 encoder_id = encoder_ids[cipher_name]
                 encrypted_files = db.get_files_by_source_and_encoder(session, plainfile.source_id, encoder_id)
@@ -216,12 +229,7 @@ def encrypt_simple_files():
                     # Find a key we haven't used yet for this file
                     good_key = False
                     while not good_key:
-                        if cipher_name == encoders.ENCODER_CAESAR:                    
-                            key_type_id = key_type_ids[encoders.KEY_NAME_CAESAR]
-                            key = encoders.get_key_caesar()
-                        else:
-                            raise Exception(f"Unknown cipher {cipher_name}")
-                        
+                        key = func_get_key()
                         good_key = not key in keys_used
                         if not good_key:
                             print(f"Key {key} already used -- try again")
@@ -229,11 +237,8 @@ def encrypt_simple_files():
 
                     # Encrypt it, and make sure decryption works
                     print(f"Encrypting with {cipher_name}")
-                    if cipher_name == encoders.ENCODER_CAESAR:                    
-                        cipher_text = encoders.encode_caesar(plaintext, key)
-                        deciphered_text = encoders.decode_caesar(cipher_text, key)
-                    else:
-                        raise Exception(f"Unknown cipher {cipher_name}")
+                    cipher_text = func_encode(plaintext, key)
+                    deciphered_text = func_decode(cipher_text, key)
 
                     if deciphered_text != plaintext:
                         raise Exception(f'Decrypted text did not match plaintext for cipher "{cipher_name}", key "{key}"')                

@@ -6,7 +6,7 @@ ENCODER_SIMPLIFIER = "Simplifier"
 ENCODER_CAESAR = "Caesar Cipher"
 ENCODER_SUBST = "Substitution Cipher"
 ALL_ENCODER_NAMES = [ENCODER_NONE, ENCODER_SIMPLIFIER, ENCODER_CAESAR, ENCODER_SUBST]
-AVAILABLE_CIPHERS = [ENCODER_CAESAR] # Add additional ciphers as they are available
+AVAILABLE_CIPHERS = [ENCODER_CAESAR, ENCODER_SUBST] # Add additional ciphers as they are available
 
 KEY_NAME_CAESAR = "Character Offset"
 KEY_NAME_SUBST = "Character Map"
@@ -114,7 +114,7 @@ def _do_caesar(plaintext: str, key: int) -> str:
 def get_key_substitution() -> str:
     key = list(CHARSET)
     random.shuffle(key)
-    return key
+    return "".join(key)
 
 def encode_substitution(plaintext: str, key: str) -> str:
     return _do_substitution(plaintext, CHARSET, key)
@@ -129,13 +129,13 @@ def _do_substitution(plaintext: str, key_from: str, key_to: str) -> str:
 
 
 def self_test():
-    TEST_STR = "ABCDEFG\n"
-    TEST_OFFSETS = [0,1,2,3,4,5,6, len(CHARSET)-1]
+    TEST_STR = CHARSET[0:5]
+    TEST_OFFSETS = [0,1,2,3,4]
 
     # Hard-coded keys to bump everything by 3
     CAESAR_KEY = 3    
-    SUBST_KEY = "DEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \nABC"
-    GOOD_CODED_STR = "DEFGHIJC"
+    SUBST_KEY = "".join( [CHARSET[(i+3) % len(CHARSET)] for i in range(len(CHARSET))] )
+    GOOD_CODED_STR = CHARSET[3:len(TEST_STR)+3]
 
     offsets = string_to_offsets(TEST_STR)
     print(f"string_to_offsets: {offsets == TEST_OFFSETS}")
