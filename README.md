@@ -134,3 +134,166 @@ Loss: 1.396213173866272, Accuracy: [0.5052090287208557, 0.03471368923783302]
 15-epoch training, 20-character set
 Loss: 0.6949121356010437, Accuracy: [0.5059632062911987, 0.05832824856042862]
 But my key are all below 0!
+
+
+
+
+Trial 23 Complete [00h 00m 17s]
+val_modulo_distance_accuracy: 0.5643255710601807
+
+Best val_modulo_distance_accuracy So Far: 0.5663708448410034
+Total elapsed time: 00h 52m 40s
+Best Hyper Values: {'Processing_Units': 32, 'Basic_Layer_Before': 'hard_sigmoid', 'Fancy_Topology': 'RNN', 'Basic_Layer_After': 'hard_silu', 'Sigmoid': 0, 'Output_Limiter': 1, 'Optimizer': 'adamax', 'tuner/epochs': 2, 'tuner/initial_epoch': 0, 'tuner/bracket': 2, 'tuner/round': 0}
+68/68 - 4s - 56ms/step - loss: 2.1680 - modulo_distance_accuracy: 0.5664 - modulo_rounded_accuracy: 0.0949
+Best Model Loss: 2.167954444885254, Accuracy: [0.5663708448410034, 0.09488694369792938]
+
+
+
+Reloading Tuner from tuner_projects/KT/tuner0.json
+Best Hyper Values: {'Processing_Units': 32, 'Basic_Layer_Before': 'hard_sigmoid', 'Fancy_Topology': 'RNN', 'Basic_Layer_After': 'hard_silu', 'Sigmoid': 0, 'Output_Limiter': 1, 'Optimizer': 'adamax', 'tuner/epochs': 2, 'tuner/initial_epoch': 0, 'tuner/bracket': 2, 'tuner/round': 0}
+/home/roy/anaconda3/envs/dev_1102/lib/python3.12/site-packages/keras/src/saving/saving_lib.py:576: UserWarning: Skipping variable loading for optimizer 'adamax', because it has 2 variables whereas the saved optimizer has 22 variables. 
+  saveable.load_own_variables(weights_store.get(inner_path))
+68/68 - 4s - 65ms/step - loss: 2.1680 - modulo_distance_accuracy: 0.5664 - modulo_rounded_accuracy: 0.0949
+Best Model Loss: 2.167954444885254, Accuracy: [0.5663708448410034, 0.09488694369792938]
+
+
+
+
+Original, way overly complicated, tuning code:
+
+GO_FAST = False
+
+MAX_EPOCHS_PER_MODEL = 30 # Meant to get a decent idea of parameter, not create a final model. Behaves oddly below 3.
+HYPERBAND_ITERATIONS = 2  # "Number of times to iterate over the full Hyperband algorithm"
+EXECUTIONS_PER_TRIAL = 2  # Training from scratch
+SEARCH_FIT_EPOCHS = 30    # Epochs for each attempt to do a fit, I think. Not sure how this relates to MAX_EPOCHS_PER_MODEL.
+OVERWRITE = False          # I'm hoping to be able to interrupt a run and resume it later
+
+# All-encompassing optimization parameter choices. Do not try to use all of them at once...
+CHOICES_PROCESSING_UNITS = [1, CHUNK_SIZE // 16, CHUNK_SIZE // 4, CHUNK_SIZE, CHUNK_SIZE * 2] # Prefers 128 (CHUNK_SIZE // 4)
+CHOICES_BASIC_LAYERS = ["NONE", "elu", "gelu", "hard_sigmoid", "hard_silu", "hard_swish", "leaky_relu", "linear", "log_softmax", "mish",
+        "relu", "relu6", "selu", "sigmoid", "silu", "softmax", "softplus", "softsign", "swish", "tanh"]
+CHOICES_FANCY_TOPO = ["NONE", "GRU", "RNN", "LSTM", "GRU-RNN", "GRU-LSTM", "GRU-RNN-LSTM"]     # LSTM seems to win
+CHOICES_USE_SIGMOID = [True, False] # Prefers True
+CHOICES_SIGMOID_SIZE_TO_OUTPUT = [True, False] # Prefers False
+CHOICES_USE_SCALER = [True, False] # Only relevant when using Sigmoid -- prefers True
+CHOICES_USE_OUTPUT_LIMITER = [True, False] # Prefers True
+CHOICES_OPTIMIZER = ["adamax", "sgd", "RMSProp"] # Prefers adamax
+
+# Narrow down the choices as needed.
+# CHOICES_PROCESSING_UNITS unchanged
+# CHOICES_BASIC_LAYERS unchanged
+# CHOICES_FANCY_TOPO = unchanged
+CHOICES_USE_SIGMOID = [False]
+CHOICES_SIGMOID_SIZE_TO_OUTPUT = [False]
+CHOICES_USE_SCALER = [True]
+CHOICES_USE_OUTPUT_LIMITER = [True]
+CHOICES_OPTIMIZER = ["adamax"]
+
+if GO_FAST:
+    MAX_EPOCHS_PER_MODEL = 3
+    SEARCH_FIT_EPOCHS = 4
+
+# Create a method that creates a new Sequential model with hyperparameter options
+def create_model(hp):
+    processing_units = hp.Choice("Processing_Units", CHOICES_PROCESSING_UNITS)
+    basic_layer_before = hp.Choice("Basic_Layer_Before", CHOICES_BASIC_LAYERS)
+    fancy_topo = hp.Choice("Fancy_Topology", CHOICES_FANCY_TOPO)
+    basic_layer_after = hp.Choice("Basic_Layer_After", CHOICES_BASIC_LAYERS)
+    use_sigmoid = hp.Choice("Sigmoid", CHOICES_USE_SIGMOID)    
+    use_output_limiter = hp.Choice("Output_Limiter", CHOICES_USE_OUTPUT_LIMITER)
+    optimizer = hp.Choice("Optimizer", CHOICES_OPTIMIZER)
+
+    # These aren't really choices, they just make the output more informative
+    _ = hp.Choice("Chunk_Size", [CHUNK_SIZE])
+    _ = hp.Choice("Batch_Size", [BATCH_SIZE])
+
+    model = tf.keras.models.Sequential()
+    model.add(tf.keras.layers.Embedding(input_dim=CHUNK_SIZE, output_dim=processing_units, name="Embedding_Input"))
+
+    if basic_layer_before != "NONE":
+        model.add(tf.keras.layers.Dense(units=processing_units, activation=basic_layer_before, name="Basic_Layer_Before"))
+
+    if fancy_topo == "NONE":
+        pass
+    elif fancy_topo == "GRU":
+        model.add(tf.keras.layers.GRU(processing_units))
+    elif fancy_topo == "RNN":
+        model.add(tf.keras.layers.SimpleRNN(processing_units))
+    elif fancy_topo == "LSTM":
+        model.add(tf.keras.layers.LSTM(processing_units))
+    elif fancy_topo == "GRU-RNN":
+        model.add(tf.keras.layers.GRU(processing_units, return_sequences=True))
+        model.add(tf.keras.layers.SimpleRNN(processing_units))
+    elif fancy_topo == "GRU-LSTM":
+        model.add(tf.keras.layers.GRU(processing_units, return_sequences=True))
+        model.add(tf.keras.layers.LSTM(processing_units))
+    elif fancy_topo == "GRU-RNN-LSTM":
+        model.add(tf.keras.layers.GRU(processing_units, return_sequences=True))
+        model.add(tf.keras.layers.SimpleRNN(processing_units, return_sequences=True))
+        model.add(tf.keras.layers.LSTM(processing_units))
+    else:
+        raise Exception(f"Bad choice {fancy_topo}")
+
+    if basic_layer_after != "NONE":
+        model.add(tf.keras.layers.Dense(units=processing_units, activation=basic_layer_after, name="Basic_Layer_After"))
+
+    if use_sigmoid:
+        # The sigmoid layer can be sized like a processing unit or for output,
+        # but that only matters if those values are different
+        if OUTPUT_SIZE != processing_units:
+            # There are two possibilities, so allow checking both
+            sigmoid_size_to_output = hp.Choice("Sigmoid_Size_To_Output", CHOICES_SIGMOID_SIZE_TO_OUTPUT)
+            sigmoid_units = OUTPUT_SIZE if sigmoid_size_to_output else processing_units
+        else:
+            # The two values are the same, so just use that value
+            sigmoid_units = OUTPUT_SIZE
+    
+        model.add(tf.keras.layers.Dense(units=processing_units, activation="sigmoid", name="Sigmoid"))
+        use_scaler = hp.Choice("Scaler", CHOICES_USE_SCALER)
+        if use_scaler:
+            model.add(tf.keras.layers.Rescaling(scale=OUTPUT_MAX, offset=0, name="Rescaler")) # Input is 0-1
+    
+    if use_output_limiter:
+        model.add(tf.keras.layers.Dense(OUTPUT_SIZE, activation=modulo_output, name="Output_Limiter"))
+    else:
+        model.add(tf.keras.layers.Dense(OUTPUT_SIZE, name="Linear_Output"))
+
+    # Compile the model
+    if USE_CUSTOM_METRICS:
+        loss = modulo_distance_loss
+        metrics = [modulo_distance_accuracy, modulo_rounded_accuracy]
+    else:
+        loss = LOSS_METRIC
+        metrics = [MAIN_ACCURACY_METRIC]
+    model.compile(loss=loss, optimizer=optimizer, metrics=metrics)
+    
+    return model
+
+
+# Run the kerastuner search for best hyperparameters
+if TUNE_NETWORK:
+    if USE_CUSTOM_METRICS:
+        objective = kt.Objective("val_modulo_distance_accuracy", direction="max")
+    else:
+        objective = kt.Objective(f"val_{MAIN_ACCURACY_METRIC}", direction="max")
+
+    tuner = kt.Hyperband(
+        create_model,
+        objective=objective,
+        max_epochs=MAX_EPOCHS_PER_MODEL,
+        hyperband_iterations=HYPERBAND_ITERATIONS,
+        executions_per_trial=EXECUTIONS_PER_TRIAL,
+        overwrite=OVERWRITE,
+        directory=TUNER_DIRECTORY,
+        project_name=TUNER_PROJECT_NAME)
+    tuner.search(X_train_scaled, y_train, epochs=SEARCH_FIT_EPOCHS, batch_size=BATCH_SIZE, validation_data=(X_test_scaled,y_test))
+    
+    best_hyper = tuner.get_best_hyperparameters(1)[0]
+    print(f"Best Hyper Values: {best_hyper.values}")
+    
+    nn = tuner.get_best_models(1)[0]
+    eval_results = nn.evaluate(X_test_scaled, y_test, verbose=2, batch_size=BATCH_SIZE )
+    print(f"Best Model Loss: {eval_results[0]}, Accuracy: {eval_results[1:]}")
+
+    nn.save("./saved_models/tuned.keras")
