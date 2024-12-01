@@ -33,7 +33,10 @@ class ModelTuner(object):
         model.add(tf.keras.Input(shape=self.INPUT_SHAPE))
 
         if fancy_topo == "NONE":
-            pass
+            activation_A = hp.Choice("Activation_A", self.CHOICES_ACTIVATIONS)
+            activation_B = hp.Choice("Activation_B", self.CHOICES_ACTIVATIONS)
+            model.add(tf.keras.layers.Dense(processing_units, activation=activation_A))
+            model.add(tf.keras.layers.Dense(processing_units, activation=activation_B))
         elif fancy_topo == "GRU":
             activation_A = hp.Choice("Activation_A", self.CHOICES_ACTIVATIONS)
             recurrent_activation_A = hp.Choice("Recurrent_Activation_A", self.CHOICES_ACTIVATIONS)
