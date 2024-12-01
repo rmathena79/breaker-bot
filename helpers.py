@@ -1,6 +1,7 @@
 # This file contains reusable functions that aren't necessarily well scoped
 
 import numpy as np
+import db_connect
 
 # Read a text file in the format needed for this project
 def read_text_file(path: str) -> str:
@@ -75,7 +76,6 @@ def bytes_to_string(chunks: list[list]) -> str:
     flat_bytes = [max(min(round(f), 255), 1) for f in flat_floats]
     result = "".join(chr(b) for b in flat_bytes)
     return result
-
 
 
 def self_test():
