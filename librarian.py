@@ -1,6 +1,7 @@
 import os
 import shutil
 import re # for regex
+import random
 
 import encoders
 import db_connect
@@ -16,6 +17,10 @@ ABORT_ON_DB_POPULATED = True
 # How many times to encrypt each file
 # It might be helpful to vary this by cipher type, since the more complex ones have far more possible keys
 ENCRYPTIONS_PER_SOURCE = int(len(encoders.CHARSET) * 2 // 3)
+
+# What portion of source files to mark "test only", meaning they should never be used for training.
+# That flag is propogated to encoded files based on each source.
+SOURCE_TEST_ONLY_CHANCE = 0.10
 
 # Database access wrapper
 db = db_connect.DB(CONNECTION_INFO)
@@ -110,42 +115,54 @@ def process_intake():
             print("WARNING: Could not find title")
             continue
 
-        # Try to find the eBook ID, which we need for the URL.
-        # It should look like this: [eBook #12655]
-        id_matches = re.search('\[eBook #(.*)\]', content)
-        if id_matches:
-            ebook_id = id_matches.group(1)
-            print(f"eBook ID: {ebook_id}")
-        else:
-            print("WARNING: Could not find eBook ID")
-            continue
-
-        url = f"https://www.gutenberg.org/ebooks/{ebook_id}"
-        print(f"url: {url}")
-
         # Check whether this book is already in the database
         with db.get_session() as session:
             source_id = db.get_source_id_by_title(session, title)
             
             if source_id == -1:
-                # Add this book to the database
+                # Book not found in the database. Figure out the rest of the properties
+                # needed to add it.
+
+                # Try to find the eBook ID, which we need for the URL.
+                # It should look like this: [eBook #12655]
+                id_matches = re.search('\[eBook #(.*)\]', content)
+                if id_matches:
+                    ebook_id = id_matches.group(1)
+                    print(f"eBook ID: {ebook_id}")
+                else:
+                    print("WARNING: Could not find eBook ID")
+                    continue
+
+                # Url is just based on eBook ID
+                url = f"https://www.gutenberg.org/ebooks/{ebook_id}"
+                print(f"url: {url}")
+
+                # test_only flag is assigned randomly
+                test_only = random.random() < SOURCE_TEST_ONLY_CHANCE
+                print(f"test_only: {test_only}")
+
                 print(f'Adding source "{title}" to database')
-                db.add_source(session, title, url)
+                db.add_source(session, title, url, test_only)
                 source_id = db.get_source_id_by_title(session, title)
             else:
                 print("Title is already in the database")
                 if ABORT_ON_DB_POPULATED:
                     continue                
 
+            # In normal operation, you shouldn't need to copy any files if the source is already
+            # in the database. But when I'm manually trying things out, I often want them re-
+            # copied, so do so here.
+
             # Copy the file to the raw directory
             raw_path = os.path.join(DATA_RAW_DIR, file)
             print(f"Copying file {intake_path} -> {raw_path}")
             shutil.copyfile(intake_path, raw_path)
 
-            # Add the raw file to the database
+            # Add the raw file to the database, with the test_only flag from the source
+            source = db.get_source_by_id(session, source_id)            
             raw_id = encoder_ids[encoders.ENCODER_NONE]
             if len(db.get_files_by_source_and_encoder(session, source_id, raw_id)) == 0:
-                db.add_file(session, source_id, raw_id, key_id=None, path=raw_path)
+                db.add_file(session, source_id, raw_id, key_id=None, path=raw_path, test_only=source.test_only)
             else:
                 # This really shouldn't happen
                 print("WARNING: Raw file is already in the database")
@@ -182,7 +199,7 @@ def simplify_raw_files():
             # Add the simplified file to the database
             print("Adding simplified file to database")
             simplified_path = os.path.join(DATA_SIMPLIFIED_DIR, filename)
-            db.add_file(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER], None, simplified_path)
+            db.add_file(session, rawfile.source_id, encoder_ids[encoders.ENCODER_SIMPLIFIER], None, simplified_path, rawfile.test_only)
 
             # Save to the simplified data directory
             print(f"Saving to {simplified_path}")
@@ -258,7 +275,7 @@ def encrypt_simple_files():
 
                     # Add the simplified file to the database
                     print("Adding encrypted file to database")
-                    db.add_file(session, plainfile.source_id, encoder_id, key_id, encrypted_path)
+                    db.add_file(session, plainfile.source_id, encoder_id, key_id, encrypted_path, plainfile.test_only)
 
                     # Save to the encrypted data directory 
                     print(f"Saving to {encrypted_path}")

@@ -27,7 +27,8 @@ CREATE TABLE cipher_keys (
 CREATE TABLE sources (
     id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
     title VARCHAR NOT NULL,
-    url VARCHAR(256) NOT NULL
+    url VARCHAR(256) NOT NULL,
+    test_only BOOLEAN NOT NULL
 );
 
 CREATE TABLE files (
@@ -38,5 +39,6 @@ CREATE TABLE files (
     FOREIGN KEY (encoder_ID) REFERENCES encoder_names(id),
     key_ID INT,
     FOREIGN KEY (key_ID) REFERENCES cipher_keys(id),
-    path VARCHAR(128) NOT NULL
+    path VARCHAR(128) NOT NULL,
+    test_only BOOLEAN NOT NULL
 );
