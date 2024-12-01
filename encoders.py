@@ -20,7 +20,7 @@ PG_SENTINEL_LINE_END = " ***"
 
 # Map for converting accented characters to something simpler. This is not good linguistically,
 # but it's better than removing these character entirely. This also converts British Pounds and
-# Yen symbols to a dollar sign ($), the division symbol to a forward slash, and Windows-stle
+# Yen symbols to a dollar sign ($), the division symbol to a forward slash, and Windows-style
 # line endings (\r\n) to Unix-style (\n).
 SIMPLIFICATION_MAP = {
     'Ç' : 'C', 'ü' : 'u', 'é' : 'e', 'â' : 'a', 'ä' : 'a', 'à' : 'a', 'å' : 'a', 'ç' : 'c', 'ê' : 'e',
@@ -132,30 +132,50 @@ def self_test():
     TEST_STR = CHARSET[0:5]
     TEST_OFFSETS = [0,1,2,3,4]
 
+    LONG_TEST_STR = ''.join(random.choice(CHARSET) for i in range(1024))
+
     # Hard-coded keys to bump everything by 3
     CAESAR_KEY = 3    
     SUBST_KEY = "".join( [CHARSET[(i+3) % len(CHARSET)] for i in range(len(CHARSET))] )
     GOOD_CODED_STR = CHARSET[3:len(TEST_STR)+3]
 
     offsets = string_to_offsets(TEST_STR)
-    print(f"string_to_offsets: {offsets == TEST_OFFSETS}")
+    print(f"string_to_offsets(TEST_STR): {offsets == TEST_OFFSETS}")
     
     string_from_offsets = offsets_to_string(offsets)
-    print(f"offsets_to_string: {string_from_offsets == TEST_STR}")
+    print(f"offsets_to_string(TEST_STR): {string_from_offsets == TEST_STR}")
+
+    offsets = string_to_offsets(LONG_TEST_STR)
+    print(f"string_to_offsets(LONG_TEST_STR): {len(offsets) == len(LONG_TEST_STR)}")
+    
+    string_from_offsets = offsets_to_string(offsets)
+    print(f"offsets_to_string(LONG_TEST_STR): {len(string_from_offsets) == len(LONG_TEST_STR)}")
 
 
     c_coded_str = encode_caesar(TEST_STR, CAESAR_KEY)
-    print(f"Encode Caesar: {c_coded_str == GOOD_CODED_STR}")
+    print(f"Encode Caesar(TEST_STR): {c_coded_str == GOOD_CODED_STR}")
 
     c_decoded_str = decode_caesar(GOOD_CODED_STR, CAESAR_KEY)
-    print(f"Decode Caesar: {c_decoded_str == TEST_STR}")
+    print(f"Decode Caesar(TEST_STR): {c_decoded_str == TEST_STR}")
 
-    
+    c_coded_str = encode_caesar(LONG_TEST_STR, CAESAR_KEY)
+    print(f"Encode Caesar(LONG_TEST_STR): {(len(c_coded_str) == len(LONG_TEST_STR)) and (c_coded_str != LONG_TEST_STR)}")
+
+    c_decoded_str = decode_caesar(c_coded_str, CAESAR_KEY)
+    print(f"Decode Caesar(LONG_TEST_STR): {c_decoded_str == LONG_TEST_STR}")
+
+
     s_coded_str = encode_substitution(TEST_STR, SUBST_KEY)
-    print(f"Encode Substitution: {s_coded_str == GOOD_CODED_STR}")
+    print(f"Encode Substitution(TEST_STR): {s_coded_str == GOOD_CODED_STR}")
 
     s_decoded_str = decode_substitution(GOOD_CODED_STR, SUBST_KEY)
-    print(f"Decode Substitution: {s_decoded_str == TEST_STR}")
+    print(f"Decode Substitution(TEST_STR): {s_decoded_str == TEST_STR}")
+
+    s_coded_str = encode_substitution(LONG_TEST_STR, SUBST_KEY)
+    print(f"Encode Substitution(LONG_TEST_STR): {(len(s_coded_str) == len(LONG_TEST_STR)) and (s_coded_str != LONG_TEST_STR)}")
+
+    s_decoded_str = decode_substitution(s_coded_str, SUBST_KEY)
+    print(f"Decode Substitution(LONG_TEST_STR): {s_decoded_str == LONG_TEST_STR}")
 
 if __name__ == '__main__':
     self_test()
