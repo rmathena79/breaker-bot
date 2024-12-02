@@ -10,7 +10,7 @@ data/encoded/*
 data/intake/local
 
 # Temporary artifacts
-saved_models/*
+temp_models/*
 tuner_projects/*
 
 # Byte-compiled / optimized / DLL files
