@@ -74,7 +74,7 @@ def prep_db():
         print(f"Key Type IDs: {key_type_ids}")
 
 
-# Process all files in the intake directory:
+# Process all files in the intake directory, recursively processing subdirectories:
 #
 # 1) Read the file to ensure it is usable, which for now means it is a text file from Project Gutenberg
 # 2) Determine the title and URL, based on file content
@@ -82,14 +82,20 @@ def prep_db():
 # 4) Copy the file to the "raw" directory 
 #    (note copy, not move, to avoid confusion with the checked-in sample data)
 # 5) Add the raw file location to the database
-def process_intake():
-    files = [f for f in os.listdir(DATA_INTAKE_DIR) if os.path.isfile(os.path.join(DATA_INTAKE_DIR, f))]
-    print(f"Processing intake directory {DATA_INTAKE_DIR}: {len(files)} files")
+def process_intake(dir_path = DATA_INTAKE_DIR):
+
+    files = [f for f in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, f))]
+    subdirs = [d for d in os.listdir(dir_path) if os.path.isdir(os.path.join(dir_path, d))]
+    print(f"Processing intake directory {dir_path}: {len(files)} files, {len(subdirs)} subdirectories")
+
+    # Recurse through subdirectories\
+    for subdir in subdirs:
+        process_intake(subdir)
 
     # Handle each file
     for file in files:
         print(f"{file}:")
-        intake_path = os.path.join(DATA_INTAKE_DIR, file)
+        intake_path = os.path.join(dir_path, file)
 
         # Read the whole file as a string
         content = helpers.read_text_file(intake_path)
