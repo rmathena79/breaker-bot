@@ -21,7 +21,7 @@ class Caesar_Cracker(object):
         offsets = encoders.string_to_offsets(ciphertext)
         chunks = helpers.chunkify(offsets, chunk_size)
         scaled_chunks = self.scaler.transform(chunks)
-        shaped_chunks = tf_helpers.reshape_input(np.array(scaled_chunks), chunk_size)
+        shaped_chunks = tf_helpers.reshape_input_for_RNN(np.array(scaled_chunks), chunk_size)
         guesses = self.text_model.predict(shaped_chunks, verbose=0)
         # Shape of prediction:
         # (chunk count, chunk size, chunk size)
@@ -41,7 +41,7 @@ class Caesar_Cracker(object):
         offsets = encoders.string_to_offsets(ciphertext)
         chunks = helpers.chunkify(offsets, chunk_size)
         scaled_chunks = self.scaler.transform(chunks)
-        shaped_chunks = tf_helpers.reshape_input(np.array(scaled_chunks), chunk_size)
+        shaped_chunks = tf_helpers.reshape_input_for_RNN(np.array(scaled_chunks), chunk_size)
         keys = self.key_model.predict(shaped_chunks, verbose=0)
         # Shape of keys:
         # (chunk count, chunk size, 1)
