@@ -12,12 +12,25 @@ class ModelTuner(object):
         self.OUTPUT_SIZE = output_size
         self.CHUNK_SIZE = chunk_size
         self.BATCH_SIZE = batch_size
+        self.PICK_FANCY_TOPO_ACTIVATIONS = True
         self.CHOICES_PROCESSING_UNITS = []
         self.CHOICES_ACTIVATIONS = []
         self.CHOICES_FANCY_TOPO = []
         self.CHOICES_USE_OUTPUT_LIMITER = []
         self.CHOICES_OPTIMIZER = []
 
+    # Choose activation and recurrent activation for an RNN layer (actually just GRU and LSTM use them),
+    # respecting that choosing might be turned off, in which case it defaults to (tanh, sigmoid)
+    def _GetRNNActivations(self, label: str, hp) -> tuple[str, str]:
+        if self.PICK_FANCY_TOPO_ACTIVATIONS:
+            activation = hp.Choice(f"Activation_{label}", self.CHOICES_ACTIVATIONS)
+            recurrent_activation = hp.Choice(f"Recurrent_Activation_{label}", self.CHOICES_ACTIVATIONS)
+        else:
+            activation = "tanh"
+            recurrent_activation = "sigmoid"
+        return (activation, recurrent_activation)
+
+    # Create a model, choosing parameter for tuning.
     def CreateModel(self, hp) -> tf.keras.Model:
         model = tf.keras.models.Sequential()
         
@@ -39,36 +52,26 @@ class ModelTuner(object):
             model.add(tf.keras.layers.Dense(processing_units, activation=activation_A))
             model.add(tf.keras.layers.Dense(processing_units, activation=activation_B))
         elif fancy_topo == "GRU":
-            activation_A = hp.Choice("Activation_A", self.CHOICES_ACTIVATIONS)
-            recurrent_activation_A = hp.Choice("Recurrent_Activation_A", self.CHOICES_ACTIVATIONS)
-            
+            (activation_A, recurrent_activation_A) = self._GetRNNActivations("A", hp)
             model.add(tf.keras.layers.GRU(processing_units, return_sequences=True, activation=activation_A, recurrent_activation=recurrent_activation_A))
         elif fancy_topo == "RNN":
             model.add(tf.keras.layers.SimpleRNN(processing_units, return_sequences=True))
         elif fancy_topo == "LSTM":
-            activation_A = hp.Choice("Activation_A", self.CHOICES_ACTIVATIONS)
-            recurrent_activation_A = hp.Choice("Recurrent_Activation_A", self.CHOICES_ACTIVATIONS)
-
+            (activation_A, recurrent_activation_A) = self._GetRNNActivations("A", hp)
             model.add(tf.keras.layers.LSTM(processing_units, return_sequences=True, activation=activation_A, recurrent_activation=recurrent_activation_A))
         elif fancy_topo == "GRU-RNN":
-            activation_A = hp.Choice("Activation_A", self.CHOICES_ACTIVATIONS)
-            recurrent_activation_A = hp.Choice("Recurrent_Activation_A", self.CHOICES_ACTIVATIONS)
-
+            (activation_A, recurrent_activation_A) = self._GetRNNActivations("A", hp)
             model.add(tf.keras.layers.GRU(processing_units, return_sequences=True, activation=activation_A, recurrent_activation=recurrent_activation_A))
             model.add(tf.keras.layers.SimpleRNN(processing_units, return_sequences=True ))
         elif fancy_topo == "GRU-LSTM":
-            activation_A = hp.Choice("Activation_A", self.CHOICES_ACTIVATIONS)
-            recurrent_activation_A = hp.Choice("Recurrent_Activation_A", self.CHOICES_ACTIVATIONS)
-            activation_B = hp.Choice("Activation_B", self.CHOICES_ACTIVATIONS)
-            recurrent_activation_B = hp.Choice("Recurrent_Activation_B", self.CHOICES_ACTIVATIONS)
+            (activation_A, recurrent_activation_A) = self._GetRNNActivations("A", hp)
+            (activation_B, recurrent_activation_B) = self._GetRNNActivations("B", hp)
             
             model.add(tf.keras.layers.GRU(processing_units, return_sequences=True, activation=activation_A, recurrent_activation=recurrent_activation_A))
             model.add(tf.keras.layers.LSTM(processing_units, return_sequences=True, activation=activation_B, recurrent_activation=recurrent_activation_B))
         elif fancy_topo == "GRU-RNN-LSTM":
-            activation_A = hp.Choice("Activation_A", self.CHOICES_ACTIVATIONS)
-            recurrent_activation_A = hp.Choice("Recurrent_Activation_A", self.CHOICES_ACTIVATIONS)
-            activation_B = hp.Choice("Activation_B", self.CHOICES_ACTIVATIONS)
-            recurrent_activation_B = hp.Choice("Recurrent_Activation_B", self.CHOICES_ACTIVATIONS)
+            (activation_A, recurrent_activation_A) = self._GetRNNActivations("A", hp)
+            (activation_B, recurrent_activation_B) = self._GetRNNActivations("B", hp)
 
             model.add(tf.keras.layers.GRU(processing_units, return_sequences=True, activation=activation_A, recurrent_activation=recurrent_activation_A))
             model.add(tf.keras.layers.SimpleRNN(processing_units, return_sequences=True))
