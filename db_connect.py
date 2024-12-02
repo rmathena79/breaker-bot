@@ -77,65 +77,72 @@ class DB(object):
         return (source_id_to_plaintext, source_id_to_ciphertext)
     
     # Convenience method to get features and targets (X and y) formatted for use.
-    # !!! Detail
-    #   mode: "TEXT" or "KEY"
-    # Returns a tuple: (X, y)
-    #   X is a list of lists, where the inner list is chunks of ciphertext
-    #   y depends on mode:
-    #       For decoding texts, y is a list of lists, where the inner list is chunks of plaintext
-    #       For decoding keys, y is a list of keys, where key structure varies by encoder type
-    def get_features_and_targets(self, session, source_id_to_plaintext: dict, source_id_to_ciphertext: dict, encoder: str, mode: str, chunk_size: int) -> tuple:
-        infer_text = mode == "TEXT"
-        infer_key = mode == "KEY"
-        if not (infer_text or infer_key):
-            raise Exception(f'Bad target mode "{mode}"')
-
+    # Returns a tuple: (X, y_keys, y_texts)
+    #   X is a list of lists, where the inner list is chunks of ciphertext, as offsets
+    #   y_keys is a list of keys, where key structure varies by encoder type (floats for Caesar)
+    #   y_texts is a list of lists, where the inner list is chunks of plaintext, as offsets
+    def get_features_and_targets(self, session, source_id_to_plaintext: dict, source_id_to_ciphertext: dict, encoder: str, chunk_size: int) -> tuple:
         X = []
-        y = []
+        y_keys = []
+        y_texts = []
 
         for sid in source_id_to_plaintext:
-            if infer_text:
-                plaintext = encoders.string_to_offsets(helpers.read_text_file(source_id_to_plaintext[sid].path))
-                target_chunks = helpers.chunkify(plaintext, chunk_size)    
-        
+            plaintext = helpers.read_text_file(source_id_to_plaintext[sid].path)
+            plaintext_offsets = encoders.string_to_offsets(plaintext)
+            plaintext_offset_chunks = helpers.chunkify(plaintext_offsets, chunk_size)    
+
             for c in source_id_to_ciphertext[sid]:
-                ciphertext = encoders.string_to_offsets(helpers.read_text_file(c.path))
-                feature_chunks = helpers.chunkify(ciphertext, chunk_size)
+                ciphertext = helpers.read_text_file(c.path)
+                ciphertext_offsets = encoders.string_to_offsets(ciphertext)
+                ciphertext_offset_chunks = helpers.chunkify(ciphertext_offsets, chunk_size)
 
-                if infer_key:                
+                if encoder == encoders.ENCODER_CAESAR:
+                    key_value = float(self.get_key_by_id(session, c.key_id).value)
+                    
+                elif encoder == encoders.ENCODER_SUBST:
+                    key_str = self.get_key_by_id(session, c.key_id).value
+                    key_value_ints = encoders.string_to_offsets(key_str)
+                    key_value = np.array(key_value_ints).astype(float)
+
+                else:
+                    raise Exception(f"Unsupported encoder {encoder}")
+
+                
+                CHECK_CHANCE = 0.1
+                if random.random() < CHECK_CHANCE:
+                    # Make sure out encoding-related mechanisms are behaving well
+                    plaintext_str_from_offsets = encoders.offsets_to_string(plaintext_offsets)
+                    ciphertext_str_from_offsets = encoders.offsets_to_string(ciphertext_offsets)
+
+                    STR_OUT_LEN = 128
+                    if plaintext_str_from_offsets != plaintext:
+                        raise Exception(f'Plaintext offset error; \n{plaintext_str_from_offsets[0:STR_OUT_LEN]}\n{plaintext[0:STR_OUT_LEN]}')
+                    if ciphertext_str_from_offsets != ciphertext:
+                        raise Exception(f'Ciphertext offset error; \n{plaintext_str_from_offsets[0:STR_OUT_LEN]}\n{plaintext[0:STR_OUT_LEN]}')
+                    
                     if encoder == encoders.ENCODER_CAESAR:
-                        key_value = float(self.get_key_by_id(session, c.key_id).value)
-
                         # Decode with the key we got from the DB, make sure it actually works
-                        CHECK_CHANCE = 0.1
-                        if random.random() < CHECK_CHANCE:
-                            plaintext = encoders.string_to_offsets(helpers.read_text_file(source_id_to_plaintext[sid].path))
-                            plainttext_str = encoders.offsets_to_string(plaintext)
-                            ciphertext_str = encoders.offsets_to_string(ciphertext)
-                            decoded_str = encoders.decode_caesar(ciphertext_str, int(key_value))
-                            if decoded_str != plainttext_str:                                                    
-                                print(decoded_str == plainttext_str)
-                                print(decoded_str[0:128], plainttext_str[0:128])
-                                raise Exception("Decode error")
-                        
-                    elif encoder == encoders.ENCODER_SUBST:
-                        key_str = self.get_key_by_id(session, c.key_id).value
-                        key_value_ints = encoders.string_to_offsets(key_str)
-                        key_value = np.array(key_value_ints).astype(float)
+                        decoded_str = encoders.decode_caesar(ciphertext_str_from_offsets, int(key_value))
+                        if decoded_str != plaintext:
+                            raise Exception(f'Decode error; \n{decoded_str[0:STR_OUT_LEN]}\n{plaintext[0:STR_OUT_LEN]}')
 
-                    else:
-                        raise Exception(f"Unsupported encoder {encoder}")
-            
-                for i in range (len(feature_chunks)):
-                    X.append(np.array(feature_chunks[i]).astype(float))
+                for i in range (len(ciphertext_offset_chunks)):
+                    ciphertext_offset_chunk = ciphertext_offset_chunks[i]
+                    plaintext_offset_chunk = plaintext_offset_chunks[i]
 
-                    if infer_text:
-                        y.append(np.array(target_chunks[i]).astype(float))
+                    X.append(np.array(ciphertext_offset_chunk).astype(float))
+                    y_texts.append(np.array(plaintext_offset_chunk).astype(float))
+                    y_keys.append(key_value)
 
-                    if infer_key:
-                        y.append(key_value)
+                    if random.random() < CHECK_CHANCE:
+                        ciphertext_substring = encoders.offsets_to_string(X[-1].astype(int))
+                        plaintext_substring = encoders.offsets_to_string(y_texts[-1].astype(int))
+                        if not ciphertext_substring in ciphertext:
+                            raise Exception('Ciphertext chunking error')
+                        if not plaintext_substring in plaintext:
+                            raise Exception('Plaintext chunking error')
 
-        return X, y
+        return X, y_keys, y_texts
 
 
     # Returns the database ID for specified encoder name, or -1 if not found
