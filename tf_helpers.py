@@ -81,6 +81,11 @@ def initialize_save_best(best_path):
         verbose=2)
     return model_checkpoint_callback
 
+def reshape_input(input: np.array, chunk_size: int) -> np.array:
+    return input.reshape((-1, chunk_size, 1))
+
+def reshape_output(output: np.array, output_size: int) -> np.array:
+    return output.reshape((-1, output_size, 1))
 
 
 
