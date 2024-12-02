@@ -6,6 +6,9 @@ data/raw/*
 data/simplified/*
 data/encoded/*
 
+# Add text files here to get them into the library without going into source control:
+data/intake/local
+
 # Temporary artifacts
 saved_models/*
 tuner_projects/*

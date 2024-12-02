@@ -35,11 +35,11 @@ SIMPLIFICATION_MAP = {
 # be simplified to exclude any character outside this set before a cipher will work correctly.
 #
 # This is the character set I'd prefer to use, but resource limitations make it impractical:
-# CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
+CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
 #
 # This reduced character set has the most commonly used characters from the first several files I checked,
 # notably including the space character:
-CHARSET = " ETAONIRSH"
+# CHARSET = " ETAONIRSH"
 
 
 # Convert a string to a list of offsets in the character set

@@ -16,7 +16,7 @@ ABORT_ON_DB_POPULATED = True
 
 # How many times to encrypt each file
 # It might be helpful to vary this by cipher type, since the more complex ones have far more possible keys
-ENCRYPTIONS_PER_SOURCE = int(len(encoders.CHARSET) * 2 // 3)
+ENCRYPTIONS_PER_SOURCE = min(5, int(len(encoders.CHARSET) * 2 // 3))
 
 # What portion of source files to mark "test only", meaning they should never be used for training.
 # That flag is propogated to encoded files based on each source.
@@ -83,14 +83,13 @@ def prep_db():
 #    (note copy, not move, to avoid confusion with the checked-in sample data)
 # 5) Add the raw file location to the database
 def process_intake(dir_path = DATA_INTAKE_DIR):
-
     files = [f for f in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, f))]
     subdirs = [d for d in os.listdir(dir_path) if os.path.isdir(os.path.join(dir_path, d))]
     print(f"Processing intake directory {dir_path}: {len(files)} files, {len(subdirs)} subdirectories")
 
     # Recurse through subdirectories\
     for subdir in subdirs:
-        process_intake(subdir)
+        process_intake(os.path.join(dir_path, subdir))
 
     # Handle each file
     for file in files:

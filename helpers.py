@@ -1,7 +1,9 @@
 # This file contains reusable functions that aren't necessarily well scoped
 
 import numpy as np
-import db_connect
+import json
+
+from sklearn.preprocessing import StandardScaler
 
 # Read a text file in the format needed for this project
 def read_text_file(path: str) -> str:
@@ -65,6 +67,42 @@ def string_to_bytes(text, chunk_size, array_out=True) -> list[list]:
         offset += chunk_size     
         
     return chunks
+
+
+def get_recommended_scaler_path(encoder:str, chunk_size: int):
+    return f"./saved_models/scaler_{encoder.replace(" ", "_")}_{chunk_size:06}.json"
+
+# Write feature (input) scaler values to file, for later use with a StandardScaler
+def save_scaler_to_file(scaler: StandardScaler, filepath):
+    # Get the values as strings. This loses a tiny bit of information.
+    mean_str = np.array2string(scaler.mean_)
+    scale_str = np.array2string(scaler.scale_)
+
+    d = {"mean_": mean_str, "scale_": scale_str}
+
+    # Write the values
+    write_text_file(json.dumps(d), filepath)    
+
+# Create a StandardScaler instance from the values in a file
+def load_scaler_from_file(filepath) -> StandardScaler:
+    # Get the values out of the file
+    file_content = read_text_file(filepath)
+    d = json.loads(file_content)
+
+    mean_str = d["mean_"]
+    scale_str = d["scale_"]
+
+    # Strip the brackets from the strings so, ironically, they can be read as arrays
+    mean_arr = np.fromstring(mean_str[1:-1], sep=' ', dtype=float)
+    scale_arr = np.fromstring(scale_str[1:-1], sep=' ', dtype=float)
+
+    # Set up a new scaler 
+    scaler = StandardScaler()
+    scaler.mean_ = mean_arr
+    scaler.scale_ = scale_arr
+
+    return scaler
+
 
 
 # Convert a set of numbers, in chunks as from string_to_bytes(), to a single string.

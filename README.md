@@ -297,3 +297,7 @@ if TUNE_NETWORK:
     print(f"Best Model Loss: {eval_results[0]}, Accuracy: {eval_results[1:]}")
 
     nn.save("./saved_models/tuned.keras")
+
+
+
+Keys aren't getting saved in the database right

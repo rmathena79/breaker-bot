@@ -88,8 +88,6 @@ def reshape_output(output: np.array, output_size: int) -> np.array:
     return output.reshape((-1, output_size, 1))
 
 
-
-
 def self_test():
     # Testing my loss and accuracy functions
     t_true = [[1.0, 2.0, 3.0, constants.CUSTOM_LOSS_MODULO*5]]*2
