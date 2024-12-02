@@ -7,6 +7,9 @@ import tf_helpers
 # This class wraps up use of a model to try to predict keys or plaintext.
 # I wrote it with the Caesar Cipher in mind, but I'm not sure the code is really much
 # different for the other ciphers. It may just be that key size is different.
+#
+# The dimension for the "best guess" seems to be different between the two,
+# which is strange.
 class Caesar_Cracker(object):
     def __init__(self, scaler, key_model, text_model):
         self.scaler = scaler
@@ -22,9 +25,9 @@ class Caesar_Cracker(object):
         guesses = self.text_model.predict(shaped_chunks, verbose=0)
         # Shape of prediction:
         # (chunk count, chunk size, chunk size)
-        # ... so that's a little confusing. For keys, the 2nd dimension corresponds to time,
-        # so get the final (best?) guesses
-        best_guesses = guesses[:, chunk_size-1, :]
+        # ... so that's a little confusing. The best text guesses seem to be along
+        # the 3rd dimension, and I don't know why:
+        best_guesses = guesses[:, :, chunk_size-1]
 
         # Now we have floating point offsets. We want integer offsets, then strings:
         flat = best_guesses.flatten()        
