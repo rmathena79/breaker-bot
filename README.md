@@ -66,8 +66,8 @@ To get started...
 * Optionally, add some more Project Gutenberg text files to ./data/intake/local if you want them encrypted without going into source control
 * From the top directory, run ./librarian.py to populate the database and create encrypted files
 * Optionally, launch Jupyter Notebook and open modeler.ipynb to create whatever models you need. There are notes at the top of the file to help.
-* Launch Jupyter Notebook and open report.ipynb. Run all the cells to populate the data and graphs.
-* ...
+* Optionally, launch Jupyter Notebook and open playground.ipynb and play around with encoding and cracking strings.
+* Launch Jupyter Notebook and open report.ipynb. Review what's written, and optionally run all the cells to populate the data and graphs.
 
 # Citations
 The input data consists of public domain texts from Project Gutenberg: https://www.gutenberg.org/
