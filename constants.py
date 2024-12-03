@@ -12,6 +12,10 @@ DATA_RAW_DIR = os.path.join(DATA_DIR, "raw")
 DATA_SIMPLIFIED_DIR = os.path.join(DATA_DIR, "simplified")
 DATA_ENCODED_DIR = os.path.join(DATA_DIR, "encoded")
 
+# Model (and scaler) directories
+TEMP_MODEL_DIR = "temp_models" # Excluded from source control
+MODEL_DIR = "models"
+
 OUTPUT_MIN = 0
 OUTPUT_MAX = len(encoders.CHARSET)-1
 CUSTOM_LOSS_MODULO = OUTPUT_MAX+1

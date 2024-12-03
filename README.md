@@ -12,16 +12,46 @@ There are several moving parts:
 * A collection of text files, all public domain texts from Project Gutenberg
 * A SQL database to track sources (original texts), encrypted files, and keys
 * A "librarian" script which cleans, simplifies, and encrypts those texts then populates the database
+* A "report" notebook reporting and demonstrating interesting findings from the project
 * A "modeler" notebook, meant to be used interactively, to create Tensorflow neural network models
-* An "analysis" notebook reporting and demonstrating interesting findings from the project
-* A "..." script, meant to be used from the command line, to interactively test some basic operations
+* A "playground" notebook for trying out the most basic functionality, even without a database of files.
 
 # Repo Contents
-Functional Files:
-* ...
 
-Informative Files:
-* ...
+## Directories:
+This includes directories which are not included in source control, but may be created by scripts or manually.
+* **./data:** Where all the training data (text files from Project Gutenberg) lives
+* **./data/intake/*:** Starting point for raw text files, direct from the Internet. These files will be processed by the librarian.
+* **./data/intake/local/*:** You can add more text files to this directory to get them processed by the librarian, without adding them to source control.
+* **./data/raw/*:** The librarian copies text files here, unchanged, after taking them in
+* **./data/simplified/*:** The librarian puts "simplified" versions of text files here, meaning the character set has been reduced and Project Gutenberg boilerplate has been removed.
+* **./data/encoded/*:** The librarian puts encrypted versions of text files here
+* **./models/*:** Pre-trained models and scaler values. See ./models.py for descriptions.
+* **./temp_models/*:** During model creation, models and scaler values get saved here. Not in source control.
+* **./tuner_projects/*:** During Keras Tuner runs, project files get saved here. Not in source control.
+
+## Notebooks:
+* **./modeler.ipynb:** Notebook for creating models. Meant to be used interactively, adjusting configuration values and code to get a good model.
+* **./report.ipynb:** 
+* **./playground.ipynb:** 
+* **./statcheck.ipynb:** Simple notebook used to get a sense of character distribution among sets of text files. No specific use currently, but might be interesting.
+
+## Python Code
+* **./librarian.py:** Code responsible for taking in new text files, getting them simplified and encrypted, and populating the database with information about them. This script is meant to be run from the command line, from the top directory.
+* **./constants.py:** Simple file collecting several values needed throughout this project
+* **./crackers.py:** Class(es) that wrap models to more easily crack encrypted files.
+* **./credentials.py:** Database connection information. Not in source control. You must create this file.
+* **./credentials_example.py:** Example for credentials.py, showing what information is needed and how it should be structured.
+* **./db_connect.py:** Class wrapping up database operations for reuse
+* **./encoders.py:** Values and functions related to encoding text, including the cipher systems.
+* **./helpers.py:** Several reusable functions, needed throughout the project
+* **./model_tuner.py:** Class to build models, using Keras Tuner to choose among parameters. Meant to be used from the modeler notebook.
+* **./models.py:** Collection of paths for pre-trained models, and code to load them.
+* **./tf_helpers.py:** Reusable functions directly related to Tensorflow.
+
+## Other Files
+* **./sql/schema.sql**: The schema for the database, which gets populated by the librarian and queried by several components.
+* **./README.md:** No idea.
 
 # Instructions
 
@@ -31,7 +61,8 @@ To get started...
 * Create a file ./credentials.py describing how to connect to your database. See credentials_example.py for an example.
 * Optionally, add some more Project Gutenberg text files to ./data/intake/local if you want them encrypted without going into source control
 * From the top directory, run ./librarian.py to populate the database and create encrypted files
-* Launch Jupyter Notebook and open modeler.ipynb to create whatever models you need. There are notes at the top of the file to help.
+* Optionally, launch Jupyter Notebook and open modeler.ipynb to create whatever models you need. There are notes at the top of the file to help.
+* Launch Jupyter Notebook and open report.ipynb. Run all the cells to populate the data and graphs.
 * ...
 
 # Citations
@@ -40,6 +71,7 @@ The input data consists of public domain texts from Project Gutenberg: https://w
 To link to the source for any file get the ID number from the filename or contents: https://www.gutenberg.org/ebooks/{ID Number}
 
 # Grading Criteria
+
 ### Data Model Implementation (25 points)
 * A Python script initializes, trains, and evaluates a model (10 points)
 * The data is cleaned, normalized, and standardized prior to modeling (5 points)
@@ -75,16 +107,12 @@ To link to the source for any file get the ID number from the filename or conten
 * Add full support for substitution cipher and Enigma
 
 ### TODO BEFORE SUBMISSION
-* Something to track what models to use, even just some constants, maybe help for names
 * Add interactive script to let you try stuff out
 * Create analysis notebook
 
 ### TODO LATER
-* Training loop, saving best version, reloading if it gets worse, try to train some more...
+* Data pipeline!
 
 ### Random Stuff. Do not read.
 
-Caesar, Keys
-Best Hyper Values: {'Processing_Units': 64, 'Fancy_Topology': 'LSTM', 'Output_Limiter': 0, 'Optimizer': 'RMSProp', 'Chunk_Size': 256, 'Batch_Size': 512, 'tuner/epochs': 7, 'tuner/initial_epoch': 3, 'tuner/bracket': 2, 'tuner/round': 1, 'tuner/trial_id': '0006'}
-262/262 - 3s - 10ms/step - loss: 1.0169 - modulo_distance_accuracy: 0.9672 - modulo_rounded_accuracy: 0.4596
-Best Model Loss: 1.0168663263320923, Accuracy: [0.9671978950500488, 0.45957377552986145]
+...

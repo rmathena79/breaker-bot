@@ -2,8 +2,10 @@
 
 import numpy as np
 import json
+import os
 
 from sklearn.preprocessing import StandardScaler
+from constants import *
 
 # Read a text file in the format needed for this project
 def read_text_file(path: str) -> str:
@@ -68,9 +70,10 @@ def string_to_bytes(text, chunk_size, array_out=True) -> list[list]:
         
     return chunks
 
-
-def get_recommended_scaler_path(encoder:str, chunk_size: int):
-    return f"./saved_models/scaler_{encoder.replace(" ", "_")}_{chunk_size:06}.json"
+# Get a filename to use for saving scaler values, with key info in the name
+def get_recommended_scaler_path(encoder:str, chunk_size: int, temp = True):
+    where = TEMP_MODEL_DIR if temp else MODEL_DIR
+    return os.path.join(where, f"scaler_{encoder.replace(" ", "_")}_{chunk_size:06}.json")
 
 # Write feature (input) scaler values to file, for later use with a StandardScaler
 def save_scaler_to_file(scaler: StandardScaler, filepath):
