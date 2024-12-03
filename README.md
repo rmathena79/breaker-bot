@@ -98,6 +98,7 @@ To link to the source for any file get the ID number from the filename or conten
 ### SIGNIFICANT PROBLEMS
 * Keys aren't getting saved in the database right for substitution cipher, so I can't even begin to train them
 * Accuracy metrics seem to be returning overly optimistic values for inferred texts. Or I don't know how to understand the output.
+* When text is reassembled from "chunks", it will have some redundant characters. This is because the chunks overlap when the file length is not divisible by chunk size. This is solveable if the correct length is known.
 
 ### LESSER PROBLEMS
 * My GPU isn't getting used much, especially when I have lots of chunks. Look into data pipeline optimization.
