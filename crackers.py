@@ -11,10 +11,16 @@ import tf_helpers
 # The dimension for the "best guess" seems to be different between the two,
 # which is strange.
 class Caesar_Cracker(object):
-    def __init__(self, scaler, key_model, text_model):
+    def __init__(self, scaler, key_model, text_model, verbose = 0):
         self.scaler = scaler
         self.key_model = key_model
         self.text_model = text_model
+        self.verbose = verbose
+
+        if (key_model is not None) and (text_model is not None):
+            if key_model.input_shape[2] != text_model.input_shape[2]:
+                raise Exception("Model inputs (chunk size) do not match: {key_model.input_shape[2]} != {text_model.input_shape[2]}")
+
 
     def infer_text_with_model(self, ciphertext: str) -> str:
         chunk_size = self.text_model.input_shape[2]
@@ -22,7 +28,7 @@ class Caesar_Cracker(object):
         chunks = helpers.chunkify(offsets, chunk_size)
         scaled_chunks = self.scaler.transform(chunks)
         shaped_chunks = tf_helpers.reshape_input_for_RNN(np.array(scaled_chunks), chunk_size)
-        guesses = self.text_model.predict(shaped_chunks, verbose=0)
+        guesses = self.text_model.predict(shaped_chunks, verbose=self.verbose)
         # Shape of prediction:
         # (chunk count, chunk size, chunk size)
         # ... so that's a little confusing. The best text guesses seem to be along
@@ -42,7 +48,7 @@ class Caesar_Cracker(object):
         chunks = helpers.chunkify(offsets, chunk_size)
         scaled_chunks = self.scaler.transform(chunks)
         shaped_chunks = tf_helpers.reshape_input_for_RNN(np.array(scaled_chunks), chunk_size)
-        keys = self.key_model.predict(shaped_chunks, verbose=0)
+        keys = self.key_model.predict(shaped_chunks, verbose=self.verbose)
         # Shape of keys:
         # (chunk count, chunk size, 1)
 

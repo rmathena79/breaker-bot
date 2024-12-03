@@ -2,7 +2,11 @@
 Data Analytics Boot Camp Final Project -- Code Breaker
 
 ## Summary
-Open the analysis notebook...
+
+There are two main ways to jump into this project:
+
+* Use the "report" notebook to review findings and analysis from the project. You can just view it; it is saved with my findings and graphs included. But to re-run the report, you need to do extensive setup and prep and described below.
+* Use the "playground" notebook to try out the models. This does not require any database setup or data preparation.
 
 ## Detailed Overview
 
@@ -112,6 +116,7 @@ To link to the source for any file get the ID number from the filename or conten
 * Create analysis notebook
 
 ### TODO LATER
+* Make the scaler value save/load mechanism more automatic
 * Data pipeline!
 
 ### Random Stuff. Do not read.

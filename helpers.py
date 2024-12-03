@@ -106,17 +106,23 @@ def load_scaler_from_file(filepath) -> StandardScaler:
 
     return scaler
 
+# Compare two strings and return basic accuracy info.
+# Returns a tuple (good_count, bad_count, total_count, good_percent)
+def good_bad_string_match(str_a: str, str_b: str) -> (int, int, int, float):
+    if len(str_a) != len(str_b):
+        raise Exception(f"String must be equal length. {len(str_a)} != {len(str_b)}")
 
+    # Let numpy do the work
+    arr_a = np.array(list(str_a))
+    arr_b = np.array(list(str_b))
+    matches = (arr_a == arr_b)
+    
+    good = matches.astype(int).sum()
+    bad = len(str_a) - good
+    total = good+bad
+    
+    return (good, bad, total, float(good) / float(total))
 
-# Convert a set of numbers, in chunks as from string_to_bytes(), to a single string.
-# The values will be rounded -- it is expected that the are floating-point outputs from a model.
-# Recall that characters near the end of the string may be redundant.
-# !!! Correct for chunk overlap, if correct final length can be known
-def bytes_to_string(chunks: list[list]) -> str:
-    flat_floats = [f for fs in chunks for f in fs]
-    flat_bytes = [max(min(round(f), 255), 1) for f in flat_floats]
-    result = "".join(chr(b) for b in flat_bytes)
-    return result
 
 
 def self_test():
