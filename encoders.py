@@ -64,6 +64,10 @@ def encode_simple(raw_text: str) -> str:
 
     if good_part_start == -1:
         good_part_start = 0
+    else:
+        # Move on to the newline
+        good_part_start = raw_text.find("\n", good_part_start)+1
+
     if good_part_end == -1:
         good_part_end = len(raw_text)
 
@@ -188,10 +192,8 @@ def self_test():
 String set by triple quotes
 """
     simplified_scary_string = encode_simple(scary_string)
-    print(f'Original  : "{scary_string}"\n')
-    print(f'As List   : {list(scary_string)}')
-    print(f'Simplified: "{simplified_scary_string}"')
-    print(f'As List   : {list(simplified_scary_string)}')
+    not_so_scary_string = "STRING SET BY TRIPLE QUOTES"
+    print(f"Simplification(problematic string): {simplified_scary_string == not_so_scary_string}")
 
 if __name__ == '__main__':
     self_test()
