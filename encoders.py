@@ -22,14 +22,13 @@ PG_SENTINEL_LINE_END = " ***"
 # but it's better than removing these character entirely. This also converts British Pounds and
 # Yen symbols to a dollar sign ($), the division symbol to a forward slash, and Windows-style
 # line endings (\r\n) to Unix-style (\n).
-SIMPLIFICATION_MAP = {
+SIMPLIFICATION_MAP = str.maketrans({
     'Ç' : 'C', 'ü' : 'u', 'é' : 'e', 'â' : 'a', 'ä' : 'a', 'à' : 'a', 'å' : 'a', 'ç' : 'c', 'ê' : 'e',
     'ë' : 'e', 'è' : 'e', 'ï' : 'i', 'î' : 'i', 'ì' : 'i', 'Ä' : 'a', 'Å' : 'a', 'É' : 'e', 'æ' : 'a',
     'Æ' : 'a', 'ô' : 'o', 'ö' : 'o', 'ò' : 'o', 'û' : 'u', 'ù' : 'u', 'ù' : 'u', 'ÿ' : 'y', 'Ö' : 'o',
     'Ü' : 'u', 'á' : 'a', 'í' : 'i', 'ó' : 'o', 'ú' : 'u', 'ñ' : 'n', 'Ñ' : 'n',
-    '£' : '$', '¥' : '$', '÷': '/',
-    '\r\n' : '\n'
-}
+    '£' : '$', '¥' : '$', '÷': '/'
+})
 
 # Character set -- this defines the characters the encoders will actually handle. Text files need to
 # be simplified to exclude any character outside this set before a cipher will work correctly.
@@ -75,6 +74,8 @@ def encode_simple(raw_text: str) -> str:
 
     # Character map
     result = result.translate(SIMPLIFICATION_MAP)
+    result = result.replace('\r\n', '\n')
+    result = result.replace('\r', '\n')
 
     # Uppercase
     result = result.upper()
@@ -194,6 +195,10 @@ String set by triple quotes
     simplified_scary_string = encode_simple(scary_string)
     not_so_scary_string = "STRING SET BY TRIPLE QUOTES"
     print(f"Simplification(problematic string): {simplified_scary_string == not_so_scary_string}")
+
+    accented_string = "resumé"
+    fixed_accent_string = "RESUME"
+    print(f"Accent Correction: {encode_simple(accented_string) == fixed_accent_string}")
 
 if __name__ == '__main__':
     self_test()
