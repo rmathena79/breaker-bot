@@ -5,12 +5,14 @@ Data Analytics Boot Camp Final Project -- Code Breaker
 
 There are two main ways to jump into this project:
 
-* Use the "report" notebook to review findings and analysis from the project. You can just view it; it is saved with my findings and graphs included. But to re-run the report, you need to do extensive setup and prep and described below.
+* Use the "report" notebook to review findings and analysis from the project. You can just view it; it is saved with my findings and graphs included. But to re-run the report, you need to do extensive setup and prep as described below.
 * Use the "playground" notebook to try out the models. This does not require any database setup or data preparation.
 
 ## Detailed Overview
 
 This project explores the use of neural networks to break simple, classic ciphers such as the Caesar and Substition ciphers. The approach taken is meant to scale to more sophisticated ciphers such as Enigma, but not sophisticated modern systems.
+
+Please note, only Caesar Cipher is being used at this point, though there is framework for more to be added.
 
 There are several moving parts:
 * A collection of text files, all public domain texts from Project Gutenberg
@@ -74,7 +76,7 @@ The input data consists of public domain texts from Project Gutenberg: https://w
 
 To link to the source for any file get the ID number from the filename or contents: https://www.gutenberg.org/ebooks/{ID Number}
 
-# Grading Criteria
+# Notes to Graders
 
 ### Data Model Implementation (25 points)
 * A Python script initializes, trains, and evaluates a model (10 points)
@@ -82,13 +84,23 @@ To link to the source for any file get the ID number from the filename or conten
 * The model utilizes data retrieved from SQL or Spark (5 points)
 * The model demonstrates meaningful predictive power at least 75% classification accuracy or 0.80 R-squared. (5 points)
 
+The model is initialized, trained, and/or evaluated in several places, most notably in the modeler and report notebooks.
+
+The "data" is a collection of text files, tracked with a database. The actual text is not stored in the database, which is more like an index. The model runs on text data, after that data is located by querying the database.
+
+The predictive power is around 71% for finding keys, or 45% for directly producing text.
+
 ### Data Model Optimization (25 points)
 * The model optimization and evaluation process showing iterative changes made to the model and the resulting changes in model performance is documented in either a CSV/Excel table or in the Python script itself (15 points)
 * Overall model performance is printed or displayed at the end of the script (10 points)
 
+The report notebook contains commentary and illustration of how the model progressively reaches its predictions.
+
 ### GitHub Documentation (25 points)
 * GitHub repository is free of unnecessary files and folders and has an appropriate .gitignore in use (10 points)
 * The README is customized as a polished presentation of the content of the project (15 points)
+
+See this document.
 
 ### Group Presentation (25 points)
 * All group members speak during the presentation. (5 points)
@@ -96,15 +108,16 @@ To link to the source for any file get the ID number from the filename or conten
 * The content is relevant to the project. (10 points)
 * The presentation maintains audience interest. (5 points)
 
+Forthcoming.
 
 # Development Notes
 
 ### SIGNIFICANT PROBLEMS
 * Keys aren't getting saved in the database right for substitution cipher, so I can't even begin to train them
 * Accuracy metrics seem to be returning overly optimistic values for inferred texts. Or I don't know how to understand the output.
-* When text is reassembled from "chunks", it will have some redundant characters. This is because the chunks overlap when the file length is not divisible by chunk size. This is solveable if the correct length is known.
 
 ### LESSER PROBLEMS
+* When text is reassembled from "chunks", it will have some redundant characters. This is because the chunks overlap when the file length is not divisible by chunk size. This is solveable if the correct length is known.
 * My GPU isn't getting used much, especially when I have lots of chunks. Look into data pipeline optimization.
 * It's a hassle to tweak settings to avoid running out of memory. Another reason to look into data pipelines.
 
@@ -112,8 +125,7 @@ To link to the source for any file get the ID number from the filename or conten
 * Add full support for substitution cipher and Enigma
 
 ### TODO BEFORE SUBMISSION
-* Add interactive script to let you try stuff out
-* Create analysis notebook
+* ...
 
 ### TODO LATER
 * Make the scaler value save/load mechanism more automatic
@@ -121,4 +133,4 @@ To link to the source for any file get the ID number from the filename or conten
 
 ### Random Stuff. Do not read.
 
-...
+Hey!
