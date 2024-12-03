@@ -12,6 +12,8 @@ data/intake/local
 # Temporary artifacts
 temp_models/*
 tuner_projects/*
+0README.html
+temp_*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
