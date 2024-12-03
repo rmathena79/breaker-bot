@@ -30,7 +30,7 @@ class Caesar_Cracker(object):
         shaped_chunks = tf_helpers.reshape_input_for_RNN(np.array(scaled_chunks), chunk_size)
         guesses = self.text_model.predict(shaped_chunks, verbose=self.verbose)
         # Shape of prediction:
-        # (chunk count, chunk size, chunk size)
+        # (feature index, chunk size, chunk size)
         # ... so that's a little confusing. The best text guesses seem to be along
         # the 3rd dimension, and I don't know why:
         best_guesses = guesses[:, :, chunk_size-1]
@@ -50,7 +50,7 @@ class Caesar_Cracker(object):
         shaped_chunks = tf_helpers.reshape_input_for_RNN(np.array(scaled_chunks), chunk_size)
         keys = self.key_model.predict(shaped_chunks, verbose=self.verbose)
         # Shape of keys:
-        # (chunk count, chunk size, 1)
+        # (feature index, chunk size, 1)
 
         # The model puts out a key for every iteration through the data, and (on average)
         # gets more accurate every time, so the best key is the last one:

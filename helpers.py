@@ -73,7 +73,10 @@ def string_to_bytes(text, chunk_size, array_out=True) -> list[list]:
 # Get a filename to use for saving scaler values, with key info in the name
 def get_recommended_scaler_path(encoder:str, chunk_size: int, temp = True):
     where = TEMP_MODEL_DIR if temp else MODEL_DIR
-    return os.path.join(where, f"scaler_{encoder.replace(" ", "_")}_{chunk_size:06}.json")
+
+    filename = f'scaler_{encoder.replace(" ", "_")}_{chunk_size:06}.json'
+    
+    return os.path.join(where, filename)
 
 # Write feature (input) scaler values to file, for later use with a StandardScaler
 def save_scaler_to_file(scaler: StandardScaler, filepath):
@@ -108,7 +111,7 @@ def load_scaler_from_file(filepath) -> StandardScaler:
 
 # Compare two strings and return basic accuracy info.
 # Returns a tuple (good_count, bad_count, total_count, good_percent)
-def good_bad_string_match(str_a: str, str_b: str) -> (int, int, int, float):
+def good_bad_string_match(str_a: str, str_b: str) -> tuple[int, int, int, float]:
     if len(str_a) != len(str_b):
         raise Exception(f"String must be equal length. {len(str_a)} != {len(str_b)}")
 
@@ -139,6 +142,9 @@ def self_test():
 
     chunks = chunkify(TEST_VALS, TEST_CHUNK_SIZE)
     print(f"Chunkify Values: {chunks == GOOD_VAL_CHUNKS}")
+
+    scaler_str = get_recommended_scaler_path("foo bar", 123)
+    print(f'Scaler Path: {("foo_bar" in scaler_str) and ("123" in scaler_str)}')
 
 if __name__ == '__main__':
     self_test()
