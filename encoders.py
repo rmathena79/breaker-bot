@@ -36,10 +36,6 @@ SIMPLIFICATION_MAP = {
 #
 # This is the character set I'd prefer to use, but resource limitations make it impractical:
 CHARSET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890-=`!#$%&*()+[];':\",./<>? \n"
-#
-# This reduced character set has the most commonly used characters from the first several files I checked,
-# notably including the space character:
-# CHARSET = " ETAONIRSH"
 
 
 # Convert a string to a list of offsets in the character set
@@ -60,10 +56,17 @@ def offsets_to_string(offsets: list[int]) -> str:
 #
 # Result is returned as a string
 def encode_simple(raw_text: str) -> str:
+    # Remove Project Gutenberg boilerplate, if it is present.
     # The good part starts on the first line after the "Start" marker
-    # and ends with the start of the "End" marker
-    good_part_start = raw_text.find("\n", raw_text.find(PG_START_CONTENT))
+    # and ends with the start of the "End" marker.
+    good_part_start = raw_text.find(PG_START_CONTENT)
     good_part_end = raw_text.find(PG_END_CONTENT)
+
+    if good_part_start == -1:
+        good_part_start = 0
+    if good_part_end == -1:
+        good_part_end = len(raw_text)
+
     result = raw_text[good_part_start:good_part_end]
 
     # Character map
@@ -82,6 +85,9 @@ def encode_simple(raw_text: str) -> str:
     # whitespace characters getting joined up.
     result = re.sub(r'\n\n+', '\n\n', result)
     result = re.sub(r'  +', ' ', result)
+
+    # And remove any whitespace from the beginning or end
+    result = result.strip()
 
     return result
 
@@ -176,6 +182,16 @@ def self_test():
 
     s_decoded_str = decode_substitution(s_coded_str, SUBST_KEY)
     print(f"Decode Substitution(LONG_TEST_STR): {s_decoded_str == LONG_TEST_STR}")
+
+    # This was getting very oddly mangled by simplification:
+    scary_string = """
+String set by triple quotes
+"""
+    simplified_scary_string = encode_simple(scary_string)
+    print(f'Original  : "{scary_string}"\n')
+    print(f'As List   : {list(scary_string)}')
+    print(f'Simplified: "{simplified_scary_string}"')
+    print(f'As List   : {list(simplified_scary_string)}')
 
 if __name__ == '__main__':
     self_test()
